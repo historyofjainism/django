@@ -1,0 +1,145 @@
+.timeline {
+  position: relative;
+  min-height: 500px;
+  padding: 60px 0;
+  font-family: 'Laila', sans-serif;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.timeline__bar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 6px;
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: black;
+}
+
+.timeline__bar:before, .timeline__bar:after {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: '';
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+}
+.timeline__bar:before {
+  top: -1px;
+  background-color: black;
+}
+.timeline__bar:after {
+  bottom: -1px;
+  background-color: black;
+}
+
+
+.timeline__event {
+  position: relative;
+  width: 90%;
+  margin: 90px auto 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.timeline__eventtype-default {
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #077e99, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #077e99, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__eventtype-gyan {
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__eventtype-mandir {
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2b84c, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2b84c, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__eventtype-raja {
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #033b19, #05635b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #033b19, #05635b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__event-date {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: -15px;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  /*background: linear-gradient(to right, #077e99, #2193b0);*/
+  background-color: black;
+  color: #fff;
+  transform: translateY(-50%)
+}
+
+.timeline__event-title {
+  padding: 5px 0px;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.timeline__event-descr {
+  padding: 15px 15px 5px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-color: white;
+  color: black;
+}
+
+.timeline__event-actions {
+  padding: 10px 15px;
+  border-top: 1px solid rgba(160, 160, 160, 0.5);
+  background-color: white;
+}
+
+.timeline__event-action {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  margin-right: 24px;
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: #2193b0;
+}
+.timeline__event-action:hover {
+  opacity: .4;
+}
+
+
+
+@media (min-width: 560px) {
+  .timeline__event {
+    width: 300px;
+  }
+}
+
+@media (min-width: 900px) {
+  .timeline__event {
+    width: 300px;
+  }
+}
+
+
+
