@@ -1,0 +1,57 @@
+{% load static %}
+<header class="flex-lg-fill col">
+    <div 
+        class="bg-image" 
+        style="
+            background-image:url('/static/images/Background2.png');
+            height:100vh;
+            background-color: red;
+        "
+    >
+    <nav class="navbar p-0 m-0">
+        <a class="navbar-brand" href="https://historyofjainism.com">
+            <img src="{% static 'images/Logo-Transparent-White.png' %}" alt="History of Jainism" style="padding:5px; width:35px; height:35px"/>
+        </a>
+        <strong class="navbar-brand text-white" style="font-family: 'Amita', sans-serif">{{ title }}</strong>
+        <div class="text-white p-2">
+            <a class="text-white" href='{{ lang_en_url }}'>Eng</a> | <a class="text-white" href='{{ lang_hi_url }}'>हिंदी</a>
+        </div>
+    </nav>
+    <div 
+        class="bg-image" 
+        style="
+            max-width: 450px;
+            background-image:url('{{ coverimg }}');
+            height: 225px;
+            margin: 15px;
+            border-radius: 5%;
+            border-color: lightgray;
+            border-style:solid;
+            border-width: 1px;
+            background-position: center;
+        "
+    >
+    </div>
+    <div 
+        style="
+            max-width: 450px;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: justify;
+            text-justify: inter-word;
+            font-family: 'Martel', sans-serif;
+            margin:15px;
+            padding: 15px;
+            border-radius:5%;
+            border-style: none;
+            border-width: 2px;
+            border-color: white;
+            background-color:rgba(0,0,0,0.5);
+            color: white;
+        "
+        >
+        {{ description }}
+        <div class="pt-3 text-center">Scroll to read</div>
+    </div>
+</header>
+

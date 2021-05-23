@@ -4,28 +4,36 @@ from django.shortcuts import render
 import xml.etree.ElementTree as ET
 from pathlib import Path
 import os 
+
 BASE_DIR = Path(__file__).resolve().parent
+EVENT_IMG_BASE_URL = "/static/images/timeline/"
+COVER_IMG_BASE_URL = "/static/images/timeline/"
+PROD_WEBSITE = "https://history-of-jainism.web.app"
 
-def timeline(request, timeline_name):
-    xmlfile = os.path.join(BASE_DIR,"content/timeline/" + timeline_name + ".xml")
-    print(xmlfile)
+EVENT_LINK_TEXT = { 'en' : "Read More", 'hi' : "और पढ़ें"}
 
-    tree = ET.parse(xmlfile)
-    root = tree.getroot()
-    items = []
-    timeline_obj = [ ]
+def timeline(request, lang, timeline_name):
+    xmlfile = os.path.join(BASE_DIR, "content/timeline/" + timeline_name + ".xml")
+    root = ET.parse(xmlfile).getroot()
+
     timeline = root.find('timeline')
-    for item in timeline.findall('event'):
-        eventjson = { }
-        for child in item:
-            eventjson[child.tag] = child.text
+    timeline_obj = [ ]
+
+    for t_event in timeline.findall('event'):
+        e_title = t_event.find('title')
+        e_desc = t_event.find('description')
+        e_year = t_event.find('year')
+        e_image = t_event.find('image')
+        e_link = t_event.find('link')
+        e_type = t_event.find('type')
         timeline_obj.append(
             {
-                'year' : eventjson['year'],
-                'title' : eventjson['title'], 
-                'description' : eventjson['description'][:300], 
-                'link' : eventjson['link'],
-                'type' : ( eventjson['type'] if 'type' in eventjson.keys() else 'default')
+                'title' : ( e_title.find(lang).text if (e_title.find(lang) is not None) else e_title.text ), 
+                'description' : ( e_desc.find(lang).text[:300] if ( e_desc.find(lang) is not None) else e_desc.text), 
+                'year' : e_year.text,
+                'image' : ( EVENT_IMG_BASE_URL + e_image.text if (e_image is not None) else None ),
+                'link' : ( e_link.text if (e_link is not None) else None ),
+                'type' : ( e_type.text if (e_type is not None) else 'default')
             })
 
     return render(
@@ -33,8 +41,15 @@ def timeline(request, timeline_name):
         'timeline.html', 
         {
             'timeline' : timeline_obj, 
-            'title' : root.find('title').text,
-            'coverimg' : "/static/images/timeline/" + root.find('cover_img').text,
-            'samvat' : root.find('samvat').text
+            'title' : root.find('title').find(lang).text,
+            'description' : root.find('description').find(lang).text,
+            'prod_url' : PROD_WEBSITE + request.path,
+            'linkpreview_img' : PROD_WEBSITE + COVER_IMG_BASE_URL + root.find('cover_img').text,
+            'coverimg' : COVER_IMG_BASE_URL + root.find('cover_img').text,
+            'samvat' : root.find('samvat').find(lang).text,
+            'event_link_text' : EVENT_LINK_TEXT[lang],
+            'lang' : lang,
+            'lang_en_url' : '/timeline/en/' + timeline_name,
+            'lang_hi_url' : '/timeline/hi/' + timeline_name
         } )
 

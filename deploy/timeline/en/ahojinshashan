@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ****** faviconit.com favicons ****** -->
+<link rel="shortcut icon" href="/static/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="/static/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="/static/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="/static/images/favicon/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/static/images/favicon/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="/static/images/favicon/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/static/images/favicon/favicon-144.png">
+<meta name="msapplication-config" content="/static/images/favicon/browserconfig.xml">
+<!-- ****** faviconit.com favicons ****** -->
+<!-- og:title Maximum 35 characters -->
+<meta property="og:title" content="Aho Jin Shashanam" />
+<!-- og:url Full link to the current webpage address -->
+<meta property="og:url" content="https://history-of-jainism.web.app/timeline/en/ahojinshashan" />
+<meta property="og:site_name" content="History of Jainism">
+<!-- og:description Maximum 65 characters -->
+<meta property="og:description" content="2577 years ago today, Shraman Bhagwan Mahavir established four-fold Sangha on the day of Vaishakh Shukla 11 in Pavapuri. Although there were grave dangers to Jain Dharma for two thousand years from the Nirvana of Lord Veer due to the ill effects of the planet Bhasma, but history testifies that Jain Dharam has a glorious history. Thousands of episodes in Jain scriptures are written in golden letters. Some instances are presented to inspire us. :-" />
+<!-- og:image Image(JPG or PNG) with a size less than 300KB and minimum dimensions of 300 x 200 *. This image should be served via a HTTPS connection with a valid non-self-signed certificate.** -->
+<meta property="og:image" itemprop="image" content="https://history-of-jainism.web.app/static/images/timeline/ahojinshashan.jpeg" /> 
+<meta property="og:image:secure_url" itemprop="image" content="https://history-of-jainism.web.app/static/images/timeline/ahojinshashan.jpeg" /> 
+<meta property="og:updated_time" content="2021-05-16T11:00:00+0530" />
+<!-- og:type In order for your object to be represented within the graph, you need to specify its type. Here's a list of the global types available: http://ogp.me/#types. You can also specify your own types. -->
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="hi_EN" />
+<meta property="og:locale:alternate" content="en_GB" />
+<!-- Twitter For the best Twitter support read https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started.-->
+<meta name="twitter:card" content="summary"></meta>
+<meta name="twitter:site" content="@muni_speaks"></meta>
+
+  <!-- title Maximum of 65 characters -->
+  <title>History of Jainism - Aho Jin Shashanam</title>
+  <!-- description Maximum of 155 characters -->
+  <meta name="description" content="2577 years ago today, Shraman Bhagwan Mahavir established four-fold Sangha on the day of Vaishakh Shukla 11 in Pavapuri. Although there were grave dangers to Jain Dharma for two thousand years from the Nirvana of Lord Veer due to the ill effects of the planet Bhasma, but history testifies that Jain Dharam has a glorious history. Thousands of episodes in Jain scriptures are written in golden letters. Some instances are presented to inspire us. :-">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Laila:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/mdb.min.css" type="text/css" charset="utf-8" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/timeline.css">
+</head>
+<body class="d-lg-flex flex-lg-row mb-3">
+  
+<header class="flex-lg-fill col">
+    <div 
+        class="bg-image" 
+        style="
+            background-image:url('/static/images/Background2.png');
+            height:100vh;
+            background-color: red;
+        "
+    >
+    <nav class="navbar p-0 m-0">
+        <a class="navbar-brand" href="https://historyofjainism.com">
+            <img src="/static/images/Logo-Transparent-White.png" alt="History of Jainism" style="padding:5px; width:35px; height:35px"/>
+        </a>
+        <strong class="navbar-brand text-white" style="font-family: 'Amita', sans-serif">Aho Jin Shashanam</strong>
+        <div class="text-white p-2">
+            <a class="text-white" href='/timeline/en/ahojinshashan'>Eng</a> | <a class="text-white" href='/timeline/hi/ahojinshashan'>हिंदी</a>
+        </div>
+    </nav>
+    <div 
+        class="bg-image" 
+        style="
+            max-width: 450px;
+            background-image:url('/static/images/timeline/ahojinshashan.jpeg');
+            height: 225px;
+            margin: 15px;
+            border-radius: 5%;
+            border-color: lightgray;
+            border-style:solid;
+            border-width: 1px;
+            background-position: center;
+        "
+    >
+    </div>
+    <div 
+        style="
+            max-width: 450px;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: justify;
+            text-justify: inter-word;
+            font-family: 'Martel', sans-serif;
+            margin:15px;
+            padding: 15px;
+            border-radius:5%;
+            border-style: none;
+            border-width: 2px;
+            border-color: white;
+            background-color:rgba(0,0,0,0.5);
+            color: white;
+        "
+        >
+        2577 years ago today, Shraman Bhagwan Mahavir established four-fold Sangha on the day of Vaishakh Shukla 11 in Pavapuri. Although there were grave dangers to Jain Dharma for two thousand years from the Nirvana of Lord Veer due to the ill effects of the planet Bhasma, but history testifies that Jain Dharam has a glorious history. Thousands of episodes in Jain scriptures are written in golden letters. Some instances are presented to inspire us. :-
+        <div class="pt-3 text-center">Scroll to read</div>
+    </div>
+</header>
+
+
+    <div class= "flex-lg-fill col">
+      <div class="m-3 note note-primary d-none d-sm-block">
+        Mobile-first website. Best viewed on a mobile device  
+      </div>
+      <div class="timeline">
+        <div class="timeline__bar"></div>
+        <div class="d-flex justify-content-center p-2" style="position: relative;
+        ">
+          <div class="note note-primary" style="max-width:300px;">
+            
+            <strong>This Year </strong>
+            <ul>
+              <li>2021 AD</li>
+              <li><a href="https://en.wikipedia.org/wiki/Vira_Nirvana_Samvat">VNS( Vir Nirvan Samvat)</a> 2547 </li>
+              <li><a href="https://en.wikipedia.org/wiki/Vikram_Samvat">Vikram Samvat</a> 2077   </li>
+            </ul>
+            
+          </div>
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              -30 VNS
+          </div>
+          <div class="timeline__event-title text-center">Shasan Sthapana</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/ShasanSthapna.jpg" alt="Shasan Sthapana"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">At the age of 42, Shraman Bhagwan Mahavir established Chaturvidh Sangh on the day of Vaishakh Shukla 11 in Pavapuri. Indrabhuti and other distinguished 11 Brahmins were assigned the rank of Gandhar. Chandanbala became the first Sadhviji, Anand etc. shravak and revati etc.. shravika.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/shashan-sthapna" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              0 VNS
+          </div>
+          <div class="timeline__event-title text-center">First Head of Monks</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/SudharmaSwami.jpg" alt="First Head of Monks"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Nine Gandhars attained salvation before Lord Mahavir Swami. Lord&#x27;s Nirvana was followed by Gautamswamiji&#x27;s Nirvana. For this reason, his disciple tradition came under the guidance of Fifth Gandhar Sudharma Swamiji. For this reason the current Shramana tradition belongs to Sudharmaswamiji</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/pratham-pattadhar" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2 VNS
+          </div>
+          <div class="timeline__event-title text-center">Shrimal and Porwal community</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Swayamprabhsuri.jpg" alt="Shrimal and Porwal community"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">The fifth Pattadhar  of Sri Parshwanath Bhagavan, Sri Swayamprabhasuri went to a yagna (a ritual done in front of a sared fire) which was held in Srimal Nagri and Padmavati Nagri and preached to the king and his subjects and turned 135,000 house-bearers Jain and henceforth established the Shrimal an</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://drive.google.com/file/d/16ogCwik-6CNfEthQF3rdEpkfjf4KBXcS/view?usp=sharing" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              64 VNS
+          </div>
+          <div class="timeline__event-title text-center">Last Kevali</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Jambuswami.jpg" alt="Last Kevali"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr"> Jambuswami was the last kevali of this Avsarpini period in Bharat region. Hearing the sermon of Sri Sudharmaswamy at the age of 16, he accepted celibacy. After 20 years of diksha, he attained kevalgyan and spending 44 years as Kevali he attained salvation at the age of 80 years.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/nirgranth-gana#h.hnqxgzwda8wz" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              70 VNS
+          </div>
+          <div class="timeline__event-title text-center">Oswal Community</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Ratnaprabhsuri.jpg" alt="Oswal Community"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">The 6th Pattadhar of Shri Parshwanath Bhagavan, Sri Ratnaprabhasuri established the Upkesh community by teaching 1,80,000 Kshatriyas in Upkesh Nagar. Upkesh Nagar later began to be called as Osian and this community Oswal. Also, Oswal, Porwal and Srimal were popularly known as Mahajan.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://drive.google.com/file/d/16ogCwik-6CNfEthQF3rdEpkfjf4KBXcS/view?usp=sharing" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              160 VNS
+          </div>
+          <div class="timeline__event-title text-center">First council of Agam</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna1.png" alt="First council of Agam"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">After 12 years of drought, the Shramana Sangh under the guidance and leadership of Shri Sthulibhadra held the first agam council in Veer Nirvana Samvat 160 at Pataliputra. He collected 11 aagams and to learn the 12th Anga Sri Sthulibhadra and other munis went to Sri Bhadrabahu Swami.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://drive.google.com/file/d/1Bityx6qGbEMNxBAtm3ruyXsg0QNGTSi5/view" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              222 VNS
+          </div>
+          <div class="timeline__event-title text-center">Last Shrutkevali</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/bhadrabahuswami.jpg" alt="Last Shrutkevali"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Shri Prabhav, Sri Shayambhav, Sri Yashobhadra, Shri Sambhut, Shri Bhadrabahu and Shri Sthulabhadra, these six are known as Shrutakevali because they knew all 14 purvas. Shri Bhadrabahu was the last shrut kevali who knew both Sutra and meaning and Shri Sthulabhadra knew only Sutra of last 4 purvas.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://medium.com/muni-speaks/shrut-kevali-284b27e08923" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              292 VNS
+          </div>
+          <div class="timeline__event-title text-center">Construction of 1.25 lakh Jain temples</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/samprati.jpg" alt="Construction of 1.25 lakh Jain temples"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Learning how he attained the kingdom by the grace of Arya Suhasti, his benefactor from previous birth, Samprati Maharaja built 1.25 lakh jain temples, 1.25 crore statues, 95,000 metal statues, renovated 36000 jain temples and graced the land of India with 700 charitable institutions.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/jain-kings#h.1gldl7x6s4hw" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              374 VNS
+          </div>
+          <div class="timeline__event-title text-center">Elephant cave in Khandgiri, Orissa</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/udaygirikhandagiri.jpg" alt="Elephant cave in Khandgiri, Orissa"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">An inscription about Kharavela a devout Jain still exists in Khandagiri, Orissa. It is written that Kharavela defeated Pushyamitra and took the statue of Rishabhdev famously known as Kalinga Jin. This statue was built by Shrenik Maharaja and made auspicious by Sudharma Swami in Kumaragiri.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/jain-kings#h.s4unrdvny5m4" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              375 VNS
+          </div>
+          <div class="timeline__event-title text-center">2nd Agam Vachna</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna2.jpg" alt="2nd Agam Vachna"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">On Kumaragiri, Kalingaraj Kharavel convened the 2nd Agam Vachna Conference under the guidance of Arya Susthitsuri and Supratibaddhsuuri. In this Arya Belissah composed ‘Angavidya’, Sri Swati composed ‘Tattvaratha’ and Mr. Shyamacharya composed ‘Pragyapana’ sutra.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/jain-kings#h.s4unrdvny5m4" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              470 VNS
+          </div>
+          <div class="timeline__event-title text-center">Vikram Samvat</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/vikramaditya.jpg" alt="Vikram Samvat"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Shri Siddheshna Diwakar Suri brought forth the idol of Shri Avanti Parshwanath by composing the Sri Kalyan Mandir Stotra. In this way by enlightening him Vikram Raja became a devout Jain. He established his own calendar which is called Vikram Samvatsar.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/prabhavak-acharya#h.6ma47aiad6aj" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              580* VNS
+          </div>
+          <div class="timeline__event-title text-center">3rd Agam Vachna</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/mandsaur.jpg" alt="3rd Agam Vachna"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">During the 12-year drought period, most Sadhus including Vajraswami left for heaven. The 10th Purv was also lost. Under the leadership of Vajrasensuuri, Nandilasuri and Rakshitsuri ji, 3rd agam vachna was held and after a few years, the Shramana Sangha was arranged in four clans.</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/prabhavak-acharya#h.6ma47aiad6aj" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              830 VNS
+          </div>
+          <div class="timeline__event-title text-center">4th Agam Vachna</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna4.png" alt="4th Agam Vachna"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">At that time there was a period of turbulence - hegemony of Buddhists in Saurashtra and war between Huns and Gupts in North. Later, Shiladityas won in Vallabhi and Guptas conquered Mathura. Shramana congregated under the guidance of Nagarjunasuri in Mathura and Skandil Suri in Vallabhi.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              980 VNS
+          </div>
+          <div class="timeline__event-title text-center">5th Agam Vachnan</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna5.jpg" alt="5th Agam Vachnan"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">The 5th Agam Vachna was held under the direction of Shri Devardhigini Shamashraman and Acharya Bhootdinna. For the first time, the Aagams were written down. In the gathering, 84 verses, niyrukti, bhashya, kampyapadi and elemental sutras and crores of shlokes were written.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              983* VNS
+          </div>
+          <div class="timeline__event-title text-center">Kalpasutra Open Preaching</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Kalpasutra.jpg" alt="Kalpasutra Open Preaching"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Senapati Bhattarak became the king of Vallabhi by taking advantage of the weakness of the Gupta dynasty. His son Dhruvasen came t the throne of Vallabhi. He followed Jainism. Kalpasutra&#x27;s first open sermon were given in Kumarabhukti Nagar, Anandpur to console a mourning Dhruvsen over death of his so</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              1272 VNS
+          </div>
+          <div class="timeline__event-title text-center">Establishment of Patan</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/patan.jpg" alt="Establishment of Patan"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Vanaraj established Anhilpur Patan and constructed the temple of Panchasara Parshwanath Bhagwan. Acharya Shilgunsuri played an important role in the rise of Vanaraj. Vanraj was fully supported by the Jains - brave Chamraj, Nina and Ashak were Jain ministers of Vanaraja</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://medium.com/muni-speaks/the-glory-of-patan-f3c84954f895" 
+              title="Learn More">
+                Read More
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1558 VNS
+          </div>
+          <div class="timeline__event-title text-center">Vimalvasahi</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/vimalvasahi.jpg" alt="Vimalvasahi"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Minister Vimal was the commander of King Bhimdev of Gujarat. Once influenced by Sri Dharmaghoshasuri, he wanted to atone for the sins of wars. Acharya Shri asked him to renovate Abu Tirth. So he built a magnificient temple with amazing artwork, due to which Abu is renowned in the world.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1612 VNS
+          </div>
+          <div class="timeline__event-title text-center">Antariksh Parshwanath</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/antariksh.jpg" alt="Antariksh Parshwanath"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">A Parshwanath idol built in clay during Ramayana, was worshiped by a Dev in Vidarbha. Elchipur King, suffering from leprosy, was cured by it. The king tried to take it to his city. However, it stayed put in the way. So he built a temple right there, now known as Antriksh Parshwanath.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              1669 VNS
+          </div>
+          <div class="timeline__event-title text-center">Kumarpal</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/kumarpal.jpg" alt="Kumarpal"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Kumarapal conquered 14 countries post his coronation on the throne of Gujarat. With the preaching of Acharya Shri Hemachandrasuri, Kumarapal proclaimed ahimsa, took the vows of Jain Shravak, made seven pilgrimage, constructed 21 libraries and 1444 new temples and renovated 1800 temples.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1683 VNS
+          </div>
+          <div class="timeline__event-title text-center">Shatrunjay&#x27;s 14th Renovation</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Jinnordhar14.jpg" alt="Shatrunjay&#x27;s 14th Renovation"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Bahad was the minister of Siddharaj and an officer of high rank of Kumarapal. He rebuilt the wooden temple using marble. He got it consecrated by Hemachandrasuri. This temple still exists today. The news bearer of the temple’s construction progress was given 16 silver tongues.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              1746 VNS
+          </div>
+          <div class="timeline__event-title text-center">Vastupal and Tejpla</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/vastupaltejpal.jpg" alt="Vastupal and Tejpla"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">In the beginning the brothers were ministers of King Veeradhaval. Their shrewdness led to the re-organization of the Hindu kings of Gujarat, Rajasthan and Maharashtra. Together they won a total of 63 wars. They considered Acahrya Sri Vijayanasuri as their religious mentor.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              1755 VNS
+          </div>
+          <div class="timeline__event-title text-center">Tapagaccha</div>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Sri Jagachandrasuri was the 44th in the lineage of Shri Sudharma Swami. While doing ayambil for twelve years, he came to Mewar. Rana Jaitrasinh was impressed with him and honoured him with the title &quot;Tapa&quot;. Hence, the Shramana tradition of Lord Mahavira started being called as Tapagachh.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1780 VNS
+          </div>
+          <div class="timeline__event-title text-center">Renovation of Shankeshwar Tirth</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Shankeshwar.jpg" alt="Renovation of Shankeshwar Tirth"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">The king of Jhinjhuvada suffered from leprosy and to  cure that he tried several remedies. He finally prayed to Suryanarayana said – Worship the God in Shankheshwar and you will be cured of the disease. The King renovated the shrine in Vik. Sam. in 1310.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1966 VNS
+          </div>
+          <div class="timeline__event-title text-center">Ranakpur</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Ranakpur.jpg" alt="Ranakpur"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Once Sanghvi Dharanshah saw the Nalinigulam-Viman in a dream and decided to build as a magnificent temple as he saw. Later, a grand three-storey 45-feet tall temple was built by him in Ranakpur with 14 pillars which was inaugurated by Acharya Somasundarasuri in Vik. Sam. 1496.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              2047 VNS
+          </div>
+          <div class="timeline__event-title text-center">16th Renovation of Shatrunjay</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/ShatrunjayAdinath.jpg" alt="16th Renovation of Shatrunjay"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Muslim aggressors broke the main idol on Shatrunjaya. Karma Shah of Udaipur built a new idol at an auspicious time, which was consecrated by Shri Vidyamandanasuri. At the time of pratistha, God breathed seven times. This idol is the mulnayak on the peak of Shatrunjaya today.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2078 VNS
+          </div>
+          <div class="timeline__event-title text-center">Akbar</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Akbar.jpg" alt="Akbar"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Preached by Acharya Shri Hiravijayuri, Akbar proclaimed 6 months of non violence every year in his 12 districts, stopped &quot;jaziya&quot;, stopped confiscating wealth of childless couple, stopped consuming the tongue of 500 birds in his breakfast and honored Acharya Sri with the title of Jagadguru.</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2378 VNS
+          </div>
+          <div class="timeline__event-title text-center">Protection of Samvegi Path</div>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Shri Budhvijay opposed accumulation of wealth by sadhus and residence in Jain Temple and revived Murti Puja. Facing hardshop alone, he revived the true path of Tirthankar Kevali Bhagwant</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2547 VNS
+          </div>
+          <div class="timeline__event-title text-center">Today&#x27;s Sadhu Samuday</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/JainSadhu.jpg" alt="Today&#x27;s Sadhu Samuday"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">Today, there are 17,155 Sadhu – Sadhviji combined in all the four major sects, including Svetambara, Digambar Sthanakwasi and Terapanti. The Shwetambar Murtipujak is the largest of the Sadhu community with a total of around 10715 monks.</div>
+          
+        </div>
+        
+      </div>       
+    </div> 
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCu1azH_PqRsw9cc8hgliqZ2rgu2aMInSM",
+        authDomain: "history-of-jainism.firebaseapp.com",
+        projectId: "history-of-jainism",
+        storageBucket: "history-of-jainism.appspot.com",
+        messagingSenderId: "1020329931456",
+        appId: "1:1020329931456:web:023d8b13ded314cca0f325",
+        measurementId: "G-HWR4YKMSDK"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <footer class="flex-fill col">
+    <div 
+        class="bg-image" 
+        style="
+            background-image:url('/static/images/Background2.png');
+            height:100vh;
+            background-color: red;
+        "
+    >
+    <div class="p-2 text-center">
+        <!-- Whatsapp -->
+        <a class="btn btn-primary me-3" style="background-color: #25d366;" href="http://joinwhatsapp.historyofjainism.com/" role="button">
+            <i class="fab fa-lg fa-whatsapp"></i>
+            JOIN Whatsapp Group
+        </a>
+    </div>
+    <div class="p-2 text-center" >
+        <!-- Facebook -->
+        <a class="btn btn-primary me-3" style="background-color: #3b5998;" href="https://fb.com/historyofjainism" role="button">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-primary me-3" style="background-color: #55acee;" href="https://twitter.com/muni_speaks" role="button">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Instagram -->
+        <a class="btn btn-primary me-3" style="background-color: #ac2bac;" href="https://www.instagram.com/historyofjainism/" role="button">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+  </body>
+</html>

@@ -1,259 +1,384 @@
 <page>
-    <title>अहो! जिन शासन</title>
+    <title>
+        <hi>अहो! जिन शासनम्</hi>
+        <en>Aho Jin Shashanam</en>
+    </title>
     <cover_img>ahojinshashan.jpeg</cover_img>
-    <samvat>वीर निर्वाण संवत</samvat>
+    <samvat>
+        <hi>वीर निर्वाण संवत</hi>
+        <en>VNS</en>
+    </samvat>
+    <description>
+        <hi>आज से 2577 वर्ष पूर्व श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की। यद्यपि भस्म ग्रह के दुष्प्रभाव से प्रभु वीर के निर्वाण के दो हजार वर्षो तक जिनशासन की प्रगति में अन्तरायों की बात थी किंतु इतिहास साक्षी है कि जिन शाशन का गौरवपूर्ण इतिहास रहा है। जैन शास्त्रों में हजारो प्रसंगो सुवर्ण अक्षर से लिखे गये है। हमको प्रेरणा मिले इस हेतु से कुछ प्रसंग प्रस्तुत है :-</hi>
+        <en>2577 years ago today, Shraman Bhagwan Mahavir established four-fold Sangha on the day of Vaishakh Shukla 11 in Pavapuri. Although there were grave dangers to Jain Dharma for two thousand years from the Nirvana of Lord Veer due to the ill effects of the planet Bhasma, but history testifies that Jain Dharam has a glorious history. Thousands of episodes in Jain scriptures are written in golden letters. Some instances are presented to inspire us. :-</en>
+    </description>
     <timeline>
         <event>
             <year>-30</year>
-            <title>शासन स्थापना</title>
+            <title>
+                <hi>शासन स्थापना</hi>
+                <en>Shasan Sthapana</en>
+            </title>
             <description>
-                42 वर्ष की उम्र में श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की । इंद्रभूति आदि 11 ब्राह्मणों को गणधर पद पर प्रतिष्ठित किया । राजकुमारी चंदनबाला आदि को साध्वी पद पर स्थापित किया । आनंद आदि को श्रावक, रेवती आदि को श्राविका बनाया ।
+                <hi>42 वर्ष की उम्र में श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की । इंद्रभूति आदि 11 ब्राह्मणों को गणधर पद पर प्रतिष्ठित किया । राजकुमारी चंदनबाला आदि को साध्वी पद पर स्थापित किया । आनंद आदि को श्रावक, रेवती आदि को श्राविका बनाया ।</hi>
+                <en>At the age of 42, Shraman Bhagwan Mahavir established Chaturvidh Sangh on the day of Vaishakh Shukla 11 in Pavapuri. Indrabhuti and other distinguished 11 Brahmins were assigned the rank of Gandhar. Chandanbala became the first Sadhviji, Anand etc. shravak and revati etc.. shravika.</en>
             </description>
+            <image>ShasanSthapna.jpg</image>
             <link>https://www.historyofjainism.com/timeline/shraman-parampara/shashan-sthapna</link>
         </event>
         <event>
             <year>0</year>
-            <title>प्रथम पट्टधर</title>
+            <title>
+                <hi>प्रथम पट्टधर</hi>
+                <en>First Head of Monks</en>
+            </title>
             <description>
-                श्रमण भगवान महावीर स्वामी के मोक्षगमन के पूर्व ही नौ गणधर मोक्ष पधार गये थे। प्रभु के निर्वाण के बाद गौतमस्वामीजी का निर्वाण हुआ। इस कारण इनकी शिष्य परंपरा पंचम गणधर सुधर्मा स्वामीजी की निश्रा में आ गई थी। इस कारण से वर्तमान श्रमण परंपरा सुधर्मास्वामीजी की कहलाती है।
+                <hi>श्रमण भगवान महावीर स्वामी के मोक्षगमन के पूर्व ही नौ गणधर मोक्ष पधार गये थे। प्रभु के निर्वाण के बाद गौतमस्वामीजी का निर्वाण हुआ। इस कारण इनकी शिष्य परंपरा पंचम गणधर सुधर्मा स्वामीजी की निश्रा में आ गई थी। इस कारण से वर्तमान श्रमण परंपरा सुधर्मास्वामीजी की कहलाती है।</hi>
+                <en>Nine Gandhars attained salvation before Lord Mahavir Swami. Lord's Nirvana was followed by Gautamswamiji's Nirvana. For this reason, his disciple tradition came under the guidance of Fifth Gandhar Sudharma Swamiji. For this reason the current Shramana tradition belongs to Sudharmaswamiji</en>
             </description>
+            <image>SudharmaSwami.jpg</image>
             <link>https://www.historyofjainism.com/timeline/shraman-parampara/pratham-pattadhar</link>
         </event>
         <event>
             <year>2</year>
-            <title>श्रीमाल और पोरवाल जाति की स्थापना</title>
+            <title>
+                <hi>श्रीमाल और पोरवाल जाति की स्थापना</hi>
+                <en>Shrimal and Porwal community</en>
+            </title>
             <description>
-                श्री पार्श्वनाथ भगवन के पांचवे पट्टधर श्री स्वयंप्रभसूरी श्रीमाल नगरी और पद्मावती नगरी में होने वाले यज्ञ में जा कर वह के राजा-प्रजा को उपदेश देकर 135000 घर वालो को जैन बनाया और श्रीमाल और पोरवाल वंश की स्थापना की।  
+                <hi>श्री पार्श्वनाथ भगवन के पांचवे पट्टधर श्री स्वयंप्रभसूरी श्रीमाल नगरी और पद्मावती नगरी में होने वाले यज्ञ में जा कर वह के राजा-प्रजा को उपदेश देकर 135000 घर वालो को जैन बनाया और श्रीमाल और पोरवाल वंश की स्थापना की।</hi>
+                <en>The fifth Pattadhar  of Sri Parshwanath Bhagavan, Sri Swayamprabhasuri went to a yagna (a ritual done in front of a sared fire) which was held in Srimal Nagri and Padmavati Nagri and preached to the king and his subjects and turned 135,000 house-bearers Jain and henceforth established the Shrimal and Porwal dynasty.</en>
             </description>
-            <link>https://www.historyofjainism.com/timeline/shraman-parampara/nirgranth-gana#h.hnqxgzwda8wz</link>
+            <image>Swayamprabhsuri.jpg</image>
+            <link>https://drive.google.com/file/d/16ogCwik-6CNfEthQF3rdEpkfjf4KBXcS/view?usp=sharing</link>
         </event>
         <event>
             <year>64</year>
-            <title>अन्तिम केवली</title>
+            <title>
+                <hi>अन्तिम केवली</hi>
+                <en>Last Kevali</en>
+            </title>
             <description>
-                जम्बूस्वामी भरत क्षेत्र में इस अवसर्पिणी काल के अन्तिम केवली और सिद्ध हुए । 16 वर्ष की उम्र में श्री सुधर्मास्वामी के पास धर्मोपदेश सुनकर इन्होंने ब्रह्मचर्य स्वीकार किया । 20 वर्ष छद्मस्थ पर्याय और 44 वर्ष केवली पर्याय पालकर 80 वर्ष की उम्र में मोक्ष पधारे । 
+                <hi>जम्बूस्वामी भरत क्षेत्र में इस अवसर्पिणी काल के अन्तिम केवली और सिद्ध हुए । 16 वर्ष की उम्र में श्री सुधर्मास्वामी के पास धर्मोपदेश सुनकर इन्होंने ब्रह्मचर्य स्वीकार किया । 20 वर्ष छद्मस्थ पर्याय और 44 वर्ष केवली पर्याय पालकर 80 वर्ष की उम्र में मोक्ष पधारे ।</hi>
+                <en> Jambuswami was the last kevali of this Avsarpini period in Bharat region. Hearing the sermon of Sri Sudharmaswamy at the age of 16, he accepted celibacy. After 20 years of diksha, he attained kevalgyan and spending 44 years as Kevali he attained salvation at the age of 80 years.</en>
             </description>
             <link>https://www.historyofjainism.com/timeline/shraman-parampara/nirgranth-gana#h.hnqxgzwda8wz</link>
+            <image>Jambuswami.jpg</image>
             <type>gyan</type>
         </event>
         <event>
             <year>70</year>
-            <title>ओसवाल जाति कि स्थापना</title>
+            <title>
+                <hi>ओसवाल जाति कि स्थापना</hi>
+                <en>Oswal Community</en>
+            </title>
             <description>
-                श्री पार्श्वनाथ भगवन के छट्ठे पट्टधर श्री रत्नप्रभसूरी ने उपकेश नगर में 1,80,000 क्षत्रियपुत्रो को उपदेश देकर जैन बनाकर उपकेश वंश की स्थापना की । उपकेश का बाद में अप्रभ्रंश ओसवाल बना । ओसवाल, पोरवाल और श्रीमाल जातियों का महाजन संघ नाम प्रसिद्ध हुआ। 
+                <hi>श्री पार्श्वनाथ भगवन के छट्ठे पट्टधर श्री रत्नप्रभसूरी ने उपकेश नगर में 1,80,000 क्षत्रियपुत्रो को उपदेश देकर जैन बनाकर उपकेश वंश की स्थापना की । उपकेश का बाद में अप्रभ्रंश ओसवाल बना । ओसवाल, पोरवाल और श्रीमाल जातियों का महाजन संघ नाम प्रसिद्ध हुआ।</hi>
+                <en>The 6th Pattadhar of Shri Parshwanath Bhagavan, Sri Ratnaprabhasuri established the Upkesh community by teaching 1,80,000 Kshatriyas in Upkesh Nagar. Upkesh Nagar later began to be called as Osian and this community Oswal. Also, Oswal, Porwal and Srimal were popularly known as Mahajan.</en>
             </description>
-            <link>https://www.historyofjainism.com/timeline/shraman-parampara/nirgranth-gana#h.hnqxgzwda8wz</link>
+            <image>Ratnaprabhsuri.jpg</image>
+            <link>https://drive.google.com/file/d/16ogCwik-6CNfEthQF3rdEpkfjf4KBXcS/view?usp=sharing</link>
         </event>
         <event>
             <year>160</year>
-            <title>पाटलिपुत्र में प्रथम आगम वाचना</title>
+            <title>
+                <hi>पाटलिपुत्र में प्रथम आगम वाचना</hi>
+                <en>First council of Agam</en>
+            </title>
             <description>
-                12 वर्षीय दुकाल के बाद श्रमण संघ ने श्री स्थूलिभद्र की अध्यक्षता में पाटलिपुत्र में वीर निर्वाण संवत 160 में पहली अगम वाचना की। उससे 11 अंगो को व्यवस्थित किया। और बारवा अंग सीखने की लिए श्री स्थूलिभद्र आदि मुनि श्री भद्रबाहु स्वामी के पास नेपाल गए ।  
+                <hi>12 वर्षीय दुकाल के बाद श्रमण संघ ने श्री स्थूलिभद्र की अध्यक्षता में पाटलिपुत्र में वीर निर्वाण संवत 160 में पहली अगम वाचना की। उससे 11 अंगो को व्यवस्थित किया। और बारवा अंग सीखने की लिए श्री स्थूलिभद्र आदि मुनि श्री भद्रबाहु स्वामी के पास नेपाल गए ।</hi>
+                <en>After 12 years of drought, the Shramana Sangh under the guidance and leadership of Shri Sthulibhadra held the first agam council in Veer Nirvana Samvat 160 at Pataliputra. He collected 11 aagams and to learn the 12th Anga Sri Sthulibhadra and other munis went to Sri Bhadrabahu Swami.</en>  
             </description>
+            <image>AgamVachna1.png</image>
             <link>https://drive.google.com/file/d/1Bityx6qGbEMNxBAtm3ruyXsg0QNGTSi5/view</link>
             <type>gyan</type>
         </event>
         <event>
             <year>222</year>
-            <title>अन्तिम श्रुतकेवली</title>
+            <title>
+                <hi>अन्तिम श्रुतकेवली</hi>
+                <en>Last Shrutkevali</en>
+            </title>
             <description>
-                श्रीप्रभवस्वामी, श्रीशय्यंभवस्वामी, श्रीयशोभद्रसूरि, श्रीसंभूतविजय, श्रीभद्रबाहु-स्वामी और श्रीस्थूलभद्रस्वामी, ये छ: चौदहपूर्वधर होने से श्रुतकेवली कहलाये । वाचना की अपेक्षा से श्री भद्रबाहुस्वामी और सूत्र की अपेक्षा से श्री सथूलभद्र अन्तिम श्रुतकेवली हुए ।  
+                <hi>श्रीप्रभवस्वामी, श्रीशय्यंभवस्वामी, श्रीयशोभद्रसूरि, श्रीसंभूतविजय, श्रीभद्रबाहु-स्वामी और श्रीस्थूलभद्रस्वामी, ये छ: चौदहपूर्वधर होने से श्रुतकेवली कहलाये । वाचना की अपेक्षा से श्री भद्रबाहुस्वामी और सूत्र की अपेक्षा से श्री सथूलभद्र अन्तिम श्रुतकेवली हुए ।</hi>  
+                <en>Shri Prabhav, Sri Shayambhav, Sri Yashobhadra, Shri Sambhut, Shri Bhadrabahu and Shri Sthulabhadra, these six are known as Shrutakevali because they knew all 14 purvas. Shri Bhadrabahu was the last shrut kevali who knew both Sutra and meaning and Shri Sthulabhadra knew only Sutra of last 4 purvas.</en>
             </description>
-            <link>https://drive.google.com/file/d/1Bityx6qGbEMNxBAtm3ruyXsg0QNGTSi5/view</link>
+            <link>https://medium.com/muni-speaks/shrut-kevali-284b27e08923</link>
             <type>gyan</type>
+            <image>bhadrabahuswami.jpg</image>
         </event>
         <event>
             <year>292</year>
-            <title>1.25 लाख जिन मंदिर निर्माण</title>
+            <title>
+                <hi>1.25 लाख जिन मंदिर निर्माण</hi>
+                <en>Construction of 1.25 lakh Jain temples</en>
+            </title>
             <description>
-                पूर्वजन्म के उपकारी आर्य सुहस्ती की कृपा से साम्राज्य की प्राप्ति का ज्ञान होने पर, सम्प्रति महाराजा ने सवा लाख मन्दिर, सवा करोड प्रतिमाएँ, पिचानवें हजार धातु प्रतिमाएँ निर्मित करवाई, छत्तीस हजार मन्दिरों का जीर्णोद्धार एवं सात सौ दानशालाओं से भारत भूमि को भूषित किया ।  
+                <hi>पूर्वजन्म के उपकारी आर्य सुहस्ती की कृपा से साम्राज्य की प्राप्ति का ज्ञान होने पर, सम्प्रति महाराजा ने सवा लाख मन्दिर, सवा करोड प्रतिमाएँ, पिचानवें हजार धातु प्रतिमाएँ निर्मित करवाई, छत्तीस हजार मन्दिरों का जीर्णोद्धार एवं सात सौ दानशालाओं से भारत भूमि को भूषित किया ।</hi>
+                <en>Learning how he attained the kingdom by the grace of Arya Suhasti, his benefactor from previous birth, Samprati Maharaja built 1.25 lakh jain temples, 1.25 crore statues, 95,000 metal statues, renovated 36000 jain temples and graced the land of India with 700 charitable institutions.</en>  
             </description>
             <link>https://www.historyofjainism.com/timeline/jain-kings#h.1gldl7x6s4hw</link>
+            <image>samprati.jpg</image>
             <type>mandir</type>
         </event>    
         <event>
             <year>374</year>
-            <title>खंडगिरि उड़ीसा में हाथी गुफा</title>
+            <title>
+                <hi>खंडगिरि उड़ीसा में हाथी गुफा</hi>
+                <en>Elephant cave in Khandgiri, Orissa</en>
+            </title>
             <description>
-                जैन धर्म अनुयायी खारवेल का एक शिलालेख उड़ीसा के खंडगिरि में आज भी विद्यमान है जिसमे लिखा है खारवेल ने पुष्यमित्र को हराकर ऋषभदेव की प्रतिमा जो कलिंग जिन के नाम से प्रसिद्ध है जिनको श्रेणिक ने भराई और सुधर्मा स्वामी के द्वारा प्रतिष्ठित उसे कुमारगिरि में प्रतिष्ठित कराई ।   
+                <hi>जैन धर्म अनुयायी खारवेल का एक शिलालेख उड़ीसा के खंडगिरि में आज भी विद्यमान है जिसमे लिखा है खारवेल ने पुष्यमित्र को हराकर ऋषभदेव की प्रतिमा जो कलिंग जिन के नाम से प्रसिद्ध है जिनको श्रेणिक ने भराई और सुधर्मा स्वामी के द्वारा प्रतिष्ठित उसे कुमारगिरि में प्रतिष्ठित कराई ।</hi>
+                <en>An inscription about Kharavela a devout Jain still exists in Khandagiri, Orissa. It is written that Kharavela defeated Pushyamitra and took the statue of Rishabhdev famously known as Kalinga Jin. This statue was built by Shrenik Maharaja and made auspicious by Sudharma Swami in Kumaragiri.</en>   
             </description>
             <link>https://www.historyofjainism.com/timeline/jain-kings#h.s4unrdvny5m4</link>
             <type>mandir</type>
+            <image>udaygirikhandagiri.jpg</image>
         </event>      
         <event>
             <year>375</year>
-            <title>कुमारगिरि पर दूसरी आगमवाचना</title>
+            <title>
+                <hi>कुमारगिरि पर दूसरी आगमवाचना</hi>
+                <en>2nd Agam Vachna</en>
+            </title>
             <description>
-                कुमारगिरि पर कलिंगराज खारवेल ने आर्य सुस्थितसूरी और सुप्रतिबद्धसूरी की अध्यक्षता में श्रमण सम्मलेन बुलवाया जो दूसरी आगम वाचना के नाम से प्रसिद्ध है, जिसमे आर्य बेलिस्सह ने 'अंगविद्या', श्री स्वाति ने 'तत्त्वार्थ', श्री श्यामाचार्य ने 'प्रज्ञापना' सूत्र की रचना की ।   
+                <hi>कुमारगिरि पर कलिंगराज खारवेल ने आर्य सुस्थितसूरी और सुप्रतिबद्धसूरी की अध्यक्षता में श्रमण सम्मलेन बुलवाया जो दूसरी आगम वाचना के नाम से प्रसिद्ध है, जिसमे आर्य बेलिस्सह ने 'अंगविद्या', श्री स्वाति ने 'तत्त्वार्थ', श्री श्यामाचार्य ने 'प्रज्ञापना' सूत्र की रचना की ।</hi>
+                <en>On Kumaragiri, Kalingaraj Kharavel convened the 2nd Agam Vachna Conference under the guidance of Arya Susthitsuri and Supratibaddhsuuri. In this Arya Belissah composed ‘Angavidya’, Sri Swati composed ‘Tattvaratha’ and Mr. Shyamacharya composed ‘Pragyapana’ sutra.</en>   
             </description>
             <link>https://www.historyofjainism.com/timeline/jain-kings#h.s4unrdvny5m4</link>
             <type>gyan</type>
+            <image>AgamVachna2.jpg</image>
         </event>  
         <event>
             <year>470</year>
-            <title>विक्रम संवत्सर</title>
+            <title>
+                <hi>विक्रम संवत्सर</hi>
+                <en>Vikram Samvat</en>
+            </title>
             <description>
-                श्री सिद्धसेन दिवाकर सूरी जी ने श्री कल्याण मंदिर स्तोत्र की रचना कर श्री अवन्ति पार्श्वनाथ की प्रतिमा को प्रकट की।  इस तरह विक्रम राजा को प्रतिबोध कराकर जैन धर्म का अनुरागी बनाया।  इनके उपदेश से पृथ्वी को ऋणमुक्त किया और अपना संवत्सर चलाया जो विक्रम संवत्सर कहलाया।         
+                <hi>श्री सिद्धसेन दिवाकर सूरी जी ने श्री कल्याण मंदिर स्तोत्र की रचना कर श्री अवन्ति पार्श्वनाथ की प्रतिमा को प्रकट की।  इस तरह विक्रम राजा को प्रतिबोध कराकर जैन धर्म का अनुरागी बनाया।  इनके उपदेश से पृथ्वी को ऋणमुक्त किया और अपना संवत्सर चलाया जो विक्रम संवत्सर कहलाया।</hi>
+                <en>Shri Siddheshna Diwakar Suri brought forth the idol of Shri Avanti Parshwanath by composing the Sri Kalyan Mandir Stotra. In this way by enlightening him Vikram Raja became a devout Jain. He established his own calendar which is called Vikram Samvatsar.</en>         
             </description>
             <link>https://www.historyofjainism.com/timeline/shraman-parampara/prabhavak-acharya#h.6ma47aiad6aj</link>
             <type>raja</type>
+            <image>vikramaditya.jpg</image>
         </event>
         <event>
             <year>580*</year>
-            <title>मंदसौर में तीसरी आगम वाचना</title>   
+            <title>
+                <hi>मंदसौर में तीसरी आगम वाचना</hi>
+                <en>3rd Agam Vachna</en>
+            </title>   
             <description>
-                12 वर्षिय दुकाल में वज्रस्वामी सहित बहुत सारे मुनि कालधर्म हुए। श्रमण संघ और श्रुत ज्ञान की बहुत हानि हुई । दशमा पूर्व विच्छेद हो गया । वज्रसेनसूरी, नंदिलसूरी और रक्षितसूरी जी की प्रमुखता में सम्मलेन में अनयोग की और कुछ वर्ष पश्चात चार कुलो में श्रमण संघकी व्यवस्था की गई। 
+                <hi>12 वर्षिय दुकाल में वज्रस्वामी सहित बहुत सारे मुनि कालधर्म हुए। श्रमण संघ और श्रुत ज्ञान की बहुत हानि हुई । दशमा पूर्व विच्छेद हो गया । वज्रसेनसूरी, नंदिलसूरी और रक्षितसूरी जी की प्रमुखता में सम्मलेन में अनयोग की और कुछ वर्ष पश्चात चार कुलो में श्रमण संघकी व्यवस्था की गई।</hi>
+                <en>During the 12-year drought period, most Sadhus including Vajraswami left for heaven. The 10th Purv was also lost. Under the leadership of Vajrasensuuri, Nandilasuri and Rakshitsuri ji, 3rd agam vachna was held and after a few years, the Shramana Sangha was arranged in four clans.</en> 
             </description>
             <link>https://www.historyofjainism.com/timeline/shraman-parampara/prabhavak-acharya#h.6ma47aiad6aj</link>
+            <image>mandsaur.jpg</image>
             <type>gyan</type>
         </event>
         <event>
-            <year>609</year>
-            <title>दिगंबर मत प्रवर्तन</title>
-            <description>
-                शिवभूति मुनि को राजा से रत्नकंबल प्राप्त हुआ। गुरु ने उपालम्भ दिया - साधुओ को बहुमूल्य वस्त्र नहीं रखना चाहिए और कम्बल के टुकड़े टुकड़े कर दिए। एक दिन जिनकल्प का वर्णन चल रहा था तबी शिवभूति को यह याद आया और कहा की मै जिन कल्प को करता हूँ। वस्त्र त्याग करके दिगंबर बना।  
-            </description>
-            <link></link>
-        </event>
-        <event>
             <year>830</year>
-            <title>मथुरा और वल्लभी में चौथी आगम वाचना</title>
+            <title>
+                <hi>मथुरा और वल्लभी में चौथी आगम वाचना</hi>
+                <en>4th Agam Vachna</en>
+            </title>
             <description>
-                उस समय भारत वर्ष में अशांति का काल था - सौराष्ट्र में बौद्धों का वितंडावाद और उत्तर भारत में हुनो और गुप्तो का युद्ध चला । बादमें वल्लभी में शिलादित्य और मथुरा में गुप्त विजय हुए। श्रमण संघ ने मथुरा में नागर्जुनसुरी और वल्लभी में स्कंदील सूरी की अध्यक्षता में वाचना की।  
+                <hi>उस समय भारत वर्ष में अशांति का काल था - सौराष्ट्र में बौद्धों का वितंडावाद और उत्तर भारत में हुनो और गुप्तो का युद्ध चला । बादमें वल्लभी में शिलादित्य और मथुरा में गुप्त विजय हुए। श्रमण संघ ने मथुरा में नागर्जुनसुरी और वल्लभी में स्कंदील सूरी की अध्यक्षता में वाचना की।</hi>
+                <en>At that time there was a period of turbulence - hegemony of Buddhists in Saurashtra and war between Huns and Gupts in North. Later, Shiladityas won in Vallabhi and Guptas conquered Mathura. Shramana congregated under the guidance of Nagarjunasuri in Mathura and Skandil Suri in Vallabhi.</en>  
             </description>
-            <link></link>
+            <image>AgamVachna4.png</image>
             <type>gyan</type>
         </event>
         <event>
             <year>980</year>
-            <title>वल्लभी में पंचम आगम वाचना</title>
+            <title>
+                <hi>वल्लभी में पंचम आगम वाचना</hi>
+                <en>5th Agam Vachnan</en>
+            </title>
             <description>
-                श्री देवर्धिगणि क्षमाश्रमण और आचार्य भूतदिन्न की अध्यक्षता में पांचवी आगम वाचना हुई। प्रथम बार आगमो को पुस्तक आरूढ़ किया गया। मुनि सम्मेलन में 84 आगम, निर्युक्ति, भाष्य , कम्मपयडी और तत्वार्थ सूत्र वगेरा मिलाकर करोड़ श्लोक प्रमाण साहित्य लिखा गया।   
+                <hi>श्री देवर्धिगणि क्षमाश्रमण और आचार्य भूतदिन्न की अध्यक्षता में पांचवी आगम वाचना हुई। प्रथम बार आगमो को पुस्तक आरूढ़ किया गया। मुनि सम्मेलन में 84 आगम, निर्युक्ति, भाष्य , कम्मपयडी और तत्वार्थ सूत्र वगेरा मिलाकर करोड़ श्लोक प्रमाण साहित्य लिखा गया।</hi>   
+                <en>The 5th Agam Vachna was held under the direction of Shri Devardhigini Shamashraman and Acharya Bhootdinna. For the first time, the Aagams were written down. In the gathering, 84 verses, niyrukti, bhashya, kampyapadi and elemental sutras and crores of shlokes were written.</en>
             </description>
-            <link></link>
+            <image>AgamVachna5.jpg</image>
             <type>gyan</type>
         </event>    
         <event>
             <year>983*</year>
-            <title>सभा समक्ष कल्पसूत्र का व्याख्यान</title>
+            <title>
+                <hi>सभा समक्ष कल्पसूत्र का व्याख्यान</hi>
+                <en>Kalpasutra Open Preaching</en>
+            </title>
             <description>
-                सेनापति भट्टारक गुप्त वंश की निर्बलता का लाभ लेकर वललभी का राजा बन बैठा । उसका पुत्र ध्रुवसेन वललभी की राजगद्दी पर आया । यह जैन था । कुमारभुक्ति नगर आनन्दपुर में युवराज की मृत्युनिमित्तक राजा ध्रुवसेन के शोक के निवारण हेतु कल्पसूत्र का व्याख्यान सभा के समक्ष प्रवृत्त हुआ |
+                <hi>सेनापति भट्टारक गुप्त वंश की निर्बलता का लाभ लेकर वललभी का राजा बन बैठा । उसका पुत्र ध्रुवसेन वललभी की राजगद्दी पर आया । यह जैन था । कुमारभुक्ति नगर आनन्दपुर में युवराज की मृत्युनिमित्तक राजा ध्रुवसेन के शोक के निवारण हेतु कल्पसूत्र का व्याख्यान सभा के समक्ष प्रवृत्त हुआ |</hi>
+                <en>Senapati Bhattarak became the king of Vallabhi by taking advantage of the weakness of the Gupta dynasty. His son Dhruvasen came t the throne of Vallabhi. He followed Jainism. Kalpasutra's first open sermon were given in Kumarabhukti Nagar, Anandpur to console a mourning Dhruvsen over death of his son.</en>
             </description>
-            <link></link>
+            <image>Kalpasutra.jpg</image>
             <type>gyan</type>
         </event>    
         <event>
             <year>1272</year>
-            <title>अणहिलपुर पाटण की स्थापना</title>
+            <title>
+                <hi>अणहिलपुर पाटण की स्थापना</hi>
+                <en>Establishment of Patan</en>
+            </title>
             <description>
-                वनराज ने वि.सं. ८०२ में अणहिलपुर पाटण की स्थापना की और पंचासरा पार्श्वनाथ भगवान का मन्दिर बनवाया । वनराज के गुजरात राज्य की स्थापना में आचार्य शीलगुणसूरि की कृपा तथा बुद्धिमान्‌ जैनों का पूरा साथ था । महापराक्रमी चांपराज, नीना और आशक वनराज के जैन मंत्री थे ।
+                <hi>वनराज ने वि.सं. ८०२ में अणहिलपुर पाटण की स्थापना की और पंचासरा पार्श्वनाथ भगवान का मन्दिर बनवाया । वनराज के गुजरात राज्य की स्थापना में आचार्य शीलगुणसूरि की कृपा तथा बुद्धिमान्‌ जैनों का पूरा साथ था । महापराक्रमी चांपराज, नीना और आशक वनराज के जैन मंत्री थे ।</hi>
+                <en>Vanaraj established Anhilpur Patan and constructed the temple of Panchasara Parshwanath Bhagwan. Acharya Shilgunsuri played an important role in the rise of Vanaraj. Vanraj was fully supported by the Jains - brave Chamraj, Nina and Ashak were Jain ministers of Vanaraja</en>
             </description>
-            <link></link>
+            <link>https://medium.com/muni-speaks/the-glory-of-patan-f3c84954f895</link>
+            <image>patan.jpg</image>
             <type>raja</type>
         </event>  
         <event>
             <year>1558</year>
-            <title>विमलवसही</title>
+            <title>
+                <hi>विमलवसही</hi>
+                <en>Vimalvasahi</en>
+            </title>
             <description>
-                विमलमन्त्री गुजरात के राजा भीमदेव के सेनापति थे । एक बार श्री धर्मघोषसूरि से प्रभावित होकर युद्धों में लगे पापों का प्रायश्चित करना चाहा । आचार्य श्री ने प्रायश्चित में आबू तीर्थ का उद्धार कराने को कहा। अद्भुत कलाकृति से युक्त मन्दिर बनाया जिसके कारण ही आबू विश्वविख्यात है ।
+                <hi>विमलमन्त्री गुजरात के राजा भीमदेव के सेनापति थे । एक बार श्री धर्मघोषसूरि से प्रभावित होकर युद्धों में लगे पापों का प्रायश्चित करना चाहा । आचार्य श्री ने प्रायश्चित में आबू तीर्थ का उद्धार कराने को कहा। अद्भुत कलाकृति से युक्त मन्दिर बनाया जिसके कारण ही आबू विश्वविख्यात है ।</hi>
+                <en>Minister Vimal was the commander of King Bhimdev of Gujarat. Once influenced by Sri Dharmaghoshasuri, he wanted to atone for the sins of wars. Acharya Shri asked him to renovate Abu Tirth. So he built a magnificient temple with amazing artwork, due to which Abu is renowned in the world.</en>
             </description>
-            <link></link>
+            <image>vimalvasahi.jpg</image>
             <type>mandir</type>
         </event>  
         <event>
             <year>1612</year>
-            <title>अन्तरिक्ष पार्श्वनाथ तीर्थ</title>
+            <title>
+                <hi>अन्तरिक्ष पार्श्वनाथ तीर्थ</hi>
+                <en>Antariksh Parshwanath</en></title>
             <description>
-                रामायणकालीन वालुका से निर्मित पार्श्वनाथ की प्रतिमा विदर्भ के किसी सरोवर में देव द्वारा पूजी जाती थी। एलिचपुर का राजा कुष्ठ रोग से पीड़ित था । प्रतिमा से उसका रोग शान्त हो गया । राजा प्रतिमा लेकर अपने नगर को चला । नियतिवश बीच रास्ते में प्रतिमा स्थिर हो गई । वहीं मन्दिर बनाया ।
+                <hi>रामायणकालीन वालुका से निर्मित पार्श्वनाथ की प्रतिमा विदर्भ के किसी सरोवर में देव द्वारा पूजी जाती थी। एलिचपुर का राजा कुष्ठ रोग से पीड़ित था । प्रतिमा से उसका रोग शान्त हो गया । राजा प्रतिमा लेकर अपने नगर को चला । नियतिवश बीच रास्ते में प्रतिमा स्थिर हो गई । वहीं मन्दिर बनाया ।</hi>
+                <en>A Parshwanath idol built in clay during Ramayana, was worshiped by a Dev in Vidarbha. Elchipur King, suffering from leprosy, was cured by it. The king tried to take it to his city. However, it stayed put in the way. So he built a temple right there, now known as Antriksh Parshwanath.</en>
             </description>
-            <link></link>
+            <image>antariksh.jpg</image>
             <type>mandir</type>
         </event>  
         <event>
             <year>1669</year>
-            <title>परमार्हत कुमारपाल</title>
+            <title>
+                <hi>परमार्हत कुमारपाल</hi>
+                <en>Kumarpal</en>
+            </title>
             <description>
-                कुमारपाल गुजरात की राजगद्दी पर आकर १८ देश पर अधिपत्य जमाया।आचार्य श्री हेमचन्द्रसूरि के उपदेश से कुमारपाल ने सदा के लिए 'अमारि' प्रवर्तन करवाया, जैन श्रावक के व्रतों को ग्रहण किया, सात बार तीर्थयात्रा, २१ ज्ञानभण्डार और १४४४ नये मन्दिरों बनवाए, १६०० मन्दिरों का उद्धार किया।
+                <hi>कुमारपाल गुजरात की राजगद्दी पर आकर १८ देश पर अधिपत्य जमाया।आचार्य श्री हेमचन्द्रसूरि के उपदेश से कुमारपाल ने सदा के लिए 'अमारि' प्रवर्तन करवाया, जैन श्रावक के व्रतों को ग्रहण किया, सात बार तीर्थयात्रा, २१ ज्ञानभण्डार और १४४४ नये मन्दिरों बनवाए, १६०० मन्दिरों का उद्धार किया।</hi>
+                <en>Kumarapal conquered 14 countries post his coronation on the throne of Gujarat. With the preaching of Acharya Shri Hemachandrasuri, Kumarapal proclaimed ahimsa, took the vows of Jain Shravak, made seven pilgrimage, constructed 21 libraries and 1444 new temples and renovated 1800 temples.</en>
             </description>
-            <link></link>
+            <image>kumarpal.jpg</image>
             <type>raja</type>
         </event> 
         <event>
             <year>1683</year>
-            <title>शत्रुंजय का चौदहवा उद्धार</title>
+            <title>
+                <hi>शत्रुंजय का चौदहवा उद्धार</hi>
+                <en>Shatrunjay's 14th Renovation</en>
+            </title>
             <description>
-                मन्त्री बाहड सिद्धराज का मन्त्री और कुमारपाल का महामात्य था । उसने काष्ठ निर्मित मूलनायक का देरासर को संगमरमर पाषाण का बनाया। प्रतिष्ठा कलिकालसर्वज्ञ आ. श्री हेमचन्द्रसूरि से करवाई । यह देरासर आज भी विद्यमान है। मन्दिर के समाचार लाने वाले को प्रतिदान 16 चांदी की जीभें दी थी |
+                <hi>मन्त्री बाहड सिद्धराज का मन्त्री और कुमारपाल का महामात्य था । उसने काष्ठ निर्मित मूलनायक का देरासर को संगमरमर पाषाण का बनाया। प्रतिष्ठा कलिकालसर्वज्ञ आ. श्री हेमचन्द्रसूरि से करवाई । यह देरासर आज भी विद्यमान है। मन्दिर के समाचार लाने वाले को प्रतिदान 16 चांदी की जीभें दी थी |</hi>
+                <en>Bahad was the minister of Siddharaj and an officer of high rank of Kumarapal. He rebuilt the wooden temple using marble. He got it consecrated by Hemachandrasuri. This temple still exists today. The news bearer of the temple’s construction progress was given 16 silver tongues.</en>
             </description>
-            <link></link>
+            <image>Jinnordhar14.jpg</image>
             <type>mandir</type>
         </event>         
         <event>
             <year>1746</year>
-            <title>महामात्य वस्तुपाल और तेजपाल</title>
+            <title>
+                <hi>महामात्य वस्तुपाल और तेजपाल</hi>
+                <en>Vastupal and Tejpla</en>
+            </title>
             <description>
-                आरम्भ में यह दोनों भाई राजा वीरधवल के महामात्य थे । इनकी सूझबूझ से गुजरात, राजस्थान और महाराष्ट्र के हिंदु राजाओं का पुन: संगठन हुआ । इन्होने कुल ६३ युद्धों में विजय पाई थी । यह आ० श्री विजयसेनसूरि को धर्मदाता गुरु मानता था । यह स्वयं विद्वान्‌ और विद्यानुरगागी था ।
+                <hi>आरम्भ में यह दोनों भाई राजा वीरधवल के महामात्य थे । इनकी सूझबूझ से गुजरात, राजस्थान और महाराष्ट्र के हिंदु राजाओं का पुन: संगठन हुआ । इन्होने कुल ६३ युद्धों में विजय पाई थी । यह आ० श्री विजयसेनसूरि को धर्मदाता गुरु मानता था । यह स्वयं विद्वान्‌ और विद्यानुरगागी था ।</hi>
+                <en>In the beginning the brothers were ministers of King Veeradhaval. Their shrewdness led to the re-organization of the Hindu kings of Gujarat, Rajasthan and Maharashtra. Together they won a total of 63 wars. They considered Acahrya Sri Vijayanasuri as their religious mentor.</en>
             </description>
-            <link></link>
+            <image>vastupaltejpal.jpg</image>
             <type>raja</type>
         </event> 
         <event>
             <year>1755</year>
-            <title>तपागच्छ</title>
+            <title>
+                <hi>तपागच्छ</hi>
+                <en>Tapagaccha</en>
+            </title>
             <description>
-                श्री सुधर्मा स्वामी की परंपरा के 44 पट्टधर श्री जगच्चन्द्रसुरि हुए। आयंबिल करते बारह वर्ष होने आये तब मेवाड में पधारे | आघाटपुर (आयड) में मेवाड के राणा जैत्रसिंह ने आपके तप से प्रभावित होकर आपको “तपा' का बिरुद दिया | तब से भगवान महावीर की श्रमण परंपरा तपागच्छ कहलाने लगा ।
+                <hi>श्री सुधर्मा स्वामी की परंपरा के 44 पट्टधर श्री जगच्चन्द्रसुरि हुए। आयंबिल करते बारह वर्ष होने आये तब मेवाड में पधारे | आघाटपुर (आयड) में मेवाड के राणा जैत्रसिंह ने आपके तप से प्रभावित होकर आपको “तपा' का बिरुद दिया | तब से भगवान महावीर की श्रमण परंपरा तपागच्छ कहलाने लगा ।</hi>
+                <en>Sri Jagachandrasuri was the 44th in the lineage of Shri Sudharma Swami. While doing ayambil for twelve years, he came to Mewar. Rana Jaitrasinh was impressed with him and honoured him with the title "Tapa". Hence, the Shramana tradition of Lord Mahavira started being called as Tapagachh.</en>
             </description>
             <link></link>
         </event>         
         <event>
             <year>1780</year>
-            <title>श्री शंखेश्वर-तीर्थ का जीर्णोद्धार</title>
+            <title>
+                <hi>श्री शंखेश्वर-तीर्थ का जीर्णोद्धार</hi>
+                <en>Renovation of Shankeshwar Tirth</en>
+            </title>
             <description>
-                झीँझुवाडा का राजा दुर्जनशल्य कोढ रोग से ग्रस्त हो गया, जिसे मिटाने के लिए अनेक उपचार किये । अन्त में सूर्यनारायण की आराधना की । सूर्यनारायण ने कहा - शंखेश्वर तीर्थ में भगवान की पूजा से रोग शान्त हो जायेगा। राजा ने वि.स. 1310 में इस तीर्थ का जीर्णोद्धार करवाया ।
+                <hi>झीँझुवाडा का राजा दुर्जनशल्य कोढ रोग से ग्रस्त हो गया, जिसे मिटाने के लिए अनेक उपचार किये । अन्त में सूर्यनारायण की आराधना की । सूर्यनारायण ने कहा - शंखेश्वर तीर्थ में भगवान की पूजा से रोग शान्त हो जायेगा। राजा ने वि.स. 1310 में इस तीर्थ का जीर्णोद्धार करवाया ।</hi>
+                <en>The king of Jhinjhuvada suffered from leprosy and to  cure that he tried several remedies. He finally prayed to Suryanarayana said – Worship the God in Shankheshwar and you will be cured of the disease. The King renovated the shrine in Vik. Sam. in 1310.</en>
             </description>
-            <link></link>
+            <image>Shankeshwar.jpg</image>
             <type>mandir</type>
         </event>         
         <event>
             <year>1966</year>
-            <title>राणकपुर</title>
+            <title>
+                <hi>राणकपुर</hi>
+                <en>Ranakpur</en>
+            </title>
             <description>
-                एक बार संघवी धरणशाह ने स्वप्न में नलिनीगुल्म-विमान देखा और ऐसा ही भव्य मंदिर बनवाने का निर्णय लिया । कालक्रम से राणकपुर में १४४४ स्तंभों से भव्य तीन मंजिल का ४५ फुट ऊंचा जिन-प्रासाद बनाया जिसकी प्रतिष्ठा वि.सं. १४९६ में आ. श्री सोमसुन्दरसूरि ने की ।
+                <hi>एक बार संघवी धरणशाह ने स्वप्न में नलिनीगुल्म-विमान देखा और ऐसा ही भव्य मंदिर बनवाने का निर्णय लिया । कालक्रम से राणकपुर में १४४४ स्तंभों से भव्य तीन मंजिल का ४५ फुट ऊंचा जिन-प्रासाद बनाया जिसकी प्रतिष्ठा वि.सं. १४९६ में आ. श्री सोमसुन्दरसूरि ने की ।</hi>
+                <en>Once Sanghvi Dharanshah saw the Nalinigulam-Viman in a dream and decided to build as a magnificent temple as he saw. Later, a grand three-storey 45-feet tall temple was built by him in Ranakpur with 14 pillars which was inaugurated by Acharya Somasundarasuri in Vik. Sam. 1496.</en>
             </description>
-            <link></link>
+            <image>Ranakpur.jpg</image>
             <type>mandir</type>
         </event>    
         <event>
             <year>2047</year>
-            <title>शत्रुंजय का सोलहवां उद्धार</title>
+            <title>
+                <hi>शत्रुंजय का सोलहवां उद्धार</hi>
+                <en>16th Renovation of Shatrunjay</en>
+            </title>
             <description>
-                मुस्लिम आक्रमककारो ने शत्रुंजय पर बिराजित मूलनायक को तोड़ दिया । उदयपुर के कर्माशाह ने विधिवत नई प्रतिमा का निर्माण कराया जिसकी प्रतिष्ठा श्री विद्यामंडनसूरि के हाथो हुई। प्रतिष्ठा के समय परमात्मा ने सात बार श्वासोश्वास लिए। आज शत्रुंजय  के शिखर पर मूलनायक रूपी बिराजमान है। 
+                <hi>मुस्लिम आक्रमककारो ने शत्रुंजय पर बिराजित मूलनायक को तोड़ दिया । उदयपुर के कर्माशाह ने विधिवत नई प्रतिमा का निर्माण कराया जिसकी प्रतिष्ठा श्री विद्यामंडनसूरि के हाथो हुई। प्रतिष्ठा के समय परमात्मा ने सात बार श्वासोश्वास लिए। आज शत्रुंजय  के शिखर पर मूलनायक रूपी बिराजमान है। </hi>
+                <en>Muslim aggressors broke the main idol on Shatrunjaya. Karma Shah of Udaipur built a new idol at an auspicious time, which was consecrated by Shri Vidyamandanasuri. At the time of pratistha, God breathed seven times. This idol is the mulnayak on the peak of Shatrunjaya today.</en>
             </description>
-            <link></link>
+            <image>ShatrunjayAdinath.jpg</image>
             <type>mandir</type>
         </event>                 
         <event>
             <year>2078</year>
-            <title>अकबर प्रतिबोधक</title>
+            <title>
+                <hi>अकबर प्रतिबोध</hi>
+                <en>Akbar</en>
+            </title>
             <description>
-                आचार्य श्री हीरविजयसूरी के उपदेश से अकबर ने अपने 12 सूबो में प्रतिवर्ष 6 महीने अमारि-प्रवर्तन करवाया, “जजीया” बन्द कर दिया, निःसंतान का धन लेना बंद किया। अकबर जो हमेशा 500 पक्षी की जीभ का नाश्ता करता था उसे बंद किया और आचार्य श्री को जगद्गुरुः के खिताब से सन्मानित किया। 
+                <hi>आचार्य श्री हीरविजयसूरी के उपदेश से अकबर ने अपने 12 सूबो में प्रतिवर्ष 6 महीने अमारि-प्रवर्तन करवाया, “जजीया” बन्द कर दिया, निःसंतान का धन लेना बंद किया। अकबर जो हमेशा 500 पक्षी की जीभ का नाश्ता करता था उसे बंद किया और आचार्य श्री को जगद्गुरुः के खिताब से सन्मानित किया। </hi>
+                <en>Preached by Acharya Shri Hiravijayuri, Akbar proclaimed 6 months of non violence every year in his 12 districts, stopped "jaziya", stopped confiscating wealth of childless couple, stopped consuming the tongue of 500 birds in his breakfast and honored Acharya Sri with the title of Jagadguru.</en>
             </description>
-            <link></link>
+            <image>Akbar.jpg</image>
         </event>   
         <event>
             <year>2378</year>
-            <title>संवेगी मार्ग का संरक्षण</title>
+            <title>
+                <hi>संवेगी मार्ग का संरक्षण</hi>
+                <en>Protection of Samvegi Path</en>
+            </title>
             <description>
-                 समग्र जिन शासन में श्वेताम्बर दिगंबर स्थानकवासी तेरापंथी आदि चारों  प्रमुख संप्रदायों में 17,155  साधु - साध्वीजी है। श्वेताम्बर मूर्तिपूजक मंदिर मार्गीय  समुदाय सबसे बड़ा है जिसमें  कुल 10715 के करीब साधु साध्वीजी है। 
+                <hi>श्री बुद्धिविजय ने साधुओ द्वारा परिग्रह संचय, जैन चैत्यों में निवास और प्रतिमा पूजन का विरोध - ऐसे जैन शासन विरुद्ध आचार का विरोध कर, एकाकी घोर उपसर्गो और कठोर परिषहों को बर्दाश्त कर श्री तीर्थंकर केवळीं भगवंतो के वास्तविक सत्यधर्म के पुनरुत्थान करने में विजय प्राप्त की। </hi> 
+                <en>Shri Budhvijay opposed accumulation of wealth by sadhus and residence in Jain Temple and revived Murti Puja. Facing hardshop alone, he revived the true path of Tirthankar Kevali Bhagwant</en>
             </description>
-            <link></link>
         </event>   
         <event>
             <year>2547</year>
-            <title>वर्तमान साधुसमुदाय</title>
+            <title>
+                <hi>वर्तमान साधुसमुदाय</hi>
+                <en>Today's Sadhu Samuday</en>
+            </title>
             <description>
-                 समग्र जिन शासन में श्वेताम्बर दिगंबर स्थानकवासी तेरापंथी आदि चारों  प्रमुख संप्रदायों में 17,155  साधु - साध्वीजी है। श्वेताम्बर मूर्तिपूजक मंदिर मार्गीय  समुदाय सबसे बड़ा है जिसमें  कुल 10715 के करीब साधु साध्वीजी है। 
+                <hi>समग्र जिन शासन में श्वेताम्बर दिगंबर स्थानकवासी तेरापंथी आदि चारों  प्रमुख संप्रदायों में 17,155  साधु - साध्वीजी है। श्वेताम्बर मूर्तिपूजक मंदिर मार्गीय  समुदाय सबसे बड़ा है जिसमें  कुल 10715 के करीब साधु साध्वीजी है। </hi>
+                <en>Today, there are 17,155 Sadhu – Sadhviji combined in all the four major sects, including Svetambara, Digambar Sthanakwasi and Terapanti. The Shwetambar Murtipujak is the largest of the Sadhu community with a total of around 10715 monks.</en>
             </description>
-            <link></link>
+            <image>JainSadhu.jpg</image>
         </event>   
     </timeline>
 </page>

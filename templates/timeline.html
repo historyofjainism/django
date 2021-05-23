@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+{% include "favicon.html" %}
+{% include "linkpreview.html" %}
+  <!-- title Maximum of 65 characters -->
+  <title>History of Jainism - {{ title }}</title>
+  <!-- description Maximum of 155 characters -->
+  <meta name="description" content="{{ description }}">
   {% load static %}
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap" rel="stylesheet">  
@@ -13,23 +18,61 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   <link rel="stylesheet" href="{% static 'css/timeline.css' %}">
 </head>
-<body>
-    <header>
-        {% include "navbar.html" %}
-        {% include "jumbotron.html" with title=title coverimage=coverimage %}
-    </header>
-    <div class="timeline">
-      <div class="timeline__bar"></div>
-      {% for o in timeline %}
-      <div class="timeline__event timeline__eventtype-{{ o.type }}">
-        <div class="timeline__event-date">{{ o.year }} {{ samvat }}</div>
-        <div class="timeline__event-title text-center">{{o.title}}</div>
-        <div class="timeline__event-descr">{{ o.description }}</div>
-        <div class="timeline__event-actions">
-          <a class="timeline__event-action" href="{{ o.link }}" title="Learn More">और पढ़ें</a>
-        </div>
+<body class="d-lg-flex flex-lg-row mb-3">
+  {% include "header.html" %}
+    <div class= "flex-lg-fill col">
+      <div class="m-3 note note-primary d-none d-sm-block">
+        Mobile-first website. Best viewed on a mobile device  
       </div>
-      {% endfor %}
-    </div>
-</body>
+      <div class="timeline">
+        <div class="timeline__bar"></div>
+        <div class="d-flex justify-content-center p-2" style="position: relative;
+        ">
+          <div class="note note-primary" style="max-width:300px;">
+            {% if lang == 'hi' %}
+            <strong>आज वर्ष </strong>
+            <ul>
+              <li>ईस्वी 2021</li>
+              <li><a href="https://hi.wikipedia.org/wiki/वीर_निर्वाण_संवत">वीर निर्वाण संवत</a> 2547 </li>
+              <li><a href="https://hi.wikipedia.org/s/a63">विक्रम संवत</a> 2077   </li>
+            </ul>
+            {% else %}
+            <strong>This Year </strong>
+            <ul>
+              <li>2021 AD</li>
+              <li><a href="https://en.wikipedia.org/wiki/Vira_Nirvana_Samvat">VNS( Vir Nirvan Samvat)</a> 2547 </li>
+              <li><a href="https://en.wikipedia.org/wiki/Vikram_Samvat">Vikram Samvat</a> 2077   </li>
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+        {% for o in timeline %}
+        <div class="timeline__event timeline__eventtype-{{ o.type }}">
+          <div class="timeline__event-date">
+              {{ o.year }} {{ samvat }}
+          </div>
+          <div class="timeline__event-title text-center">{{o.title}}</div>
+          {% if o.image %}
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="{{ o.image }}" alt="{{ o.title }}"/>
+          {% endif %}
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">{{ o.description }}</div>
+          {% if o.link %}
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="{{ o.link }}" 
+              title="Learn More">
+                {{ event_link_text }}
+            </a>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>       
+    </div> 
+    {% include "analytics.html" %}
+    {% include "footer.html" %}
+  </body>
 </html>

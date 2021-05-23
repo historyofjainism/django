@@ -1,8 +1,15 @@
+header {
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .timeline {
   position: relative;
   min-height: 500px;
   padding: 60px 0;
   font-family: 'Laila', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
   background: #ADA996;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -99,6 +106,14 @@
   font-weight: 600;
 }
 
+.timeline__event-image {
+  width:100%; 
+  margin:auto; 
+  height:180px;
+  object-fit:cover; 
+  background-position: center;
+}
+
 .timeline__event-descr {
   padding: 15px 15px 5px;
   font-size: 1rem;
@@ -129,17 +144,8 @@
 
 
 
-@media (min-width: 560px) {
+@media (min-width: 450px) {
   .timeline__event {
-    width: 300px;
+    width: 400px;
   }
 }
-
-@media (min-width: 900px) {
-  .timeline__event {
-    width: 300px;
-  }
-}
-
-
-

@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ****** faviconit.com favicons ****** -->
+<link rel="shortcut icon" href="/static/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16 32x32 64x64" href="/static/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="196x196" href="/static/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="160x160" href="/static/images/favicon/favicon-160.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/static/images/favicon/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16.png">
+<link rel="apple-touch-icon" href="/static/images/favicon/favicon-57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/favicon-114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/favicon-72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/favicon-144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/favicon-60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/favicon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/favicon-76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/favicon-152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/favicon-180.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/static/images/favicon/favicon-144.png">
+<meta name="msapplication-config" content="/static/images/favicon/browserconfig.xml">
+<!-- ****** faviconit.com favicons ****** -->
+<!-- og:title Maximum 35 characters -->
+<meta property="og:title" content="अहो! जिन शासनम्" />
+<!-- og:url Full link to the current webpage address -->
+<meta property="og:url" content="https://history-of-jainism.web.app/timeline/hi/ahojinshashan" />
+<meta property="og:site_name" content="History of Jainism">
+<!-- og:description Maximum 65 characters -->
+<meta property="og:description" content="आज से 2577 वर्ष पूर्व श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की। यद्यपि भस्म ग्रह के दुष्प्रभाव से प्रभु वीर के निर्वाण के दो हजार वर्षो तक जिनशासन की प्रगति में अन्तरायों की बात थी किंतु इतिहास साक्षी है कि जिन शाशन का गौरवपूर्ण इतिहास रहा है। जैन शास्त्रों में हजारो प्रसंगो सुवर्ण अक्षर से लिखे गये है। हमको प्रेरणा मिले इस हेतु से कुछ प्रसंग प्रस्तुत है :-" />
+<!-- og:image Image(JPG or PNG) with a size less than 300KB and minimum dimensions of 300 x 200 *. This image should be served via a HTTPS connection with a valid non-self-signed certificate.** -->
+<meta property="og:image" itemprop="image" content="https://history-of-jainism.web.app/static/images/timeline/ahojinshashan.jpeg" /> 
+<meta property="og:image:secure_url" itemprop="image" content="https://history-of-jainism.web.app/static/images/timeline/ahojinshashan.jpeg" /> 
+<meta property="og:updated_time" content="2021-05-16T11:00:00+0530" />
+<!-- og:type In order for your object to be represented within the graph, you need to specify its type. Here's a list of the global types available: http://ogp.me/#types. You can also specify your own types. -->
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="hi_EN" />
+<meta property="og:locale:alternate" content="en_GB" />
+<!-- Twitter For the best Twitter support read https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started.-->
+<meta name="twitter:card" content="summary"></meta>
+<meta name="twitter:site" content="@muni_speaks"></meta>
+
+  <!-- title Maximum of 65 characters -->
+  <title>History of Jainism - अहो! जिन शासनम्</title>
+  <!-- description Maximum of 155 characters -->
+  <meta name="description" content="आज से 2577 वर्ष पूर्व श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की। यद्यपि भस्म ग्रह के दुष्प्रभाव से प्रभु वीर के निर्वाण के दो हजार वर्षो तक जिनशासन की प्रगति में अन्तरायों की बात थी किंतु इतिहास साक्षी है कि जिन शाशन का गौरवपूर्ण इतिहास रहा है। जैन शास्त्रों में हजारो प्रसंगो सुवर्ण अक्षर से लिखे गये है। हमको प्रेरणा मिले इस हेतु से कुछ प्रसंग प्रस्तुत है :-">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Laila:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/mdb.min.css" type="text/css" charset="utf-8" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" href="/static/css/timeline.css">
+</head>
+<body class="d-lg-flex flex-lg-row mb-3">
+  
+<header class="flex-lg-fill col">
+    <div 
+        class="bg-image" 
+        style="
+            background-image:url('/static/images/Background2.png');
+            height:100vh;
+            background-color: red;
+        "
+    >
+    <nav class="navbar p-0 m-0">
+        <a class="navbar-brand" href="https://historyofjainism.com">
+            <img src="/static/images/Logo-Transparent-White.png" alt="History of Jainism" style="padding:5px; width:35px; height:35px"/>
+        </a>
+        <strong class="navbar-brand text-white" style="font-family: 'Amita', sans-serif">अहो! जिन शासनम्</strong>
+        <div class="text-white p-2">
+            <a class="text-white" href='/timeline/en/ahojinshashan'>Eng</a> | <a class="text-white" href='/timeline/hi/ahojinshashan'>हिंदी</a>
+        </div>
+    </nav>
+    <div 
+        class="bg-image" 
+        style="
+            max-width: 450px;
+            background-image:url('/static/images/timeline/ahojinshashan.jpeg');
+            height: 225px;
+            margin: 15px;
+            border-radius: 5%;
+            border-color: lightgray;
+            border-style:solid;
+            border-width: 1px;
+            background-position: center;
+        "
+    >
+    </div>
+    <div 
+        style="
+            max-width: 450px;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: justify;
+            text-justify: inter-word;
+            font-family: 'Martel', sans-serif;
+            margin:15px;
+            padding: 15px;
+            border-radius:5%;
+            border-style: none;
+            border-width: 2px;
+            border-color: white;
+            background-color:rgba(0,0,0,0.5);
+            color: white;
+        "
+        >
+        आज से 2577 वर्ष पूर्व श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की। यद्यपि भस्म ग्रह के दुष्प्रभाव से प्रभु वीर के निर्वाण के दो हजार वर्षो तक जिनशासन की प्रगति में अन्तरायों की बात थी किंतु इतिहास साक्षी है कि जिन शाशन का गौरवपूर्ण इतिहास रहा है। जैन शास्त्रों में हजारो प्रसंगो सुवर्ण अक्षर से लिखे गये है। हमको प्रेरणा मिले इस हेतु से कुछ प्रसंग प्रस्तुत है :-
+        <div class="pt-3 text-center">Scroll to read</div>
+    </div>
+</header>
+
+
+    <div class= "flex-lg-fill col">
+      <div class="m-3 note note-primary d-none d-sm-block">
+        Mobile-first website. Best viewed on a mobile device  
+      </div>
+      <div class="timeline">
+        <div class="timeline__bar"></div>
+        <div class="d-flex justify-content-center p-2" style="position: relative;
+        ">
+          <div class="note note-primary" style="max-width:300px;">
+            
+            <strong>आज वर्ष </strong>
+            <ul>
+              <li>ईस्वी 2021</li>
+              <li><a href="https://hi.wikipedia.org/wiki/वीर_निर्वाण_संवत">वीर निर्वाण संवत</a> 2547 </li>
+              <li><a href="https://hi.wikipedia.org/s/a63">विक्रम संवत</a> 2077   </li>
+            </ul>
+            
+          </div>
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              -30 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">शासन स्थापना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/ShasanSthapna.jpg" alt="शासन स्थापना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">42 वर्ष की उम्र में श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की । इंद्रभूति आदि 11 ब्राह्मणों को गणधर पद पर प्रतिष्ठित किया । राजकुमारी चंदनबाला आदि को साध्वी पद पर स्थापित किया । आनंद आदि को श्रावक, रेवती आदि को श्राविका बनाया ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/shashan-sthapna" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              0 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">प्रथम पट्टधर</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/SudharmaSwami.jpg" alt="प्रथम पट्टधर"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्रमण भगवान महावीर स्वामी के मोक्षगमन के पूर्व ही नौ गणधर मोक्ष पधार गये थे। प्रभु के निर्वाण के बाद गौतमस्वामीजी का निर्वाण हुआ। इस कारण इनकी शिष्य परंपरा पंचम गणधर सुधर्मा स्वामीजी की निश्रा में आ गई थी। इस कारण से वर्तमान श्रमण परंपरा सुधर्मास्वामीजी की कहलाती है।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/pratham-pattadhar" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">श्रीमाल और पोरवाल जाति की स्थापना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Swayamprabhsuri.jpg" alt="श्रीमाल और पोरवाल जाति की स्थापना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्री पार्श्वनाथ भगवन के पांचवे पट्टधर श्री स्वयंप्रभसूरी श्रीमाल नगरी और पद्मावती नगरी में होने वाले यज्ञ में जा कर वह के राजा-प्रजा को उपदेश देकर 135000 घर वालो को जैन बनाया और श्रीमाल और पोरवाल वंश की स्थापना की।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://drive.google.com/file/d/16ogCwik-6CNfEthQF3rdEpkfjf4KBXcS/view?usp=sharing" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              64 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">अन्तिम केवली</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Jambuswami.jpg" alt="अन्तिम केवली"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">जम्बूस्वामी भरत क्षेत्र में इस अवसर्पिणी काल के अन्तिम केवली और सिद्ध हुए । 16 वर्ष की उम्र में श्री सुधर्मास्वामी के पास धर्मोपदेश सुनकर इन्होंने ब्रह्मचर्य स्वीकार किया । 20 वर्ष छद्मस्थ पर्याय और 44 वर्ष केवली पर्याय पालकर 80 वर्ष की उम्र में मोक्ष पधारे ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/nirgranth-gana#h.hnqxgzwda8wz" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              70 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">ओसवाल जाति कि स्थापना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Ratnaprabhsuri.jpg" alt="ओसवाल जाति कि स्थापना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्री पार्श्वनाथ भगवन के छट्ठे पट्टधर श्री रत्नप्रभसूरी ने उपकेश नगर में 1,80,000 क्षत्रियपुत्रो को उपदेश देकर जैन बनाकर उपकेश वंश की स्थापना की । उपकेश का बाद में अप्रभ्रंश ओसवाल बना । ओसवाल, पोरवाल और श्रीमाल जातियों का महाजन संघ नाम प्रसिद्ध हुआ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://drive.google.com/file/d/16ogCwik-6CNfEthQF3rdEpkfjf4KBXcS/view?usp=sharing" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              160 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">पाटलिपुत्र में प्रथम आगम वाचना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna1.png" alt="पाटलिपुत्र में प्रथम आगम वाचना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">12 वर्षीय दुकाल के बाद श्रमण संघ ने श्री स्थूलिभद्र की अध्यक्षता में पाटलिपुत्र में वीर निर्वाण संवत 160 में पहली अगम वाचना की। उससे 11 अंगो को व्यवस्थित किया। और बारवा अंग सीखने की लिए श्री स्थूलिभद्र आदि मुनि श्री भद्रबाहु स्वामी के पास नेपाल गए ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://drive.google.com/file/d/1Bityx6qGbEMNxBAtm3ruyXsg0QNGTSi5/view" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              222 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">अन्तिम श्रुतकेवली</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/bhadrabahuswami.jpg" alt="अन्तिम श्रुतकेवली"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्रीप्रभवस्वामी, श्रीशय्यंभवस्वामी, श्रीयशोभद्रसूरि, श्रीसंभूतविजय, श्रीभद्रबाहु-स्वामी और श्रीस्थूलभद्रस्वामी, ये छ: चौदहपूर्वधर होने से श्रुतकेवली कहलाये । वाचना की अपेक्षा से श्री भद्रबाहुस्वामी और सूत्र की अपेक्षा से श्री सथूलभद्र अन्तिम श्रुतकेवली हुए ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://medium.com/muni-speaks/shrut-kevali-284b27e08923" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              292 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">1.25 लाख जिन मंदिर निर्माण</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/samprati.jpg" alt="1.25 लाख जिन मंदिर निर्माण"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">पूर्वजन्म के उपकारी आर्य सुहस्ती की कृपा से साम्राज्य की प्राप्ति का ज्ञान होने पर, सम्प्रति महाराजा ने सवा लाख मन्दिर, सवा करोड प्रतिमाएँ, पिचानवें हजार धातु प्रतिमाएँ निर्मित करवाई, छत्तीस हजार मन्दिरों का जीर्णोद्धार एवं सात सौ दानशालाओं से भारत भूमि को भूषित किया ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/jain-kings#h.1gldl7x6s4hw" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              374 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">खंडगिरि उड़ीसा में हाथी गुफा</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/udaygirikhandagiri.jpg" alt="खंडगिरि उड़ीसा में हाथी गुफा"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">जैन धर्म अनुयायी खारवेल का एक शिलालेख उड़ीसा के खंडगिरि में आज भी विद्यमान है जिसमे लिखा है खारवेल ने पुष्यमित्र को हराकर ऋषभदेव की प्रतिमा जो कलिंग जिन के नाम से प्रसिद्ध है जिनको श्रेणिक ने भराई और सुधर्मा स्वामी के द्वारा प्रतिष्ठित उसे कुमारगिरि में प्रतिष्ठित कराई ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/jain-kings#h.s4unrdvny5m4" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              375 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">कुमारगिरि पर दूसरी आगमवाचना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna2.jpg" alt="कुमारगिरि पर दूसरी आगमवाचना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">कुमारगिरि पर कलिंगराज खारवेल ने आर्य सुस्थितसूरी और सुप्रतिबद्धसूरी की अध्यक्षता में श्रमण सम्मलेन बुलवाया जो दूसरी आगम वाचना के नाम से प्रसिद्ध है, जिसमे आर्य बेलिस्सह ने &#x27;अंगविद्या&#x27;, श्री स्वाति ने &#x27;तत्त्वार्थ&#x27;, श्री श्यामाचार्य ने &#x27;प्रज्ञापना&#x27; सूत्र की रचना की ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/jain-kings#h.s4unrdvny5m4" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              470 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">विक्रम संवत्सर</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/vikramaditya.jpg" alt="विक्रम संवत्सर"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्री सिद्धसेन दिवाकर सूरी जी ने श्री कल्याण मंदिर स्तोत्र की रचना कर श्री अवन्ति पार्श्वनाथ की प्रतिमा को प्रकट की।  इस तरह विक्रम राजा को प्रतिबोध कराकर जैन धर्म का अनुरागी बनाया।  इनके उपदेश से पृथ्वी को ऋणमुक्त किया और अपना संवत्सर चलाया जो विक्रम संवत्सर कहलाया।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/prabhavak-acharya#h.6ma47aiad6aj" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              580* वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">मंदसौर में तीसरी आगम वाचना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/mandsaur.jpg" alt="मंदसौर में तीसरी आगम वाचना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">12 वर्षिय दुकाल में वज्रस्वामी सहित बहुत सारे मुनि कालधर्म हुए। श्रमण संघ और श्रुत ज्ञान की बहुत हानि हुई । दशमा पूर्व विच्छेद हो गया । वज्रसेनसूरी, नंदिलसूरी और रक्षितसूरी जी की प्रमुखता में सम्मलेन में अनयोग की और कुछ वर्ष पश्चात चार कुलो में श्रमण संघकी व्यवस्था की गई।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://www.historyofjainism.com/timeline/shraman-parampara/prabhavak-acharya#h.6ma47aiad6aj" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              830 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">मथुरा और वल्लभी में चौथी आगम वाचना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna4.png" alt="मथुरा और वल्लभी में चौथी आगम वाचना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">उस समय भारत वर्ष में अशांति का काल था - सौराष्ट्र में बौद्धों का वितंडावाद और उत्तर भारत में हुनो और गुप्तो का युद्ध चला । बादमें वल्लभी में शिलादित्य और मथुरा में गुप्त विजय हुए। श्रमण संघ ने मथुरा में नागर्जुनसुरी और वल्लभी में स्कंदील सूरी की अध्यक्षता में वाचना की।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              980 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">वल्लभी में पंचम आगम वाचना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/AgamVachna5.jpg" alt="वल्लभी में पंचम आगम वाचना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्री देवर्धिगणि क्षमाश्रमण और आचार्य भूतदिन्न की अध्यक्षता में पांचवी आगम वाचना हुई। प्रथम बार आगमो को पुस्तक आरूढ़ किया गया। मुनि सम्मेलन में 84 आगम, निर्युक्ति, भाष्य , कम्मपयडी और तत्वार्थ सूत्र वगेरा मिलाकर करोड़ श्लोक प्रमाण साहित्य लिखा गया।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-gyan">
+          <div class="timeline__event-date">
+              983* वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">सभा समक्ष कल्पसूत्र का व्याख्यान</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Kalpasutra.jpg" alt="सभा समक्ष कल्पसूत्र का व्याख्यान"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">सेनापति भट्टारक गुप्त वंश की निर्बलता का लाभ लेकर वललभी का राजा बन बैठा । उसका पुत्र ध्रुवसेन वललभी की राजगद्दी पर आया । यह जैन था । कुमारभुक्ति नगर आनन्दपुर में युवराज की मृत्युनिमित्तक राजा ध्रुवसेन के शोक के निवारण हेतु कल्पसूत्र का व्याख्यान सभा के समक्ष प्रवृत्त हुआ |</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              1272 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">अणहिलपुर पाटण की स्थापना</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/patan.jpg" alt="अणहिलपुर पाटण की स्थापना"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">वनराज ने वि.सं. ८०२ में अणहिलपुर पाटण की स्थापना की और पंचासरा पार्श्वनाथ भगवान का मन्दिर बनवाया । वनराज के गुजरात राज्य की स्थापना में आचार्य शीलगुणसूरि की कृपा तथा बुद्धिमान्‌ जैनों का पूरा साथ था । महापराक्रमी चांपराज, नीना और आशक वनराज के जैन मंत्री थे ।</div>
+          
+          <div class="timeline__event-actions">
+            <a 
+              class="timeline__event-action" 
+              href="https://medium.com/muni-speaks/the-glory-of-patan-f3c84954f895" 
+              title="Learn More">
+                और पढ़ें
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1558 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">विमलवसही</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/vimalvasahi.jpg" alt="विमलवसही"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">विमलमन्त्री गुजरात के राजा भीमदेव के सेनापति थे । एक बार श्री धर्मघोषसूरि से प्रभावित होकर युद्धों में लगे पापों का प्रायश्चित करना चाहा । आचार्य श्री ने प्रायश्चित में आबू तीर्थ का उद्धार कराने को कहा। अद्भुत कलाकृति से युक्त मन्दिर बनाया जिसके कारण ही आबू विश्वविख्यात है ।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1612 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">अन्तरिक्ष पार्श्वनाथ तीर्थ</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/antariksh.jpg" alt="अन्तरिक्ष पार्श्वनाथ तीर्थ"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">रामायणकालीन वालुका से निर्मित पार्श्वनाथ की प्रतिमा विदर्भ के किसी सरोवर में देव द्वारा पूजी जाती थी। एलिचपुर का राजा कुष्ठ रोग से पीड़ित था । प्रतिमा से उसका रोग शान्त हो गया । राजा प्रतिमा लेकर अपने नगर को चला । नियतिवश बीच रास्ते में प्रतिमा स्थिर हो गई । वहीं मन्दिर बनाया ।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              1669 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">परमार्हत कुमारपाल</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/kumarpal.jpg" alt="परमार्हत कुमारपाल"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">कुमारपाल गुजरात की राजगद्दी पर आकर १८ देश पर अधिपत्य जमाया।आचार्य श्री हेमचन्द्रसूरि के उपदेश से कुमारपाल ने सदा के लिए &#x27;अमारि&#x27; प्रवर्तन करवाया, जैन श्रावक के व्रतों को ग्रहण किया, सात बार तीर्थयात्रा, २१ ज्ञानभण्डार और १४४४ नये मन्दिरों बनवाए, १६०० मन्दिरों का उद्धार किया।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1683 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">शत्रुंजय का चौदहवा उद्धार</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Jinnordhar14.jpg" alt="शत्रुंजय का चौदहवा उद्धार"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">मन्त्री बाहड सिद्धराज का मन्त्री और कुमारपाल का महामात्य था । उसने काष्ठ निर्मित मूलनायक का देरासर को संगमरमर पाषाण का बनाया। प्रतिष्ठा कलिकालसर्वज्ञ आ. श्री हेमचन्द्रसूरि से करवाई । यह देरासर आज भी विद्यमान है। मन्दिर के समाचार लाने वाले को प्रतिदान 16 चांदी की जीभें दी थी |</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-raja">
+          <div class="timeline__event-date">
+              1746 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">महामात्य वस्तुपाल और तेजपाल</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/vastupaltejpal.jpg" alt="महामात्य वस्तुपाल और तेजपाल"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">आरम्भ में यह दोनों भाई राजा वीरधवल के महामात्य थे । इनकी सूझबूझ से गुजरात, राजस्थान और महाराष्ट्र के हिंदु राजाओं का पुन: संगठन हुआ । इन्होने कुल ६३ युद्धों में विजय पाई थी । यह आ० श्री विजयसेनसूरि को धर्मदाता गुरु मानता था । यह स्वयं विद्वान्‌ और विद्यानुरगागी था ।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              1755 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">तपागच्छ</div>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्री सुधर्मा स्वामी की परंपरा के 44 पट्टधर श्री जगच्चन्द्रसुरि हुए। आयंबिल करते बारह वर्ष होने आये तब मेवाड में पधारे | आघाटपुर (आयड) में मेवाड के राणा जैत्रसिंह ने आपके तप से प्रभावित होकर आपको “तपा&#x27; का बिरुद दिया | तब से भगवान महावीर की श्रमण परंपरा तपागच्छ कहलाने लगा ।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1780 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">श्री शंखेश्वर-तीर्थ का जीर्णोद्धार</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Shankeshwar.jpg" alt="श्री शंखेश्वर-तीर्थ का जीर्णोद्धार"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">झीँझुवाडा का राजा दुर्जनशल्य कोढ रोग से ग्रस्त हो गया, जिसे मिटाने के लिए अनेक उपचार किये । अन्त में सूर्यनारायण की आराधना की । सूर्यनारायण ने कहा - शंखेश्वर तीर्थ में भगवान की पूजा से रोग शान्त हो जायेगा। राजा ने वि.स. 1310 में इस तीर्थ का जीर्णोद्धार करवाया ।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              1966 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">राणकपुर</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Ranakpur.jpg" alt="राणकपुर"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">एक बार संघवी धरणशाह ने स्वप्न में नलिनीगुल्म-विमान देखा और ऐसा ही भव्य मंदिर बनवाने का निर्णय लिया । कालक्रम से राणकपुर में १४४४ स्तंभों से भव्य तीन मंजिल का ४५ फुट ऊंचा जिन-प्रासाद बनाया जिसकी प्रतिष्ठा वि.सं. १४९६ में आ. श्री सोमसुन्दरसूरि ने की ।</div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-mandir">
+          <div class="timeline__event-date">
+              2047 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">शत्रुंजय का सोलहवां उद्धार</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/ShatrunjayAdinath.jpg" alt="शत्रुंजय का सोलहवां उद्धार"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">मुस्लिम आक्रमककारो ने शत्रुंजय पर बिराजित मूलनायक को तोड़ दिया । उदयपुर के कर्माशाह ने विधिवत नई प्रतिमा का निर्माण कराया जिसकी प्रतिष्ठा श्री विद्यामंडनसूरि के हाथो हुई। प्रतिष्ठा के समय परमात्मा ने सात बार श्वासोश्वास लिए। आज शत्रुंजय  के शिखर पर मूलनायक रूपी बिराजमान है। </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2078 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">अकबर प्रतिबोध</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/Akbar.jpg" alt="अकबर प्रतिबोध"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">आचार्य श्री हीरविजयसूरी के उपदेश से अकबर ने अपने 12 सूबो में प्रतिवर्ष 6 महीने अमारि-प्रवर्तन करवाया, “जजीया” बन्द कर दिया, निःसंतान का धन लेना बंद किया। अकबर जो हमेशा 500 पक्षी की जीभ का नाश्ता करता था उसे बंद किया और आचार्य श्री को जगद्गुरुः के खिताब से सन्मानित किया। </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2378 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">संवेगी मार्ग का संरक्षण</div>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">श्री बुद्धिविजय ने साधुओ द्वारा परिग्रह संचय, जैन चैत्यों में निवास और प्रतिमा पूजन का विरोध - ऐसे जैन शासन विरुद्ध आचार का विरोध कर, एकाकी घोर उपसर्गो और कठोर परिषहों को बर्दाश्त कर श्री तीर्थंकर केवळीं भगवंतो के वास्तविक सत्यधर्म के पुनरुत्थान करने में विजय प्राप्त की। </div>
+          
+        </div>
+        
+        <div class="timeline__event timeline__eventtype-default">
+          <div class="timeline__event-date">
+              2547 वीर निर्वाण संवत
+          </div>
+          <div class="timeline__event-title text-center">वर्तमान साधुसमुदाय</div>
+          
+          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
+          <img class="timeline__event-image" src="/static/images/timeline/JainSadhu.jpg" alt="वर्तमान साधुसमुदाय"/>
+          
+          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
+          <div class="timeline__event-descr">समग्र जिन शासन में श्वेताम्बर दिगंबर स्थानकवासी तेरापंथी आदि चारों  प्रमुख संप्रदायों में 17,155  साधु - साध्वीजी है। श्वेताम्बर मूर्तिपूजक मंदिर मार्गीय  समुदाय सबसे बड़ा है जिसमें  कुल 10715 के करीब साधु साध्वीजी है। </div>
+          
+        </div>
+        
+      </div>       
+    </div> 
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCu1azH_PqRsw9cc8hgliqZ2rgu2aMInSM",
+        authDomain: "history-of-jainism.firebaseapp.com",
+        projectId: "history-of-jainism",
+        storageBucket: "history-of-jainism.appspot.com",
+        messagingSenderId: "1020329931456",
+        appId: "1:1020329931456:web:023d8b13ded314cca0f325",
+        measurementId: "G-HWR4YKMSDK"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <footer class="flex-fill col">
+    <div 
+        class="bg-image" 
+        style="
+            background-image:url('/static/images/Background2.png');
+            height:100vh;
+            background-color: red;
+        "
+    >
+    <div class="p-2 text-center">
+        <!-- Whatsapp -->
+        <a class="btn btn-primary me-3" style="background-color: #25d366;" href="http://joinwhatsapp.historyofjainism.com/" role="button">
+            <i class="fab fa-lg fa-whatsapp"></i>
+            JOIN Whatsapp Group
+        </a>
+    </div>
+    <div class="p-2 text-center" >
+        <!-- Facebook -->
+        <a class="btn btn-primary me-3" style="background-color: #3b5998;" href="https://fb.com/historyofjainism" role="button">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-primary me-3" style="background-color: #55acee;" href="https://twitter.com/muni_speaks" role="button">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Instagram -->
+        <a class="btn btn-primary me-3" style="background-color: #ac2bac;" href="https://www.instagram.com/historyofjainism/" role="button">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</footer>
+  </body>
+</html>

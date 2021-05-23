@@ -22,5 +22,5 @@ import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('timeline/<slug:timeline_name>', views.timeline )
+    path('timeline/<slug:lang>/<slug:timeline_name>', views.timeline )
 ] 
