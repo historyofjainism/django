@@ -5,6 +5,13 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 import os 
 
+from django.template.loader import get_template
+from django.template import Engine, Context, Template
+from xml.dom.minidom import parseString, parse
+
+import html5lib
+
+
 BASE_DIR = Path(__file__).resolve().parent
 EVENT_IMG_BASE_URL = "/static/images/timeline/"
 COVER_IMG_BASE_URL = "/static/images/timeline/"
@@ -52,4 +59,36 @@ def timeline(request, lang, timeline_name):
             'lang_en_url' : '/timeline/en/' + timeline_name,
             'lang_hi_url' : '/timeline/hi/' + timeline_name
         } )
+
+def webstory(request, lang, webstory_name):
+    return render(
+        request,
+        'webstory.html',
+        {
+            'title' : "गच्छ",
+            'description' : "गच्छ, कुल, गण और शाखाएं का पारिभाषिक अर्थ",
+            'prod_url' : PROD_WEBSITE + request.path,
+            'linkpreview_img' : PROD_WEBSITE + '/static/images/gaccha.jpg',
+            'coverimg' : '/static/images/gaccha.jpg',
+        } ) 
+
+def article(request, lang, article_name):
+    content_path = os.path.join(BASE_DIR, "content/article/taksasila.html")
+    content_et = ET.parse(open(content_path,'rb')).getroot()
+    title = content_et.find("./article/header/div[@class='title']").text
+    subtitle = content_et.find("./article/header/div[@class='subtitle']").text
+    description = content_et.find("./article/header/div[@class='description']").text
+    coverimg = content_et.find("./article/header/img[@class='coverimg']").get('src')
+    return render(
+        request,
+        'article.html',
+        {
+            'title' : title,
+            'subtitle' : subtitle,
+            'description' : description,
+            'prod_url' : PROD_WEBSITE + request.path,
+            'linkpreview_img' : PROD_WEBSITE + coverimg,
+            'article_content' : article_name + ".html",
+        } ) 
+
 

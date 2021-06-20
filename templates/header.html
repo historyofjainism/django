@@ -1,11 +1,12 @@
 {% load static %}
-<header class="flex-lg-fill col">
+<header class="flex-lg-fill col ">
     <div 
         class="bg-image" 
         style="
-            background-image:url('/static/images/Background2.png');
-            height:100vh;
-            background-color: red;
+            background: #f12711;  /* fallback for old browsers */
+            background: -webkit-linear-gradient( red, yellow, white, green, black);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient( red, yellow, white, green, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            height:100vh; /*            background-image:url('/static/images/Background2.png'); */
         "
     >
     <nav class="navbar p-0 m-0">
@@ -23,7 +24,7 @@
             max-width: 450px;
             background-image:url('{{ coverimg }}');
             height: 225px;
-            margin: 15px;
+            margin: 15px auto;
             border-radius: 5%;
             border-color: lightgray;
             border-style:solid;
@@ -40,7 +41,7 @@
             text-align: justify;
             text-justify: inter-word;
             font-family: 'Martel', sans-serif;
-            margin:15px;
+            margin: 15px auto;
             padding: 15px;
             border-radius:5%;
             border-style: none;
