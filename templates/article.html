@@ -17,12 +17,7 @@
   <script src='/static/js/article.js'></script>
 </head>
 <body>
-  <nav class="site">
-    <a class="logo" href="https://historyofjainism.com">
-        <img class="logo" src="{% static 'images/Logo-Transparent-White.png' %}" alt="History of Jainism"/>
-    </a>
-    <div style="font-size:24px;">History of Jainism</div>
-  </nav>
+  {% include "header.html" %}
   <nav class="article">
     <div style='display: flex;justify-content: space-between;font-size:0.75em; margin-bottom: 10px; color:#14599d;'>
       <div>
@@ -63,7 +58,23 @@
     </div>
     <a onclick="hide_nav_by_name('toc')"><i class="fas fa-window-close"></i></a>
   </nav>
-{% include article_content %}
-{% include "analytics.html" %}
+  <nav class='preview hide'>
+    <div class='content'>
+      <div style="
+        font-size:1.25em;
+      ">
+        <img style='float:left;' src='/static/images/taxila/Taxila.jpeg' width="100px"/>
+        Title
+        <div style="
+        color: silver;
+        font-size:1em;
+      ">SubTitle</div>
+      </div>
+      <a style="color:blue; text-decoration: none;">Read More</a>
+    </div>
+  </nav>
+  {% include article_content %}
+  {% include "footer.html" %}
+  {% include "analytics.html" %}
 </body>
 </html>

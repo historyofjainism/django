@@ -22,6 +22,7 @@ import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.home),
     path('timeline/<slug:lang>/<slug:timeline_name>', views.timeline ),
     path('webstory/<slug:lang>/<slug:webstory_name>', views.webstory ),
     path('article/<slug:lang>/<slug:article_name>', views.article )

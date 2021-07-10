@@ -1,19 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap');
+/*
+  @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap');
+  Mukta
+    Extra-light 200
+    Light 300
+    Regular 400 - Paragraph
+    Medium 500 - subtitle, description
+    Semi-bold 600 - Paragraph Higlight
+    Bold 700 - Section Heading
+    Extra-bold 800 - Title of the page
+
+  Martel
+    Extra-light 200
+    Light 300
+    Regular 400
+    Semi-bold 600
+    Bold 700 - Section Heading
+    Extra-bold 800 - Section Heading
+    Black 900 - Title of the page
+
+  Laila Font Weight:
+    700 - Title of the page
+    600 - Section Headings h1..h6
+    500 - Any Bold Text
+    400 - Regular Text
+
+  Vesper Libre
+    Regular 400 - Regular Text
+    Medium 500 - Any Bold Text
+    Bold 700 - Section Headings
+    Black 900 - Title
+*/
 body {
   margin: 0px;
   padding: 0px;
-  font-size: 16px;
-  font-family: 'Mukta', sans-serif;
+  font-size: 18px;
+  font-family: 'Vesper Libre', serif;
   font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 nav a {
   color: #14599d;
   text-decoration:none;
 }
-nav.site {
-  background-color: #0e365a;
+nav.site-old {
+  /*background-color: #0e365a;*/
+  background-color: black;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -25,8 +60,10 @@ nav.site {
   right:0px;
   height: 50px;
 }
+
 nav.article {
-  background-color:#f2f2f2; 
+  /*background-color:#f2f2f2; */
+  background-color:white;
   padding:10px;
   border-bottom:#ccc 1px solid;
   position: fixed;
@@ -35,7 +72,8 @@ nav.article {
   right:0;
 }
 nav.reading {
-  background-color:#f2f2f2; 
+  /*background-color:#f2f2f2; */
+  background-color:white;
   padding:10px;
   border-bottom:#ccc 1px solid;
   position: fixed;
@@ -69,6 +107,30 @@ nav.share {
   right:0;
   height: 30px;
 }
+nav.preview {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+nav.preview .content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: white;
+  right: 0;
+  padding: 15px;
+}
+
+.linkpreview {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+}
 nav.quiz {
   background-color: #f2f2f2;
   border-top: 5px solid #0e365a;
@@ -99,63 +161,48 @@ nav .social {
   align-items: center;
 }
 nav.hide {
-  display:none;
+  display:none !important;
 }
 
-nav .logo {
-  width: 35px;
-  height: 35px;
+
+main {
+  display : flex;
+  flex-direction: column;
+  padding-top: 140px;
 }
-/*
-  Mukta
-    Extra-light 200
-    Light 300
-    Regular 400 - Paragraph
-    Medium 500 - subtitle, description
-    Semi-bold 600 - Paragraph Higlight
-    Bold 700 - Section Heading
-    Extra-bold 800 - Title of the page
-
-  Martel
-    Extra-light 200
-    Light 300
-    Regular 400
-    Semi-bold 600
-    Bold 700 - Section Heading
-    Extra-bold 800 - Section Heading
-    Black 900 - Title of the page
-
-  Laila Font Weight:
-    700 - Title of the page
-    600 - Section Headings h1..h6
-    500 - Any Bold Text
-    400 - Regular Text
-*/
 article {
+  color: rgb(60,60,60);
   font-size: 1em;
   font-weight: 400;
   background-color: #f2f2f2;
-  margin-top:100px;
 }
+
 article figure {
   margin: 0px;
 }
 article figcaption {
   display: flex;
   justify-content: center;
+  font-weight: 300;
+  font-size: 0.75em;
+  padding: 0 10px;
+  color: rgb(171,171,171);
+  margin-top: 0;
 }
 article .title {
-  font-size: 2em; 
-  font-weight: 800;
+  font-size: 3em; 
+  font-weight: 900;
   align-self:center;
-  margin: 30px 0;
+  color: rgb(0,0,0);
+  margin-top: 36px;
 }
 article .subtitle {
   font-size: 1.25em;
   font-weight: 500;
-  margin: 30px 0;
+  color: rgb(117,117,117);
 }
 article .coverimg {
+  margin: 30px 0;
   width:100%;
 }
 article .description {
@@ -164,7 +211,6 @@ article .description {
   font-weight: 500;
 }
 article header {
-  margin-top: 30px;
   background-color: white;
   padding:10px ;
 }
@@ -183,16 +229,16 @@ article ul {
 }
 
 article h1 {
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: 700;
 }
 article h2 {
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
 article h3 {
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: 700;
 }
 
@@ -206,4 +252,28 @@ article .shloka {
 
 article img {
   width: 100%;
+}
+
+@media (min-width: 450px) {
+  body {
+    font-size: 20px;
+    background-color: #f2f2f2;
+  }
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  nav.quiz {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  article header {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  article section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }

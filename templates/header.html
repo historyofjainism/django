@@ -1,58 +1,127 @@
-{% load static %}
-<header class="flex-lg-fill col ">
-    <div 
-        class="bg-image" 
-        style="
-            background: #f12711;  /* fallback for old browsers */
-            background: -webkit-linear-gradient( red, yellow, white, green, black);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient( red, yellow, white, green, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            height:100vh; /*            background-image:url('/static/images/Background2.png'); */
-        "
-    >
-    <nav class="navbar p-0 m-0">
-        <a class="navbar-brand" href="https://historyofjainism.com">
-            <img src="{% static 'images/Logo-Transparent-White.png' %}" alt="History of Jainism" style="padding:5px; width:35px; height:35px"/>
+<header>
+    <style>
+        nav .logo {
+            width: 40px;
+            height: 40px;
+        }
+        nav.site {
+            /*background-color: #0e365a;*/
+            color: black;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            align-items: center;
+            position: fixed;
+            left:0;
+            top:0;
+            right:0px;
+            height: 50px;
+            z-index: 1000;
+        }
+        .menu-open {
+            color: black;
+            text-decoration: none;
+        }
+        .menu {
+            display: none;
+            position: fixed;
+            margin: 0px;
+            left: 0;
+            top:0;
+            right:0;
+            bottom:0;
+            background-color: white;
+            z-index: 10;
+        }
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            margin-top:75px;
+            font-size: 1.25em;
+            align-items: center;
+        }
+        .menu-close {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 15px;
+            font-size: 2em;
+        }
+
+        @media (min-width: 900px) {
+            .menu-open, .menu-close {
+                display: none;
+            }    
+            .menu {
+                display: flex;
+                position: relative;
+            }
+            .menu-list {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                margin: 0;
+                font-size: 0.75em;
+            }
+        }
+        .menu-item {
+            padding: 15px;
+        }
+        .menu-follow {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 30px;
+        }
+        nav .menu a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <script>
+        function showMenu() {
+            document.getElementsByClassName('menu')[0].style.display = "block"
+        }
+        function closeMenu() {
+            document.getElementsByClassName('menu')[0].style.display = "none"
+        }
+    </script>
+    <nav class="site">
+        <div style='display:flex;'>
+            <img class="logo" src="/static/images/logo_b_on_w_fill.png" alt="History of Jainism"/>
+            <div style="font-size:24px;padding-left:15px;">History of Jainism</div>
+        </div>
+        <a class='menu-open' onclick='showMenu()'>
+            <i class="fas fa-bars"></i>
         </a>
-        <strong class="navbar-brand text-white" style="font-family: 'Amita', sans-serif">{{ title }}</strong>
-        <div class="text-white p-2">
-            <a class="text-white" href='{{ lang_en_url }}'>Eng</a> | <a class="text-white" href='{{ lang_hi_url }}'>हिंदी</a>
+        <div class='menu'>
+            <div class='menu-list'>
+                <a class='menu-item' href='/'>HOME</a>
+                <a class='menu-item' href='https://medium.com/muni-speaks'>MUNI SPEAKS</a>
+                <a class='menu-item' href='https://historyofjainism.com'>MORE</a>
+                <div class='menu-item menu-follow'>
+                <!-- Whatsapp -->
+                    <a href="http://joinwhatsapp.historyofjainism.com/">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://fb.com/historyofjainism">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/muni_speaks">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/historyofjainism/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <a class='menu-close' onclick='closeMenu()'>
+                <i class="fas fa-times"></i>
+            </a>
         </div>
     </nav>
-    <div 
-        class="bg-image" 
-        style="
-            max-width: 450px;
-            background-image:url('{{ coverimg }}');
-            height: 225px;
-            margin: 15px auto;
-            border-radius: 5%;
-            border-color: lightgray;
-            border-style:solid;
-            border-width: 1px;
-            background-position: center;
-        "
-    >
-    </div>
-    <div 
-        style="
-            max-width: 450px;
-            font-size: 1rem;
-            line-height: 1.5rem;
-            text-align: justify;
-            text-justify: inter-word;
-            font-family: 'Martel', sans-serif;
-            margin: 15px auto;
-            padding: 15px;
-            border-radius:5%;
-            border-style: none;
-            border-width: 2px;
-            border-color: white;
-            background-color:rgba(0,0,0,0.5);
-            color: white;
-        "
-        >
-        {{ description }}
-        <div class="pt-3 text-center">Scroll to read</div>
-    </div>
 </header>
-

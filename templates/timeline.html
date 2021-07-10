@@ -12,18 +12,58 @@
   <meta name="description" content="{{ description }}">
   {% load static %}
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Laila:wght@500&display=swap" rel="stylesheet">  
-  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Laila:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}" type="text/css" charset="utf-8" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
   <link rel="stylesheet" href="{% static 'css/timeline.css' %}">
 </head>
 <body>
+  {% load static %}
   {% include "header.html" %}
-    <div class= "flex-lg-fill col">
-      <div class="m-3 note note-primary d-none d-sm-block">
-        Mobile-first website. Best viewed on a mobile device  
+  <style>
+      article header {
+        max-width: 700px;
+        margin: auto;
+      }
+      article .title {
+        font-size: 3em; 
+        font-weight: 900;
+        align-self:center;
+        color: rgb(0,0,0);
+        margin-top: 36px;
+      }
+      article .subtitle {
+        font-size: 1.25em;
+        font-weight: 500;
+        color: rgb(117,117,117);
+      }
+      article .coverimg {
+        margin: 30px 0;
+        width:100%;
+      }
+      article .description {
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 500;
+      }
+      article header {
+        background-color: white;
+        padding:10px ;
+      }
+  </style>
+  <article>
+    <header>
+      <div class="title">{{ title }}</div>
+      <!--div class="subtitle">उत्तर का शत्रुंजय तीर्थ</div-->
+      <img class="coverimg" src="{{ coverimg }}" alt="{{ title }}"/>
+      <div class="description">
+        {{ description }}
       </div>
+      <div class="p-2">
+        <a href='{{ lang_en_url }}'>Eng</a> | <a href='{{ lang_hi_url }}'>हिंदी</a>
+      </div>
+    </header>
+  
+      <div class= "flex-lg-fill col">
       <div class="timeline">
         <div class="timeline__bar"></div>
         <div class="d-flex justify-content-center p-2" style="position: relative;
@@ -72,6 +112,8 @@
         {% endfor %}
       </div>       
     </div> 
+  </article>
+
     {# include "analytics.html" #}
     {% include "footer.html" %}
   </body>

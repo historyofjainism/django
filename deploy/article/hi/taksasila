@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="" >
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8"></meta>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 <!-- ****** faviconit.com favicons ****** -->
-<link rel="shortcut icon" href="/static/images/favicon/favicon.ico">
-<link rel="icon" sizes="16x16 32x32 64x64" href="/static/images/favicon/favicon.ico">
-<link rel="icon" type="image/png" sizes="196x196" href="/static/images/favicon/favicon-192.png">
-<link rel="icon" type="image/png" sizes="160x160" href="/static/images/favicon/favicon-160.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96.png">
-<link rel="icon" type="image/png" sizes="64x64" href="/static/images/favicon/favicon-64.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16.png">
-<link rel="apple-touch-icon" href="/static/images/favicon/favicon-57.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/favicon-114.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/favicon-72.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/favicon-144.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/favicon-60.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/favicon-120.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/favicon-76.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/favicon-152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/favicon-180.png">
-<meta name="msapplication-TileColor" content="#FFFFFF">
-<meta name="msapplication-TileImage" content="/static/images/favicon/favicon-144.png">
-<meta name="msapplication-config" content="/static/images/favicon/browserconfig.xml">
+<link rel="shortcut icon" href="/static/images/favicon/favicon.ico"></link>
+<link rel="icon" sizes="16x16 32x32 64x64" href="/static/images/favicon/favicon.ico"></link>
+<link rel="icon" type="image/png" sizes="196x196" href="/static/images/favicon/favicon-192.png"></link>
+<link rel="icon" type="image/png" sizes="160x160" href="/static/images/favicon/favicon-160.png"></link>
+<link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96.png"></link>
+<link rel="icon" type="image/png" sizes="64x64" href="/static/images/favicon/favicon-64.png"></link>
+<link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32.png"></link>
+<link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16.png"></link>
+<link rel="apple-touch-icon" href="/static/images/favicon/favicon-57.png"></link>
+<link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/favicon-114.png"></link>
+<link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/favicon-72.png"></link>
+<link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/favicon-144.png"></link>
+<link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/favicon-60.png"></link>
+<link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/favicon-120.png"></link>
+<link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/favicon-76.png"></link>
+<link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/favicon-152.png"></link>
+<link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/favicon-180.png"></link>
+<meta name="msapplication-TileColor" content="#FFFFFF"></meta>
+<meta name="msapplication-TileImage" content="/static/images/favicon/favicon-144.png"></meta>
+<meta name="msapplication-config" content="/static/images/favicon/browserconfig.xml"></meta>
 <!-- ****** faviconit.com favicons ****** -->
 <!-- og:title Maximum 35 characters -->
-<meta property="og:title" content="तक्षशिला" />
+<meta property="og:title" content="तक्षशिला"></meta>
 <!-- og:url Full link to the current webpage address -->
-<meta property="og:url" content="https://history-of-jainism.web.app/article/hi/taksasila" />
-<meta property="og:site_name" content="History of Jainism">
+<meta property="og:url" content="https://history-of-jainism.web.app/article/hi/taksasila"></meta>
+<meta property="og:site_name" content="History of Jainism"></meta>
 <!-- og:description Maximum 65 characters -->
-<meta property="og:description" content="एक समृद्ध ऐतिहासिक जैन धर्म की नगरी" />
+<meta property="og:description" content="एक समृद्ध ऐतिहासिक जैन धर्म की नगरी"></meta>
 <!-- og:image Image(JPG or PNG) with a size less than 300KB and minimum dimensions of 300 x 200 *. This image should be served via a HTTPS connection with a valid non-self-signed certificate.** -->
-<meta property="og:image" itemprop="image" content="https://history-of-jainism.web.app/static/images/taxila/Taxila.jpeg" /> 
-<meta property="og:image:secure_url" itemprop="image" content="https://history-of-jainism.web.app/static/images/taxila/Taxila.jpeg" /> 
-<meta property="og:updated_time" content="2021-05-16T11:00:00+0530" />
+<meta property="og:image" itemprop="image" content="https://history-of-jainism.web.app/static/images/taxila/Taxila.jpeg"></meta> 
+<meta property="og:image:secure_url" itemprop="image" content="https://history-of-jainism.web.app/static/images/taxila/Taxila.jpeg"></meta> 
+<meta property="og:updated_time" content="2021-05-16T11:00:00+0530"></meta>
 <!-- og:type In order for your object to be represented within the graph, you need to specify its type. Here's a list of the global types available: http://ogp.me/#types. You can also specify your own types. -->
-<meta property="og:type" content="article" />
-<meta property="og:locale" content="hi_EN" />
-<meta property="og:locale:alternate" content="en_GB" />
+<meta property="og:type" content="article"></meta>
+<meta property="og:locale" content="hi_EN"></meta>
+<meta property="og:locale:alternate" content="en_GB"></meta>
 <!-- Twitter For the best Twitter support read https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started.-->
 <meta name="twitter:card" content="summary"></meta>
 <meta name="twitter:site" content="@muni_speaks"></meta>
@@ -48,97 +48,142 @@
   <!-- title Maximum of 65 characters -->
   <title>History of Jainism - तक्षशिला</title>
   <!-- description Maximum of 155 characters -->
-  <meta name="description" content="एक समृद्ध ऐतिहासिक जैन धर्म की नगरी">
+  <meta name="description" content="एक समृद्ध ऐतिहासिक जैन धर्म की नगरी"></meta>
   
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="/static/css/article.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-  <script>
-    currentScroll = 0
-    previousScroll = 0
-    hide_override=false
-    function show_nav(nav) {
-      nav.classList.remove("hide")
-    }
-    function hide_nav(nav) {
-      nav.classList.add("hide")
-    }
-    function show_nav_by_name(name) {
-      nav = document.querySelector('nav.' + name)
-      show_nav(nav)
-    }
-    function hide_nav_by_name(name) {
-      nav = document.querySelector('nav.' + name)
-      hide_nav(nav)
-    }
-    function navigate_section() {
-      hide_override=true
-    }
-    window.addEventListener("scroll", function() {
-      if (hide_override) {
-        hide_nav_by_name('site')
-        hide_nav_by_name('reading')
-        hide_nav_by_name('share')
-        hide_nav_by_name('article')
-        hide_nav_by_name('toc')
-        hide_override=false
-        return
-      }
-      h = window.innerHeight
-      s = window.scrollY
-      currentScroll = s
-      site_nav = document.querySelector('nav.site')
-      article_nav = document.querySelector('nav.article')
-      reading_nav = document.querySelector('nav.reading')
-      share_nav = document.querySelector('nav.share')
-      if ( s > h && currentScroll > previousScroll ) {
-        hide_nav(site_nav)
-        hide_nav(article_nav)
-        show_nav(reading_nav)
-        show_nav(share_nav)
-      }
-      else {
-        show_nav(site_nav)
-        show_nav(article_nav)
-        hide_nav(reading_nav)
-        hide_nav(share_nav)
-      }
-
-      sections = document.getElementsByTagName("section")
-      cur_sec = 0
-      for(i=0; i<sections.length; i++) {
-        if (s >= sections[i].offsetTop) {
-          cur_sec = i
-        }
-      }
-      reading_nav.getElementsByClassName("title")[0].innerHTML = sections[cur_sec].getElementsByTagName("h1")[0].innerHTML
-
-      previousScroll = currentScroll
-    })
-    window.addEventListener('load', function() {
-      function link_html( link_hash, link_text ) {
-        return "<li><a onclick='navigate_section()' href='#" + link_hash + "''>" + link_text + "</a></li>"
-      }
-      toc_nav = document.querySelector('nav.toc .sections_list')
-      sections = document.querySelectorAll('article section')
-      toc = toc_nav.innerHTML + "<ul>"
-      for (i=1; i<sections.length; i++) {
-        toc += link_html( 
-          sections[i].id,
-          sections[i].querySelector('h1').innerHTML )
-      }
-      toc += "</ul>"
-      toc_nav.innerHTML = toc
-    })
-  </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+  <link rel="stylesheet" href="/static/css/article.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"></link>
+  <script src='/static/js/article.js'></script>
 </head>
 <body>
-  <nav class="site">
-    <a class="logo" href="https://historyofjainism.com">
-      <img class="logo" src="/static/images/Logo-Transparent-White.png" alt="History of Jainism"/>
-    </a>
-    <div style="font-size:24px;">History of Jainism</div>
-  </nav>
+  <header>
+    <style>
+        nav .logo {
+            width: 40px;
+            height: 40px;
+        }
+        nav.site {
+            /*background-color: #0e365a;*/
+            color: black;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            align-items: center;
+            position: fixed;
+            left:0;
+            top:0;
+            right:0px;
+            height: 50px;
+            z-index: 1000;
+        }
+        .menu-open {
+            color: black;
+            text-decoration: none;
+        }
+        .menu {
+            display: none;
+            position: fixed;
+            margin: 0px;
+            left: 0;
+            top:0;
+            right:0;
+            bottom:0;
+            background-color: white;
+            z-index: 10;
+        }
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            margin-top:75px;
+            font-size: 1.25em;
+            align-items: center;
+        }
+        .menu-close {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 15px;
+            font-size: 2em;
+        }
+
+        @media (min-width: 900px) {
+            .menu-open, .menu-close {
+                display: none;
+            }    
+            .menu {
+                display: flex;
+                position: relative;
+            }
+            .menu-list {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                margin: 0;
+                font-size: 0.75em;
+            }
+        }
+        .menu-item {
+            padding: 15px;
+        }
+        .menu-follow {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 30px;
+        }
+        nav .menu a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <script>
+        function showMenu() {
+            document.getElementsByClassName('menu')[0].style.display = "block"
+        }
+        function closeMenu() {
+            document.getElementsByClassName('menu')[0].style.display = "none"
+        }
+    </script>
+    <nav class="site">
+        <div style='display:flex;'>
+            <img class="logo" src="/static/images/logo_b_on_w_fill.png" alt="History of Jainism"/>
+            <div style="font-size:24px;padding-left:15px;">History of Jainism</div>
+        </div>
+        <a class='menu-open' onclick='showMenu()'>
+            <i class="fas fa-bars"></i>
+        </a>
+        <div class='menu'>
+            <div class='menu-list'>
+                <a class='menu-item' href='/'>HOME</a>
+                <a class='menu-item' href='https://medium.com/muni-speaks'>MUNI SPEAKS</a>
+                <a class='menu-item' href='https://historyofjainism.com'>MORE</a>
+                <div class='menu-item menu-follow'>
+                <!-- Whatsapp -->
+                    <a href="http://joinwhatsapp.historyofjainism.com/">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://fb.com/historyofjainism">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/muni_speaks">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/historyofjainism/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <a class='menu-close' onclick='closeMenu()'>
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </nav>
+</header>
+
   <nav class="article">
     <div style='display: flex;justify-content: space-between;font-size:0.75em; margin-bottom: 10px; color:#14599d;'>
       <div>
@@ -155,7 +200,9 @@
   <nav class="share">
       <!-- Whatsapp -->
       <a class="social" style="background-color: #25d366;" 
-        href="whatsapp://send?text=https://history-of-jainism.web.app/article/hi/taksasila तीन ऐतिहासिक महान मार्गों के संगम पर स्थित तक्षशिला, जैनो के लिये महत्व का केन्द्र था। भगवान ऋषभदेव के पुत्र बाहुबली का राज्य गान्धार देश की राजधानी थी । शिक्षा का प्रमुख केन्द्र था - यहाँ का विश्वविद्यालय विश्व के प्राचीनतम विश्वविद्यालयों में शामिल है। चाणक्य यहाँ पर आचार्य थे। वर्तमान में देवसीय प्रतिक्रमण में बोले जाने वाले लघु शांति स्त्रोत्र की रचना तक्षशिला के लिए की गई थी ।" data-action="share/whatsapp/share">
+        href="whatsapp://send?text=https://history-of-jainism.web.app/article/hi/taksasila %0D%0A तक्षशिला %0D%0A 
+        तीन ऐतिहासिक महान मार्गों के संगम पर स्थित तक्षशिला, जैनो के लिये महत्व का केन्द्र था। भगवान ऋषभदेव के पुत्र बाहुबली का राज्य गान्धार देश की राजधानी थी । शिक्षा का प्रमुख केन्द्र था - यहाँ का विश्वविद्यालय विश्व के प्राचीनतम विश्वविद्यालयों में शामिल है। चाणक्य यहाँ पर आचार्य थे। वर्तमान में देवसीय प्रतिक्रमण में बोले जाने वाले लघु शांति स्त्रोत्र की रचना तक्षशिला के लिए की गई थी । 
+      " data-action="share/whatsapp/share">
         <i class="fab fa-whatsapp"></i>
       </a>
       <!-- Facebook -->
@@ -165,7 +212,7 @@
       </a>
       <!-- Twitter -->
       <a class="social" style="background-color: #55acee;" 
-        href="https://twitter.com/intent/tweet?url=https://history-of-jainism.web.app/article/hi/taksasila&text=Interesting article in history of jainism">
+        href="https://twitter.com/intent/tweet?url=https://history-of-jainism.web.app/article/hi/taksasila&text=Read this interesting article in history of jainism">
         <i class="fab fa-twitter"></i>
       </a>
   </nav>
@@ -179,203 +226,317 @@
     </div>
     <a onclick="hide_nav_by_name('toc')"><i class="fas fa-window-close"></i></a>
   </nav>
-<article>
-  <section>
-    <div class="title">तक्षशिला</div>
-    <div class="subtitle">एक समृद्ध ऐतिहासिक जैन धर्म की नगरी</div>
-    <img class="coverimg" src="/static/images/taxila/Taxila.jpeg" alt="Taxila"/>
-    <div class="description">
-      तीन ऐतिहासिक महान मार्गों के संगम पर स्थित तक्षशिला, जैनो के लिये महत्व का केन्द्र था। भगवान ऋषभदेव के पुत्र बाहुबली का राज्य गान्धार देश की राजधानी थी । शिक्षा का प्रमुख केन्द्र था - यहाँ का विश्वविद्यालय विश्व के प्राचीनतम विश्वविद्यालयों में शामिल है। चाणक्य यहाँ पर आचार्य थे। वर्तमान में देवसीय प्रतिक्रमण में बोले जाने वाले लघु शांति स्त्रोत्र की रचना तक्षशिला के लिए की गई थी । 
+  <nav class='preview hide'>
+    <div class='content'>
+      <div style="
+        font-size:1.25em;
+      ">
+        <img style='float:left;' src='/static/images/taxila/Taxila.jpeg' width="100px"/>
+        Title
+        <div style="
+        color: silver;
+        font-size:1em;
+      ">SubTitle</div>
+      </div>
+      <a style="color:blue; text-decoration: none;">Read More</a>
     </div>
-  </section>
-  <section id='name'>
-    <h1>तक्षशिला के नाम</h1>
-    <p>तक्षशिला के आठ नाम मिलते हैं ।</p>
+  </nav>
+  <main>
+  <article>
+    <header>
+      <div class="title">तक्षशिला</div>
+      <div class="subtitle">एक समृद्ध ऐतिहासिक जैन धर्म की नगरी</div>
+      <img class="coverimg" src="/static/images/taxila/Taxila.jpeg" alt="Taxila"/>
+      <div class="description">
+        तीन ऐतिहासिक महान मार्गों के संगम पर स्थित तक्षशिला, जैनो के लिये महत्व का केन्द्र था। भगवान ऋषभदेव के पुत्र बाहुबली का राज्य गान्धार देश की राजधानी थी । शिक्षा का प्रमुख केन्द्र था - यहाँ का विश्वविद्यालय विश्व के प्राचीनतम विश्वविद्यालयों में शामिल है। चाणक्य यहाँ पर आचार्य थे। वर्तमान में देवसीय प्रतिक्रमण में बोले जाने वाले लघु शांति स्त्रोत्र की रचना तक्षशिला के लिए की गई थी । 
+      </div>
+    </header>
+    <section id='name'>
+      <h1>तक्षशिला के नाम</h1>
+      <p>तक्षशिला के आठ नाम मिलते हैं ।</p>
+      <ol>
+        <li>
+          <h3>तक्षशिला</h3>
+          <p>इसका प्राचीनतम नाम तक्षशिला है</p>
+        </li>
+        <li>
+          <h3>शाकम्भरी</h3>
+          <p>उसके बाद इस का नाम शाकम्भरी पड़ा</p>
+        </li>
+        <li>
+          <h3>टेक्सिला</h3>
+          <p>अंग्रेजों के राज्य में तक्षशिला को इस नाम से संबोधित किया जाता था।</p>
+        </li>
+        <li>
+          <h3>कुणाल देश</h3>
+          <p>जैन सम्राट सम्प्रति मौर्य ने अपने अन्ध पिता कुणाल के निवास के लिए तक्षशिला में व्यवस्था की थी । वहाँ सम्प्रति ने कुणाल की धर्मोपासना के लिए एक जैनस्तूप का निर्माण भी करवाया था कुणाल के यहाँ निवास करते से इसका नाम कुणाल देश पड़ा।</p>
+        </li>
+        <li>
+          <h3>ग़ज़नी</h3>
+          <p>महमूद गजनी के समय में इसका नाम ग़ज़नी पड़ा।</p>
+        </li>
+        <li>
+          <h3>शाह की ढेरी</h3>
+          <p>तक्षशिला के खंडहरों की खुदायी होने से पहले इस क्षेत्र की जनता इसे शाह की ढेरी के नाम से पहचानती थी। ओसवाल श्वेताम्बर जैन प्राचीनकाल से शाह की उपाधि से विभूषित थे ।</p>
+        </li>
+        <li>
+          <h3>धर्मचक्र भूमिका</h3>
+          <p>प्रभु ऋषभदेव के पधारने पर बाहुबली ने यहाँ विश्व के सर्वप्रथम धर्मचक्र तीर्थ की स्थापना की थी। इसलिए इस का नाम धर्मचक्रभूमिका पड़ा। अत: धर्मचक्र प्रवर्तन सर्वप्रथम  जैन धर्म के उपासकों द्वारा हुआ ।</p>
+        </li>
+        <li>
+          <h3>छेंदीमस्तक</h3>
+          <p>चीन देश की भाषा में इसका नाम छेदीमस्तक है।</p>
+        </li>
+      </ol> 
+    </section>
+    <section id="location">
+      <h1>तक्षशिला नगर का स्थान</h1>
+      <figure>
+        <img src="/static/images/taxila/location.jpeg"/>
+        <figcaption>Location</figcaption>
+      </figure>
+      <p>पाकिस्तान में रावलपिडी से २० मील की दूरी पर जो सरायकाला का रेलवे स्टेशन है उससे थोड़ी दूरी पर उत्तर पूर्व की और १२ मील के घेरे में तक्षशिला के खंडहर और स्तूप फैले हुए हैं। यह नगर जिस स्थान पर बसा हुआ था पहाड़ की एक बहुत रमणीक तराई है। इस तराई में हरो नदी तथा अन्य छोटी-छोटी नदियाँ बहती हैं जिससे यह स्थान और भी हराभरा और रमणीय हो गया है। इसके चारों और पहाड़ों की श्रृंखलाएं हैं, उत्तर-पूर्व की ओर हज़ारा और मरी के बरफ़ वाले पहाड़ हैं तथा दक्षिण पश्चिम में मर्गला की घाटी और कई छोटे-छोटे पहाड़ हैं। इसके अलावा यह नगर उस सड़क पर बसा हुआ था जो भारत से सीधी मध्य एशिया तथा पश्चिम एशिया को जाती है। इसी सड़क के माध्यम से मध्य तथा पश्चिमी एशिया श्रौर भारत के बीच प्राचीन समय में व्यापार होता था । इन्हीं सब बातों के कारण कोई आश्चर्य नहीं है कि यह नगर प्राचीन समय में इतने महत्व का समझा जाता रहा है। </p>
+    </section>
+    <section id='bahubali'>
+      <h1>बाहुबली</h1>
+      <p>प्राचीन काल में तक्षशिला बहुत प्रसिद्ध एवं जैन संस्कृति का महत्वपूर्ण केन्द्र रहा है। भगवान ऋषभदेव ने अपने द्वितीय पुत्र बाहुबली को तक्षशिला का राज्य दिया था । </p>
+      <h2>धर्मचक्र तीर्थ</h2>
+      <p>एकदा छद्मस्थावस्था (दीक्षा लेकर केवलज्ञान होने से पहले की अवस्था) में विहार करते हुए (पैदल चलते हुए) अर्हत ऋषभ तक्षशिला में पधारे। बाहुबली को रात के समय प्रभु के पधारने के समाचार मिले । उसने सोचा कि कल प्रातःकाल होते ही मैं प्रभु को बंदन करने के लिए उद्यान में जाऊंगा, जहाँ प्रभु श्राकर ठहरे हैं । प्रात:काल होते ही जब बाहुबली अपने परिवार और समस्त मंत्री-सामंत आदि के साथ उद्यान में पहुंचा तब प्रभु अन्यत्र विहार कर गए थे। बाहुबली को प्रभु के दर्शन न होने से असह्य दुःख हुआ और उसे अपने प्रमाद के लिए बहुत पश्चाताप हुआ । जिस स्थान पर प्रभु रात्रि के समय कायोत्सर्ग मुद्रा में ध्यानरूड़ खड़े रहे थे, वहां उनके दोनों चरणों के निशान पड़े थे । अंकित चरण चिन्हों पर बाहुबली ने प्रभु के चरणबिम्ब स्थापित कर पाठपीठ बनायी उस पर धर्मंचक्र की स्थापना करके धर्मंचक्र तीर्थ को स्थपित किया। विश्व में तक्षशिला में सर्वप्रथम धर्मचक्र-तीर्थ प्रकाश में आया।</p>
+      <h2>भरत और बाहुबली में घोर युद्ध</h2>
+      <p>तक्षशिला में राज्यसत्ता के लिए भरत और बाहुबली दोनों भाईयों में घोर युद्ध हुआ इस प्रसंग का वर्णन करते हुए आचाय विमल सूरि अपने पउम चरियं ग्रंथ(इस ग्रंथ का रचनाकाल दिगम्बरमत उत्पत्ति से पूर्व है) में लिखते हैं कि-</p>
+      <quote class="shloka">
+        <span>उसभ-जिणस्स भगवओ पृुत्त-सयं॑ चन्द-सूर-सरिसाणं ।</span>
+        <span>समणत्त  पडिवन्नं  सए य देहे निखयक्खं  ॥ ३७ ॥</span>
+        <span>तक्खसिलाए महप्प, बाहुबली तस्स निच्च पडिकूलो।</span>
+        <span>भरह-निरिंदस्स सया न कुणइ आणा-पमाणं  सो ॥ ३८ ॥</span>
+        <span>जह रुट्ठो चक्‍कहरो, तस्सुवरिं सयण साहण समग्गो ।</span>
+        <span>नयरस्स तुरिय चवलो, विणिग्गओं सयल-बल-सहिओ ॥ ३६ ॥</span>
+        <span>पत्तो तक्खसिलपुरं  जय सद्दुदग्घट्ठ कलयल रावो ।</span>
+        <span>जूज्क्भस्स  करणत्थं सस्पद्धो तक्‍खनं भरहों ॥४०॥</span>
+        <span>बाहुबली वि महप्पा भरह नरिंदं समागमं साउं।</span>
+        <span>भडचड वरेण महया तकखसिलाओ  विणिज्जाओं ॥४१॥</span>
+        <span>पउमचरियं ४।३७-४ १</span>
+      </quote>
+      <p>अर्थात : ऋषभ-जिन के सूर्य-चन्द्र समान सौ पुत्रों ने श्रमणत्व धारण किया । वे सभी देह से निरपेक्ष (अनासक्त ) थे। (दीक्षा लेने से पहले) तक्षशिला में महात्मा बाहुबली रहते थे। वे सदा भरत के प्रतिकूल थे, चक्रवर्ती भरत की आज्ञा कदापि न मानते थे। इस से चक्रवर्ती ने रुष्ट होकर सकल सामग्री से सम्पन्न सेना को लेकर युद्ध के लिये अभियान किया। वे तक्षशिला पहुंचे। उस समय जयघोष का कलकल शोर सर्वत्र फैल गया । भरत तत्क्षण युद्धार्थ सन्‍नद्ध हो गये । उस समय महात्मा बाहुबली भी भारी सुभट सेना के साथ भरत के साथ युद्ध करने के लिये तक्षशिला से निकल पड़े ।</p>
+      <p>घनघोर युद्ध में बाहुबली विजयी हुआ । पर बड़े भाई का सम्मान करते हुए अपना राज्य भरत को दे दिया और स्वयं आर्हति श्रमण की दीक्षा ग्रहण कर ली । सर्वप्रकार के परिग्रह का त्याग कर अनगार हो गये। भरत ने भी तक्षशिला का राज्य अपने अधीन कर चक्रवर्ती पद प्राप्त किया और बाहुबली के पुत्र सोमप्रभ (सोमयश) को तक्षशिला और कुरुक्षेत्र जनपदों का अधिकारी बना कर सिंहासनारूढ़ किया। स्वयं अपनी राजधानी अयोध्या को लौट गया। महात्मा बाहुबली भी दीक्षा लेकर वहीं खड़े कायोत्सगं मुद्रा में ध्यानारूढ़ हो गये और एक वर्ष तक बिना कुछ खाये-पिये उसी अवस्था में खड़े रहे ।</p>
+      <h2>तक्षशिला में बाहुबली को केवलज्ञान</h2>  
+      <p>मुनि बाहुबली चाहते थे कि उन्हें केवलज्ञान की प्राप्ति हो जाए, पश्चात्‌ वह भगवान ऋषभदेव के समवसरण में जायेंगे । किन्तु संज्वलन मान के सद्भाव के कारण एक वर्ष तक कठोर तप करने पर भी उन्हें केवलज्ञान की प्राप्ति नहीं हुई । अंत में श्री ऋषभदेव की प्रेरणा से ब्राह्मी और सुन्दरी नामक दो साध्वियों ने (जो ऋषभ की पुत्रियाँ और बाहुबली की बहनें थीं) जहां बाहुबली कायोत्सर्ग मुद्रा में खड़े थे, वहां आयी और उन्होंने बाहुबली मुनि को वन्दना करके हाथ जोड़कर विनम्रभाव से कहा “भाई ! जब तक आप मानरूपी हाथी पर आरुढ़ हैं तब तक आप को केवलज्ञान की प्राप्ति अंसभव है । जब तक संज्वलन मान कषाय का भी त्याग नहीं करोगे तब तक आप की सर्व धर्मकरनी निष्फल है। अत: मान कषाय का भी त्याग करो ।” </p>
+      <p>बाहुबली ने अपनी भूल को समझा और मान कषाय का भी सर्वथा त्याग करके अपने से पहले दीक्षित हुए 98 छोटे भाईयों को वंदन करने के लिये कायोत्सर्ग को पार कर चलने के लिये कदम उठाया और प्रभु के समवसरण में जाने को तैयार हो गये । संज्वलन कषाय के त्याग करते ही शुक्ल ध्यानारूढ़ हो गये और तुरन्त तक्षशिला में ही केदलज्ञान हो गया ।</p>
+    </section>
+    <section id="alexander">
+      <h1>सिकन्दर का समय</h1>
+      <p>सिकन्दर के समय में यहाँ के राजा श्राभी ने सिकन्दर से संधि कर ली थी । सिकन्दर ने पौरस को भी युद्ध में हराया था । पौरस का राज्य विस्तार जेहलम और चनाब दोनों नदियों के बीच तक था। सब राजाओ पर विजय प्राप्त करते हुए सिकन्दर व्यास नदी तक जा पहुंचा। इसकी सेना ने आगे बढ़ने से इन्कार कर दिया | इसलिए लाचार होकर इसे वापिस लौटना पड़ा तथा पश्चिम पंजाब सिन्ध को जीतते हुए वापिस फ़ारिस लौट गया । इस समय तक्षशिला गाँधार देश की राजधानी थी | </p>
+    </section>
+    <section id="maurya">
+      <h1>मौर्य काल</h1>
+      <p>ई० पू० ३२३ में सिकन्दर की मृत्यु के पश्चात चन्द्रगुप्त मौर्य ने ग्रीकों को पंजाब से निकाल बाहर किया और तक्षशिला तथा पंजाब के अन्य राज्यों को मगध राज्य में मिला कर अपने अधिकार में कर लिया था । तक्षशिला चन्द्रगुप्त मौर्य के समय में भी उत्तर भारत की राजघानी रही । इसका पौत्र अशोक और अशोक का पुत्र कुणाल राज्य के प्रतिनिधि और युवराज हो कर कई वर्षों तक यहाँ रहे । कुणाल के पुत्र जैन सम्राट सम्प्रति के अधिकार में भी तक्षशिला रहा। तक्षशिला में सर्वप्रथण बौद्ध धर्म के प्रचार और प्रवेश का श्रेय अशोक मौर्य के व्यक्तिगत प्रभाव के कारण ही है</p>
+    </section>
+    <section id="shatrunjay">
+      <h1>शत्रुंजय तीर्थ का उद्धार</h1>
+      <p>श्री धनेश्वर सूरिकृत शत्रुंजय महात्म्य में वर्णन है कि सेठ भावड़ शाह के पुत्र जावड़ शाह ने वि० सं० १८७ (ई० स० १३०) में शत्रुंजय तीर्थ का उद्धार किया। उस समय उसने तक्षशिला से भगवान श्री ऋषभदेव की मूर्ति ले जाकर शत्रुंजय गिरी पर स्थापित की। उस समय तक्षशिला में जगमल राजा का राज्य था । </p>
+    </section>
+    <section id="univ">
+      <h1>तक्षशिला का विश्वविद्यालय</h1>
+      <figure>
+        <img src="/static/images/taxila/univ.jpeg"/>
+        <figcaption>Reconstructed image of University</figcaption>
+      </figure>
+      <p>प्राचीनकाल में यहाँ एक विश्वविद्यालय भी था। इस विश्वविद्यालय में अनेक विश्व प्रसिद्ध आचार्य शिक्षा देते थे | बड़ी-बड़ी दूर से यहाँ विद्यार्थी लोग शिक्षा पाने आते थे। मात्र भारत से ही नहीं अपितु विदेशों के विद्यार्थी भी यहाँ आकर शिक्षा प्राप्त करने में अपना गौरव समझते  थे । बौद्ध जातक साहित्य से इस विश्वविद्यालय के सम्बन्ध में जो बातें ज्ञात होती हैं उन्हें हम संक्षेप से यहाँ उल्लिखित करते हैं</p>
+      <h2>शिक्षा प्रबंध</h2>
+      <ul>
+        <li>इस विश्वविद्यालय में शिक्षा प्रारम्भ करने की आयु 16 वर्ष की थी । इससे पूर्व विद्यार्थी लोग अपने-अपने नगरों में ही शिक्षा पाते थे | पीछे उच्चशिक्षा पाने के लिये यहाँ आया करते थे | समझा यह जाता था कि तक्षशिला में पारंगत होने को जाना है ।” शिक्षा अपने यहाँ पर भी मिल सकती थी । पर राजा तथा अन्य धनी लोग भी अपने लड़कों को दूर देशो से शिक्षा के लिये यहाँ भेजना उपयोगी समझते  थे ।</li>
+        <li>शिक्षा पाने की फीस एक हज़ार कार्षापण थी</li>
+        <li>जो विद्यार्थी फीस नहीं दे पाते थे वे आचार्य के घर पर दिन में काम करते थे और रात को उनके पास शिक्षा पाते थे | </li>
+        <li>एक तीसरे प्रकार के विद्यार्थी जो न तो आवश्यक फीस दे पाते थे और न ही आचार्य के घर पर काम करते थे | वे वादा करते थे कि हम पढ़ाई समाप्त करने पर कुछ समय बाद निश्चित फीस एक हजार कार्षाषण दे देंगे। उन पर विश्वास कर लिया जाता था और उन्हें शिक्षा भी फीस देने वाले विद्याथियों के समान ही दी जाती थी । विद्यार्थी भी शिक्षा समाप्त कर लेने के बाद थोड़े समय के अंदर ही फीस दे जाते थे ।</li>
+        <li>तक्षशिला में संसार प्रसिद्ध आचार्य शिक्षा देने का कार्य करते थे। उन आचार्यो के साथ लगाये गये विशेषणों से ज्ञात होता है कि उस समय तक्षशिला विश्वविद्यालय अपनी विद्या के लिये अद्वितीय था। जातकों से यह भी ज्ञात होता है कि एक आचार्य के पास ५०० विद्यार्थी शिक्षा पाते थे । ऐसे संसार  प्रसिद्ध आचार्यो की संख्या कम न थी ।</li>
+        <li>तक्षशिला विश्वविद्यालय में शिक्षा समाप्त कर चुकने पर विद्यार्थी लोग शिल्प व्यवसाय तथा जनता आदि से क्रियात्मक अनुशीलन करने के लिए तथा देश-देशान्तर के रीति-रिवाजों का अध्ययन करने के लिए अनेक ग्रामों नगरों का भ्रमण किया करते थे। इस सम्बन्ध सें जातकों में अनेक निर्देश पाये जाते हैं ।</li>
+      </ul>
+      <h2>राजकुमारों के यहाँ शिक्षा पाने के विवरण</h2>
+      <p>तक्षशिला विश्वविद्यालय इतना प्रसिद्ध था कि बड़े-बड़े राजा-महाराजा, ज़मींदार, मंत्री, क्षत्रीय लोग अपने-प्रपने लड़कों को यहाँ पढ़ने के लिए भेजते थे । जातक साहित्य में अनेक राजकुमारों के यहाँ शिक्षा पाने के विवरण भिलते हैं। </p>
+      <ol>
+        <li>वाराणसी (काशी) का राजकुमार ब्रह्मदत्त</li>
+        <li>मगधराज का लड़का अरिदमन</li>
+        <li>कुरुदेश का राजकुमार सुतसोम</li>
+        <li>मिथिला का राजकुमार कुमार विदेह</li>
+        <li>इन्द्रप्रस्थ (दिल्ली) का राजकुमार धनञ्जय</li>
+        <li>कम्पलक देश का राजकुमार</li>
+        <li>मिथिला का राजकुमार सुरुचि</li>
+        <li>चन्द्रगुप्त मौर्य का मंत्री चाणक्य ब्राह्मण</li>
+      </ol>        
+      <p>इस तरह अन्य भी अनेक राजकुमारों आदि के निर्देश जातकों में पाये जाते हैं । भारत के अन्य राजकुमार भी जिनकी संख्या उस समय १०१ थी, उसी आचार्य से शिक्षा पा रहे थे। शिक्षा पा चुकने के बाद वे अपने राज्यों में वापिस जाकर वहाँ के शासक राजा बनते थे ।</p>
+    </section>
+    <section id="foreigner">
+      <h1>विदेशी इतिहासकारों</h1>
+      <ul>
+        <li>सिकन्दर के साथ आनेवाले इतिहासकारों ने लिखा है कि तक्षशिला बहुत ही धनी और रौनकदार आबाद नगर था। इसका राज्यशासन बहुत अच्छी तरह होता था। लोग बड़े प्रसन्न, सुखी और चिन्तारहित मालूम होते थे । तक्षशिला का राज्य विस्तार सिन्धु नदी से जेहलम नदी तक था। </li>
+        <li>एस्पिन नाम का एक ग्रीक इतिहास लेखक ईस्वी सन की दूसरी शताब्दी में हो गया है। उसने भारतवर्ष और सिकन्दर के इतिहास की सामग्री इस वर्णन में खूब दी है। वह लिखता है कि सिकन्दर के समय में तक्षशिला बहुत बड़ा और ऐश्वर्यशाली नगर था। इसमें सन्देह नहीं कि सिंधु और जेहलम नदियों के बीच जितने नगर थे उनमें यह नगर सबसे बड़ा और सबसे अधिक महत्व का समझा जाता था । </li>
+        <li>ईसा की सातवीं शताब्दी में चीनी बौद्ध यात्री हुएनसाँग भारत में भ्रमण के लिए आया था। वह भी तक्षशिला की उपजाऊ भूमि तथा हरियाली की प्रशंसा कर गया है। हुएनसाँग ने लिखा है कि तक्षशिला राज्य का क्षेत्रफल आठ हजार वर्ग कोस है और राजधानी तक्षशिला का विस्तार ४० वर्ग कोस का है।</li>
+      </ul>
+    </section>
+    <section id="destruction">
+      <h1>तक्षशिला का विध्वंस</h1>
+      <p>सप्तशती नामक देश में कोरंटक नाम का नगर था, जहाँ भगवान महावीर स्वामी का मन्दिर था। वहाँ उपाध्याय देवचन्द्र रहते थे । फिरते-फिरते वह एक बार बनास में आये, वहाँ उन्हें आचार्य पद मिला और वे देवसूरि के नाम से प्रसिद्ध हुए। जब इनका  शत्रुंजय तीर्थ पर स्वर्गवास हो गया तब उनके पट्ट पर प्रद्योतन सूरि प्रतिष्ठित हुए। विहार करते हुए प्रद्योतन सूरि नकुल में प्राये। वहाँ के श्रावक जिनदत्त के पुत्र मानदेव ने इनके पास दीक्षा ली और चन्द्रगच्छ के आचार्य बने । जया और विजया नाम की दो देवियाँ मानदेव (सूरि) की सेविकाएँ हो गई ।</p>
+      <p>अब ऐसा हुआ कि तक्षशिला नगरी में जहाँ पाँच सौ जैन मन्दिर थे, उस समय वहाँ अचानक महामारी फैल गयी और लोग घड़ाघड़ मरने लगे । बहुत उपाय करने पर भी महामारी की शांति नहीं हुई। यह देखकर शासनदेवी ने प्रकट होकर कहा कि म्लेच्छों के अत्याचार से सब देवी-देवता यहाँ से चले गये हैं। आज से तीसरे वर्ष तुरुष्कों द्वारा तक्षशिला का ध्वंस हो जाएगा । इसका उपाय यही है कि तुम सब लोग तक्षशिला छोड़कर दूसरे स्थानों में चले जाओ । दूसरा उपाय पूछते पर देवी ने कहा कि नाडोल नगर राजस्थान में गुरु मानदेव सूरि विराजमान हैं उनके चरणों का प्रक्षाल जल (चरणों को धोकर प्राप्त किया हुआ जल) लाकर अपने-अपने घरों में छिड़क दो, महामारी मिट जाएगी | तक्षशिला के जैनसंघ ने वीरदत्त श्रावक को वि० सं० २८० (ई० स० २२३) में आचार्य श्री के पास नाडोल भेजा। उसकी विनती पर आचार्य श्री मानदेव सूरि ने लघुशांति स्तव की (संस्कृत में) रचना करके उसे दी।तक्षशिला के श्रीसंघ ने उस शांति स्तव का घर-घर में जाप किया और इससे जल मंत्रित करके अपने-अपने घरों में छिड़का, जिससे महामारी रोग की शांति हुई ।तीन वर्षों के बाद तुरुष्कों ने इस प्राचीन महानगरी का विध्वंस किया। बडे-बूढ़ों से सुना है कि वहाँ जो पाषाण और धातुमयी मूर्तियां थीं वे सब अब तक भूमिगृहों में विद्यमान हैं ।</p>
+    </section>
+    <section id="shah">
+      <h1>शाह की ढेरी</h1>
+      <p>तक्षशिला का सारा क्षेत्र खण्डहर हो जाने के बाद शाह की ढेरी के नाम से प्रसिद्ध था।</p>
+      <figure>
+        <img src="/static/images/taxila/jaintemple.jpeg" alt="Jain Temple"></img>
+        <figcaption>Jain Temple Ruins</figcaption>
+      </figure>
+      <p>जब 1923AD में अंग्रेज़ सरकार के पुरातत्व विभाग ने शाह की ढेरी (तक्षशिला) के खण्डहरों की खुदाई का काम प्रारंभ किया । उस समय सर जॉन मार्शल ने अपने संस्कृत के विद्वान मित्रों से प्राचीन साहित्य में आये हुए तक्षशिला सम्बन्धी उल्लेखों का संग्रह कराया । उन पर विचार करते हुए वह लिखता है कि--“इन उल्लेखों में जो उल्लेख जैन शास्त्रों से लिये गये हैं वे सब से अधिक ध्यान देने योग्य हैं। इनमें म्लेच्छों और यवनों का जिक्र है; तुरुष्कों द्वारा तक्षशिला के उजाड़े जाने का तथा उनके भय से पाषाण और धातुमयी प्रतिमाओ की रक्षा के लिए भूमिगृहों में बन्द करने का जिक्र हैं । ईसा की पाँचवीं शताब्दी में हुणों ने धर्मेराजिका स्तूप का विध्वंस किया तो बौद्धों ने भी अपनी मूर्तियाँ पृथ्वी में गाड़ दी थीं। जैन उल्लेखों से यह भी सिद्ध होता है कि तक्षशिला में बहुत से जैनमन्दिर व स्तूप थे जिनमें से कई तो निःसंदेह अति विशाल और सुन्दर होंगे। अब मेरा विश्वास है कि सिरकप के “F” और “G” ब्लॉक के छोटे मन्दिर उन्हीं में से हैं । पहले मैं इन मन्दिरों को बौद्ध मन्दिर समझता था परन्तु अब एक तो इनकी रचना मथुरा से निकले हुए आयागपट्टो पर उत्किर्ण जैन मन्दिरों से मिलती है। दूसरे इनमें और तक्षशिला से निकले हुए बौद्ध मन्दिरों में काफी भिन्‍नता है | इन कारणों से अब मैं इन मन्दिरों को बौद्ध की अपेक्षा जैन मन्दिर ख्याल करता हूँ </p>
+    </section>
+    <section id="ruins">
+      <h1>खण्डहर और स्तूप</h1>
+      <p>जैसा कि ऊपर कहा गया है कि तक्षशिला के खण्डहर तथा स्तूप १२ मील के घेरे में फंले हुए हैं। पुरातत्व विभाग ने इसकी खुदाई करवाई है। यह इस परिणाम पर पहुंचा है कि ये खण्डहर तीन भिन्न नगरों के अंश हैं । एक नगर जब उजड़ा तो थोड़ी दूर हट कर दूसरा नगर बसाया गया । जब वह भी उजड़ा तब थोड़ी दूर हट कर तीसरा नगर बसाया गया। </p>
+      <figure>
+        <img src='/static/images/taxila/map.gif'/>
+        <figcaption>Map of the Ruins</figcaption>
+      </figure>
+      <ol>
+        <li>
+          <h3>भीड़ टीला(Bhir Mound)</h3>
+          <p>इनमें से सब से पुराना स्थान भीड़ टीला यह स्थान मौर्यकाल से पूर्व बसा हुआ था। ईसा पूर्व दूसरी शताब्दी में यह नगर उजड़ गया ।</p>
+          <figure>
+            <img src='/static/images/taxila/bhirmound.jpeg'/>
+            <figcaption>Bhir Mound</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>सिरकप</h3>
+          <p>यहाँ से हटाकर ग्रीक लोगों ने ईसा पूर्व दूसरी शताब्दी में तक्षशिला नगर को जिसे आज सिरकप के नाम से पहचाना जाता है वहाँ बसाया । यह स्थान भीड़ टीले से आधा मील की दूरी पर है । यहाँ पर जैन सम्राट सम्प्रति ने अंध पिता के जिन दर्शन के लिए जैन विहार बनाया जिसे कुणाल स्तूप तरीके पहचाना जाता है। ईसा की पाँचवीं शताब्दी में हुणों ने आक्रमण  किया और इसे भी ध्वंस कर दिया । </p>
+          <figure>
+            <img src='/static/images/taxila/sirkap.jpeg'/>
+            <figcaption>Sirkap</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>सिरसुख</h3>
+          <p>तक्षशिला का तीसरा नगर सिरसुख है । यह सिरकप के उजड़ जाने के बाद बसाया गया था। महमूद गजनवी के आक्रमण के बाद यह सदा के लिए समाप्त कर दिया गया । </p>
+          <figure>
+            <img src='/static/images/taxila/sirsukh.jpeg'/>
+            <figcaption>Sirsukh</figcaption>
+          </figure>
+        </li>
+        <li>
+          <h3>अन्य टीले</h3>
+          <p>इन तीन नगरियों के सिवाय और भी कई टीले तथा खण्डहर हैं। इनमें चीरटोप और मंडियाला टीला मुख्य हैं ।</p>
+        </li>
+      </ol>
+    </section>
+  </article>
+  <nav class="quiz">
+    Today's quiz:
     <ol>
-      <li>
-        <h3>तक्षशिला</h3>
-        <p>इसका प्राचीनतम नाम तक्षशिला है</p>
-      </li>
-      <li>
-        <h3>शाकम्भरी</h3>
-        <p>उसके बाद इस का नाम शाकम्भरी पड़ा</p>
-      </li>
-      <li>
-        <h3>टेक्सिला</h3>
-        <p>अंग्रेजों के राज्य में तक्षशिला को इस नाम से संबोधित किया जाता था।</p>
-      </li>
-      <li>
-        <h3>कुणाल देश</h3>
-        <p>जैन सम्राट सम्प्रति मौर्य ने अपने अन्ध पिता कुणाल के निवास के लिए तक्षशिला में व्यवस्था की थी । वहाँ सम्प्रति ने कुणाल की धर्मोपासना के लिए एक जैनस्तूप का निर्माण भी करवाया था कुणाल के यहाँ निवास करते से इसका नाम कुणाल देश पड़ा।</p>
-      </li>
-      <li>
-        <h3>ग़ज़नी</h3>
-        <p>महमूद गजनी के समय में इसका नाम ग़ज़नी पड़ा।</p>
-      </li>
-      <li>
-        <h3>शाह की ढेरी</h3>
-        <p>तक्षशिला के खंडहरों की खुदायी होने से पहले इस क्षेत्र की जनता इसे शाह की ढेरी के नाम से पहचानती थी। ओसवाल श्वेताम्बर जैन प्राचीनकाल से शाह की उपाधि से विभूषित थे ।</p>
-      </li>
-      <li>
-        <h3>धर्मचक्र भूमिका</h3>
-        <p>प्रभु ऋषभदेव के पधारने पर बाहुबली ने यहाँ विश्व के सर्वप्रथम धर्मचक्र तीर्थ की स्थापना की थी। इसलिए इस का नाम धर्मचक्रभूमिका पड़ा। अत: धर्मचक्र प्रवर्तन सर्वप्रथम  जैन धर्म के उपासकों द्वारा हुआ ।</p>
-      </li>
-      <li>
-        <h3>छेंदीमस्तक</h3>
-        <p>चीन देश की भाषा में इसका नाम छेदीमस्तक है।</p>
-      </li>
-    </ol> 
-  </section>
-  <section id="location">
-    <h1>तक्षशिला नगर का स्थान</h1>
-    <figure>
-      <img src="/static/images/taxila/location.jpeg"/>
-      <figcaption>Location</figcaption>
-    </figure>
-    <p>पाकिस्तान में रावलपिडी से २० मील की दूरी पर जो सरायकाला का रेलवे स्टेशन है उससे थोड़ी दूरी पर उत्तर पूर्व की और १२ मील के घेरे में तक्षशिला के खंडहर और स्तूप फैले हुए हैं। यह नगर जिस स्थान पर बसा हुआ था पहाड़ की एक बहुत रमणीक तराई है। इस तराई में हरो नदी तथा अन्य छोटी-छोटी नदियाँ बहती हैं जिससे यह स्थान और भी हराभरा और रमणीय हो गया है। इसके चारों और पहाड़ों की श्रृंखलाएं हैं, उत्तर-पूर्व की ओर हज़ारा और मरी के बरफ़ वाले पहाड़ हैं तथा दक्षिण पश्चिम में मर्गला की घाटी और कई छोटे-छोटे पहाड़ हैं। इसके अलावा यह नगर उस सड़क पर बसा हुआ था जो भारत से सीधी मध्य एशिया तथा पश्चिम एशिया को जाती है। इसी सड़क के माध्यम से मध्य तथा पश्चिमी एशिया श्रौर भारत के बीच प्राचीन समय में व्यापार होता था । इन्हीं सब बातों के कारण कोई आश्चर्य नहीं है कि यह नगर प्राचीन समय में इतने महत्व का समझा जाता रहा है। </p>
-  </section>
-  <section id='bahubali'>
-    <h1>बाहुबली</h1>
-    <p>प्राचीन काल में तक्षशिला बहुत प्रसिद्ध एवं जैन संस्कृति का महत्वपूर्ण केन्द्र रहा है। भगवान ऋषभदेव ने अपने द्वितीय पुत्र बाहुबली को तक्षशिला का राज्य दिया था । 
-    <h2>धर्मचक्र तीर्थ</h2>
-    <p>एकदा छद्मस्थावस्था (दीक्षा लेकर केवलज्ञान होने से पहले की अवस्था) में विहार करते हुए (पैदल चलते हुए) अर्हत ऋषभ तक्षशिला में पधारे। बाहुबली को रात के समय प्रभु के पधारने के समाचार मिले । उसने सोचा कि कल प्रातःकाल होते ही मैं प्रभु को बंदन करने के लिए उद्यान में जाऊंगा, जहाँ प्रभु श्राकर ठहरे हैं । प्रात:काल होते ही जब बाहुबली अपने परिवार और समस्त मंत्री-सामंत आदि के साथ उद्यान में पहुंचा तब प्रभु अन्यत्र विहार कर गए थे। बाहुबली को प्रभु के दर्शन न होने से असह्य दुःख हुआ और उसे अपने प्रमाद के लिए बहुत पश्चाताप हुआ । जिस स्थान पर प्रभु रात्रि के समय कायोत्सर्ग मुद्रा में ध्यानरूड़ खड़े रहे थे, वहां उनके दोनों चरणों के निशान पड़े थे । अंकित चरण चिन्हों पर बाहुबली ने प्रभु के चरणबिम्ब स्थापित कर पाठपीठ बनायी उस पर धर्मंचक्र की स्थापना करके धर्मंचक्र तीर्थ को स्थपित किया। विश्व में तक्षशिला में सर्वप्रथम धर्मचक्र-तीर्थ प्रकाश में आया।</p>
-    <h2>भरत और बाहुबली में घोर युद्ध</h2>
-    <p>तक्षशिला में राज्यसत्ता के लिए भरत और बाहुबली दोनों भाईयों में घोर युद्ध हुआ इस प्रसंग का वर्णन करते हुए आचाय विमल सूरि अपने पउम चरियं ग्रंथ(इस ग्रंथ का रचनाकाल दिगम्बरमत उत्पत्ति से पूर्व है) में लिखते हैं कि-</p>
-    <quote class="shloka">
-      <span>उसभ-जिणस्स भगवओ पृुत्त-सयं॑ चन्द-सूर-सरिसाणं ।</span>
-      <span>समणत्त  पडिवन्नं  सए य देहे निखयक्खं  ॥ ३७ ॥</span>
-      <span>तक्खसिलाए महप्प, बाहुबली तस्स निच्च पडिकूलो।</span>
-      <span>भरह-निरिंदस्स सया न कुणइ आणा-पमाणं  सो ॥ ३८ ॥</span>
-      <span>जह रुट्ठो चक्‍कहरो, तस्सुवरिं सयण साहण समग्गो ।</span>
-      <span>नयरस्स तुरिय चवलो, विणिग्गओं सयल-बल-सहिओ ॥ ३६ ॥</span>
-      <span>पत्तो तक्खसिलपुरं  जय सद्दुदग्घट्ठ कलयल रावो ।</span>
-      <span>जूज्क्भस्स  करणत्थं सस्पद्धो तक्‍खनं भरहों ॥४०॥</span>
-      <span>बाहुबली वि महप्पा भरह नरिंदं समागमं साउं।</span>
-      <span>भडचड वरेण महया तकखसिलाओ  विणिज्जाओं ॥४१॥</span>
-      <span>पउमचरियं ४।३७-४ १</span>
-    </quote>
-    <p>अर्थात : ऋषभ-जिन के सूर्य-चन्द्र समान सौ पुत्रों ने श्रमणत्व धारण किया । वे सभी देह से निरपेक्ष (अनासक्त ) थे। (दीक्षा लेने से पहले) तक्षशिला में महात्मा बाहुबली रहते थे। वे सदा भरत के प्रतिकूल थे, चक्रवर्ती भरत की आज्ञा कदापि न मानते थे। इस से चक्रवर्ती ने रुष्ट होकर सकल सामग्री से सम्पन्न सेना को लेकर युद्ध के लिये अभियान किया। वे तक्षशिला पहुंचे। उस समय जयघोष का कलकल शोर सर्वत्र फैल गया । भरत तत्क्षण युद्धार्थ सन्‍नद्ध हो गये । उस समय महात्मा बाहुबली भी भारी सुभट सेना के साथ भरत के साथ युद्ध करने के लिये तक्षशिला से निकल पड़े ।</p>
-    <p>घनघोर युद्ध में बाहुबली विजयी हुआ । पर बड़े भाई का सम्मान करते हुए अपना राज्य भरत को दे दिया और स्वयं आर्हति श्रमण की दीक्षा ग्रहण कर ली । सर्वप्रकार के परिग्रह का त्याग कर अनगार हो गये। भरत ने भी तक्षशिला का राज्य अपने अधीन कर चक्रवर्ती पद प्राप्त किया और बाहुबली के पुत्र सोमप्रभ (सोमयश) को तक्षशिला और कुरुक्षेत्र जनपदों
-      का अधिकारी बना कर सिंहासनारूढ़ किया। स्वयं अपनी राजधानी अयोध्या को लौट गया। महात्मा बाहुबली भी दीक्षा लेकर वहीं खड़े कायोत्सगं मुद्रा में ध्यानारूढ़ हो गये और एक वर्ष तक बिना कुछ खाये-पिये उसी अवस्था में खड़े रहे ।</p>
-    <h2>तक्षशिला में बाहुबली को केवलज्ञान</h2>  
-    <p>मुनि बाहुबली चाहते थे कि उन्हें केवलज्ञान की प्राप्ति हो जाए, पश्चात्‌ वह भगवान ऋषभदेव के समवसरण में जायेंगे । किन्तु संज्वलन मान के सद्भाव के कारण एक वर्ष तक कठोर तप करने पर भी उन्हें केवलज्ञान की प्राप्ति नहीं हुई । अंत में श्री ऋषभदेव की प्रेरणा से ब्राह्मी और सुन्दरी नामक दो साध्वियों ने (जो ऋषभ की पुत्रियाँ और बाहुबली की बहनें थीं) जहां बाहुबली कायोत्सर्ग मुद्रा में खड़े थे, वहां आयी और उन्होंने बाहुबली मुनि को वन्दना करके हाथ जोड़कर विनम्रभाव से कहा “भाई ! जब तक आप मानरूपी हाथी पर आरुढ़ हैं तब तक आप को केवलज्ञान की प्राप्ति अंसभव है । जब तक संज्वलन मान कषाय का भी त्याग नहीं करोगे तब तक आप की सर्व धर्मकरनी निष्फल है। अत: मान कषाय का भी त्याग करो ।” </p>
-    <p>बाहुबली ने अपनी भूल को समझा और मान कषाय का भी सर्वथा त्याग करके अपने से पहले दीक्षित हुए 98 छोटे भाईयों को वंदन करने के लिये कायोत्सर्ग को पार कर चलने के लिये कदम उठाया और प्रभु के समवसरण में जाने को तैयार हो गये । संज्वलन कषाय के त्याग करते ही शुक्ल ध्यानारूढ़ हो गये और तुरन्त तक्षशिला में ही केदलज्ञान हो गया ।</p>
-  </section>
-  <section id="alexander">
-    <h1>सिकन्दर का समय</h1>
-    <p>सिकन्दर के समय में यहाँ के राजा श्राभी ने सिकन्दर से संधि कर ली थी । सिकन्दर ने पौरस को भी युद्ध में हराया था । पौरस का राज्य विस्तार जेहलम और चनाब दोनों नदियों के बीच तक था। सब राजाओ पर विजय प्राप्त करते हुए सिकन्दर व्यास नदी तक जा पहुंचा। इसकी सेना ने आगे बढ़ने से इन्कार कर दिया | इसलिए लाचार होकर इसे वापिस लौटना पड़ा तथा पश्चिम पंजाब सिन्ध को जीतते हुए वापिस फ़ारिस लौट गया । इस समय तक्षशिला गाँधार देश की राजधानी थी | </p>
-  </section>
-  <section id="maurya">
-    <h1>मौर्य काल</h1>
-    <p>ई० पू० ३२३ में सिकन्दर की मृत्यु के पश्चात चन्द्रगुप्त मौर्य ने ग्रीकों को पंजाब से निकाल बाहर किया और तक्षशिला तथा पंजाब के अन्य राज्यों को मगध राज्य में मिला कर अपने अधिकार में कर लिया था । तक्षशिला चन्द्रगुप्त मौर्य के समय में भी उत्तर भारत की राजघानी रही । इसका पौत्र अशोक और अशोक का पुत्र कुणाल राज्य के प्रतिनिधि और युवराज हो कर कई वर्षों तक यहाँ रहे । कुणाल के पुत्र जैन सम्राट सम्प्रति के अधिकार में भी तक्षशिला रहा। तक्षशिला में सर्वप्रथण बौद्ध धर्म के प्रचार और प्रवेश का श्रेय अशोक मौर्य के व्यक्तिगत प्रभाव के कारण ही है</p>
-  </section>
-  <section id="shatrunjay">
-    <h1>शत्रुंजय तीर्थ का उद्धार</h1>
-    <p>श्री धनेश्वर सूरिकृत शत्रुंजय महात्म्य में वर्णन है कि सेठ भावड़ शाह के पुत्र जावड़ शाह ने वि० सं० १८७ (ई० स० १३०) में शत्रुंजय तीर्थ का उद्धार किया। उस समय उसने तक्षशिला से भगवान श्री ऋषभदेव की मूर्ति ले जाकर शत्रुंजय गिरी पर स्थापित की। उस समय तक्षशिला में जगमल राजा का राज्य था । </p>
-  </section>
-  <section id="univ">
-    <h1>तक्षशिला का विश्वविद्यालय</h1>
-    <figure>
-      <img src="/static/images/taxila/univ.jpeg"/>
-      <figcaption>Reconstructed image of University</figcaption>
-    </figure>
-    <p>प्राचीनकाल में यहाँ एक विश्वविद्यालय भी था। इस विश्वविद्यालय में अनेक विश्व प्रसिद्ध आचार्य शिक्षा देते थे | बड़ी-बड़ी दूर से यहाँ विद्यार्थी लोग शिक्षा पाने आते थे। मात्र भारत से ही नहीं अपितु विदेशों के विद्यार्थी भी यहाँ आकर शिक्षा प्राप्त करने में अपना गौरव समझते  थे । बौद्ध जातक साहित्य से इस विश्वविद्यालय के सम्बन्ध में जो बातें ज्ञात होती हैं उन्हें हम संक्षेप से यहाँ उल्लिखित करते हैं</p>
-    <h2>शिक्षा प्रबंध</h2>
-    <ul>
-      <li>इस विश्वविद्यालय में शिक्षा प्रारम्भ करने की आयु 16 वर्ष की थी । इससे पूर्व विद्यार्थी लोग अपने-अपने नगरों में ही शिक्षा पाते थे | पीछे उच्चशिक्षा पाने के लिये यहाँ आया करते थे | समझा यह जाता था कि तक्षशिला में पारंगत होने को जाना है ।” शिक्षा अपने यहाँ पर भी मिल सकती थी । पर राजा तथा अन्य धनी लोग भी अपने लड़कों को दूर देशो से शिक्षा के लिये यहाँ भेजना उपयोगी समझते  थे ।</li>
-      <li>शिक्षा पाने की फीस एक हज़ार कार्षापण थी</li>
-      <li>जो विद्यार्थी फीस नहीं दे पाते थे वे आचार्य के घर पर दिन में काम करते थे और रात को उनके पास शिक्षा पाते थे | </li>
-      <li>एक तीसरे प्रकार के विद्यार्थी जो न तो आवश्यक फीस दे पाते थे और न ही आचार्य के घर पर काम करते थे | वे वादा करते थे कि हम पढ़ाई समाप्त करने पर कुछ समय बाद निश्चित फीस एक हजार कार्षाषण दे देंगे। उन पर विश्वास कर लिया जाता था और उन्हें शिक्षा भी फीस देने वाले विद्याथियों के समान ही दी जाती थी । विद्यार्थी भी शिक्षा समाप्त कर लेने के बाद थोड़े समय के अंदर ही फीस दे जाते थे ।</li>
-      <li>तक्षशिला में संसार प्रसिद्ध आचार्य शिक्षा देने का कार्य करते थे। उन आचार्यो के साथ लगाये गये विशेषणों से ज्ञात होता है कि उस समय तक्षशिला विश्वविद्यालय अपनी विद्या के लिये अद्वितीय था। जातकों से यह भी ज्ञात होता है कि एक आचार्य के पास ५०० विद्यार्थी शिक्षा पाते थे । ऐसे संसार  प्रसिद्ध आचार्यो की संख्या कम न थी ।</li>
-      <li>तक्षशिला विश्वविद्यालय में शिक्षा समाप्त कर चुकने पर विद्यार्थी लोग शिल्प व्यवसाय तथा जनता आदि से क्रियात्मक अनुशीलन करने के लिए तथा देश-देशान्तर के रीति-रिवाजों का अध्ययन करने के लिए अनेक ग्रामों नगरों का भ्रमण किया करते थे। इस सम्बन्ध सें जातकों में अनेक निर्देश पाये जाते हैं ।</li>
-    </ul>
-    <h2>राजकुमारों के यहाँ शिक्षा पाने के विवरण</h2>
-    <p>तक्षशिला विश्वविद्यालय इतना प्रसिद्ध था कि बड़े-बड़े राजा-महाराजा, ज़मींदार, मंत्री, क्षत्रीय लोग अपने-प्रपने लड़कों को यहाँ पढ़ने के लिए भेजते थे । जातक साहित्य में अनेक राजकुमारों के यहाँ शिक्षा पाने के विवरण भिलते हैं। </p>
-    <ol>
-      <li>वाराणसी (काशी) का राजकुमार ब्रह्मदत्त</li>
-      <li>मगधराज का लड़का अरिदमन</li>
-      <li>कुरुदेश का राजकुमार सुतसोम</li>
-      <li>मिथिला का राजकुमार कुमार विदेह</li>
-      <li>इन्द्रप्रस्थ (दिल्ली) का राजकुमार धनञ्जय</li>
-      <li>कम्पलक देश का राजकुमार</li>
-      <li>मिथिला का राजकुमार सुरुचि</li>
-      <li>चन्द्रगुप्त मौर्य का मंत्री चाणक्य ब्राह्मण</li>
-    </ol>        
-    <p>इस तरह अन्य भी अनेक राजकुमारों आदि के निर्देश जातकों में पाये जाते हैं । भारत के अन्य राजकुमार भी जिनकी संख्या उस समय १०१ थी, उसी आचार्य से शिक्षा पा रहे थे। शिक्षा पा चुकने के बाद वे अपने राज्यों में वापिस जाकर वहाँ के शासक राजा बनते थे ।</p>
-  </section>
-  <section id="foreigner">
-    <h1>विदेशी इतिहासकारों</h1>
-    <ul>
-      <li>सिकन्दर के साथ आनेवाले इतिहासकारों ने लिखा है कि तक्षशिला बहुत ही धनी और रौनकदार आबाद नगर था। इसका राज्यशासन बहुत अच्छी तरह होता था। लोग बड़े प्रसन्न, सुखी और चिन्तारहित मालूम होते थे । तक्षशिला का राज्य विस्तार सिन्धु नदी से जेहलम नदी तक था। </li>
-      <li>एस्पिन नाम का एक ग्रीक इतिहास लेखक ईस्वी सन की दूसरी शताब्दी में हो गया है। उसने भारतवर्ष और सिकन्दर के इतिहास की सामग्री इस वर्णन में खूब दी है। वह लिखता है कि सिकन्दर के समय में तक्षशिला बहुत बड़ा और ऐश्वर्यशाली नगर था। इसमें सन्देह नहीं कि सिंधु और जेहलम नदियों के बीच जितने नगर थे उनमें यह नगर सबसे बड़ा और सबसे अधिक महत्व का समझा जाता था । </li>
-      <li>ईसा की सातवीं शताब्दी में चीनी बौद्ध यात्री हुएनसाँग भारत में भ्रमण के लिए आया था। वह भी तक्षशिला की उपजाऊ भूमि तथा हरियाली की प्रशंसा कर गया है। हुएनसाँग ने लिखा है कि तक्षशिला राज्य का क्षेत्रफल आठ हजार वर्ग कोस है और राजधानी तक्षशिला का विस्तार ४० वर्ग कोस का है।</li>
-    </ul>
-  </section>
-  <section id="destruction">
-    <h1>तक्षशिला का विध्वंस</h1>
-    <p>सप्तशती नामक देश में कोरंटक नाम का नगर था, जहाँ भगवान महावीर स्वामी का मन्दिर था। वहाँ उपाध्याय देवचन्द्र रहते थे । फिरते-फिरते वह एक बार बनास में आये, वहाँ उन्हें आचार्य पद मिला और वे देवसूरि के नाम से प्रसिद्ध हुए। जब इनका  शत्रुंजय तीर्थ पर स्वर्गवास हो गया तब उनके पट्ट पर प्रद्योतन सूरि प्रतिष्ठित हुए। विहार करते हुए प्रद्योतन सूरि नकुल में प्राये। वहाँ के श्रावक जिनदत्त के पुत्र मानदेव ने इनके पास दीक्षा ली और चन्द्रगच्छ के आचार्य बने । जया और विजया नाम की दो देवियाँ मानदेव (सूरि) की सेविकाएँ हो गई ।</p>
-    <p>अब ऐसा हुआ कि तक्षशिला नगरी में जहाँ पाँच सौ जैन मन्दिर थे, उस समय वहाँ अचानक महामारी फैल गयी और लोग घड़ाघड़ मरने लगे । बहुत उपाय करने पर भी महामारी की शांति नहीं हुई। यह देखकर शासनदेवी ने प्रकट होकर कहा कि म्लेच्छों के अत्याचार से सब देवी-देवता यहाँ से चले गये हैं। आज से तीसरे वर्ष तुरुष्कों द्वारा तक्षशिला का ध्वंस हो जाएगा । इसका उपाय यही है कि तुम सब लोग तक्षशिला छोड़कर दूसरे स्थानों में चले जाओ । दूसरा उपाय पूछते पर देवी ने कहा कि नाडोल नगर राजस्थान में गुरु मानदेव सूरि विराजमान हैं उनके चरणों का प्रक्षाल जल (चरणों को धोकर प्राप्त किया हुआ जल) लाकर अपने-अपने घरों में छिड़क दो, महामारी मिट जाएगी | तक्षशिला के जैनसंघ ने वीरदत्त श्रावक को वि० सं० २८० (ई० स० २२३) में आचार्य श्री के पास नाडोल भेजा। उसकी विनती पर आचार्य श्री मानदेव सूरि ने लघुशांति स्तव की (संस्कृत में) रचना करके उसे दी।तक्षशिला के श्रीसंघ ने उस शांति स्तव का घर-घर में जाप किया और इससे जल मंत्रित करके अपने-अपने घरों में छिड़का, जिससे महामारी रोग की शांति हुई ।तीन वर्षों के बाद तुरुष्कों ने इस प्राचीन महानगरी का विध्वंस किया। बडे-बूढ़ों से सुना है कि वहाँ जो पाषाण और धातुमयी मूर्तियां थीं वे सब अब तक भूमिगृहों में विद्यमान हैं ।</p>
-  </section>
-  <section id="shah">
-    <h1>शाह की ढेरी</h1>
-    <p>तक्षशिला का सारा क्षेत्र खण्डहर हो जाने के बाद शाह की ढेरी के नाम से प्रसिद्ध था।</p>
-    <figure>
-      <img src="/static/images/taxila/jaintemple.jpeg" alt="Jain Temple"></img>
-      <figcaption>Jain Temple Ruins</figcaption>
-    </figure>
-    <p>जब 1923AD में अंग्रेज़ सरकार के पुरातत्व विभाग ने शाह की ढेरी (तक्षशिला) के खण्डहरों की खुदाई का काम प्रारंभ किया । उस समय सर जॉन मार्शल ने अपने संस्कृत के विद्वान मित्रों से प्राचीन साहित्य में आये हुए तक्षशिला सम्बन्धी उल्लेखों का संग्रह कराया । उन पर विचार करते हुए वह लिखता है कि--“इन उल्लेखों में जो उल्लेख जैन शास्त्रों से लिये गये हैं वे सब से अधिक ध्यान देने योग्य हैं। इनमें म्लेच्छों और यवनों का जिक्र है; तुरुष्कों द्वारा तक्षशिला के उजाड़े जाने का तथा उनके भय से पाषाण और धातुमयी प्रतिमाओ की रक्षा के लिए भूमिगृहों में बन्द करने का जिक्र हैं । ईसा की पाँचवीं शताब्दी में हुणों ने धर्मेराजिका स्तूप का विध्वंस किया तो बौद्धों ने भी अपनी मूर्तियाँ पृथ्वी में गाड़ दी थीं। जैन उल्लेखों से यह भी सिद्ध होता है कि तक्षशिला में बहुत से जैनमन्दिर व स्तूप थे जिनमें से कई तो निःसंदेह अति विशाल और सुन्दर होंगे। अब मेरा विश्वास है कि सिरकप के “F” और “G” ब्लॉक के छोटे मन्दिर उन्हीं में से हैं । पहले मैं इन मन्दिरों को बौद्ध मन्दिर समझता था परन्तु अब एक तो इनकी रचना मथुरा से निकले हुए आयागपट्टो पर उत्किर्ण जैन मन्दिरों से मिलती है। दूसरे इनमें और तक्षशिला से निकले हुए बौद्ध मन्दिरों में काफी भिन्‍नता है | इन कारणों से अब मैं इन मन्दिरों को बौद्ध की अपेक्षा जैन मन्दिर ख्याल करता हूँ </p>
-  </section>
-  <section id="ruins">
-    <h1>खण्डहर और स्तूप</h1>
-    <p>जैसा कि ऊपर कहा गया है कि तक्षशिला के खण्डहर तथा स्तूप १२ मील के घेरे में फंले हुए हैं। पुरातत्व विभाग ने इसकी खुदाई करवाई है। यह इस परिणाम पर पहुंचा है कि ये खण्डहर तीन भिन्न नगरों के अंश हैं । एक नगर जब उजड़ा तो थोड़ी दूर हट कर दूसरा नगर बसाया गया । जब वह भी उजड़ा तब थोड़ी दूर हट कर तीसरा नगर बसाया गया। </p>
-    <figure>
-      <img src='/static/images/taxila/map.gif'/>
-      <figcaption>Map of the Ruins</figcaption>
-    </figure>
-    <ol>
-      <li>
-        <h3>भीड़ टीला(Bhir Mound)</h3>
-        <p>इनमें से सब से पुराना स्थान भीड़ टीला यह स्थान मौर्यकाल से पूर्व बसा हुआ था। ईसा पूर्व दूसरी शताब्दी में यह नगर उजड़ गया ।</p>
-        <figure>
-          <img src='/static/images/taxila/bhirmound.jpeg'/>
-          <figcaption>Bhir Mound</figcaption>
-        </figure>
-      </li>
-      <li>
-        <h3>सिरकप</h3>
-        <p>यहाँ से हटाकर ग्रीक लोगों ने ईसा पूर्व दूसरी शताब्दी में तक्षशिला नगर को जिसे आज सिरकप के नाम से पहचाना जाता है वहाँ बसाया । यह स्थान भीड़ टीले से आधा मील की दूरी पर है । यहाँ पर जैन सम्राट सम्प्रति ने अंध पिता के जिन दर्शन के लिए जैन विहार बनाया जिसे कुणाल स्तूप तरीके पहचाना जाता है। ईसा की पाँचवीं शताब्दी में हुणों ने आक्रमण  किया और इसे भी ध्वंस कर दिया । </p>
-        <figure>
-          <img src='/static/images/taxila/sirkap.jpeg'/>
-          <figcaption>Sirkap</figcaption>
-        </figure>
-      </li>
-      <li>
-        <h3>सिरसुख</h3>
-        <p>तक्षशिला का तीसरा नगर सिरसुख है । यह सिरकप के उजड़ जाने के बाद बसाया गया था। महमूद गजनवी के आक्रमण के बाद यह सदा के लिए समाप्त कर दिया गया । </p>
-        <figure>
-          <img src='/static/images/taxila/sirsukh.jpeg'/>
-          <figcaption>Sirsukh</figcaption>
-        </figure>
-      </li>
-      <li>
-        <h3>अन्य टीले</h3>
-        <p>इन तीन नगरियों के सिवाय और भी कई टीले तथा खण्डहर हैं। इनमें चीरटोप और मंडियाला टीला भुख्य हैं ।</p>
-      </li>
+      <li>कौन से आचार्य ने तक्षशिला कि शांति के लिए लघु शांति स्तोत्र के पाठ की रचना की ?</li>
+      <li>सर जॉन मार्शल के मत में सिरकप के “F” और “G” ब्लॉक के मन्दिर किस धर्म के है ?</li>
+      <li>जावड शाह ने किस तीर्थ के लिए तक्षशिला से मूर्ति लाई ?</li>
     </ol>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScXC0wNmMOQPM3QRktFa1odZE91ijKgyRdukdfTJH9VAFG8-g/viewform">
+      Answer Quiz
+    </a>
+  </nav>  
+</main>
+  <style> 
+  footer {
+    background-color: #282d32;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+  footer h1 {
+    color: rgb(240, 249, 255);
+    font-size: 1em;
+  }
+  footer p, footer ol, footer li {
+    color: #9F9F9F;/* #6c757d;*/
+    font-size: 0.75em;
+  }
+  footer .links {
+    grid-column-start:1; 
+    grid-column-end:2;
+    display: flex;
+    justify-content: space-around;
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+  }
+  footer .logo {
+      width: 35px;
+      height: 35px;
+  }
+  @media (min-width: 450px) {
+    footer {
+      grid-template-columns: 50% 50%;
+    }
+    footer .links {
+      grid-column-start:1; 
+      grid-column-end:3;
+    }
+  @media (min-width: 900px) {
+    footer {
+      grid-template-columns: 33% 33% 33%;
+    }
+    footer .links {
+      grid-column-start:1; 
+      grid-column-end:4;
+    }
+  }
+</style>
+<footer>
+  <section class='links'>
+    <a href='/'>
+      <img class="logo" src="/static/images/logo.png" alt="History of Jainism"/>
+    </a>
+    <a href='https://medium.com/muni-speaks'>
+      <img class="logo" src="/static/images/munispeaks.png">
+    </a>
+    <!-- Whatsapp -->
+      <a href="http://joinwhatsapp.historyofjainism.com/">
+          <i class="fab fa-whatsapp"></i>
+      </a>
+      <!-- Facebook -->
+      <a href="https://fb.com/historyofjainism">
+          <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/muni_speaks">
+          <i class="fab fa-twitter"></i>
+      </a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/historyofjainism/">
+          <i class="fab fa-instagram"></i>
+      </a>
   </section>
-</article>
-<nav class="quiz">
-  Today's quiz:
-  <ol>
-    <li>कौन से आचार्य ने तक्षशिला कि शांति के लिए लघु शांति स्त्रोत्र के पाठ की रचना की ?</li>
-    <li>सर जॉन मार्शल के मत में सिरकप के “F” और “G” ब्लॉक के मन्दिर किस धर्म के है ?</li>
-    <li>जावड शाह ने किस तीर्थ के लिए तक्षशिला से मूर्ति लाई ?</li>
-  </ol>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLScXC0wNmMOQPM3QRktFa1odZE91ijKgyRdukdfTJH9VAFG8-g/viewform">
-    Answer Quiz
-  </a>
-</nav>  
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <section>
+    <h1>About</h1>
+    <p>The History is the mirror of the past. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism. </p>
+  </section>
+  <section>
+    <h1>Volunteer</h1>
+    <p>This portal is run by volunteers. We need volunteers with one or more of the following skillsets: </p>
+    <ul>
+      <li>web-design</li>
+      <li>creating posters for social media</li>
+      <li>whatsapp, facebook, instagram admin</li>
+      <li>translation from gujarati to English</li>
+      <li>translation from gujarati to hindi</li>
+      <li>translation from hindi to english</li>
+      <li>digitisation of scanned pdfs</li>
+      <li>proof reading & editing</li>
+    </ul>
+    <p>Contact us on whatsapp</p>
+  </section>
+  <section>
+    <h1>Sponsor</h1>
+    <p>Would you like to sponsor prize money for quizzes? Contact us on whatsapp. </p>
+  </section>
+</footer>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use

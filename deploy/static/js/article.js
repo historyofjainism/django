@@ -66,7 +66,7 @@ window.addEventListener('load', function() {
   toc_nav = document.querySelector('nav.toc .sections_list')
   sections = document.querySelectorAll('article section')
   toc = toc_nav.innerHTML + "<ul>"
-  for (i=1; i<sections.length; i++) {
+  for (i=0; i<sections.length; i++) {
     toc += link_html( 
       sections[i].id,
       sections[i].querySelector('h1').innerHTML )
