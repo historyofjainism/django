@@ -1,0 +1,45 @@
+main article figure {
+    margin: 0px;
+}
+main article figcaption {
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 0.75em;
+    padding: 0 10px;
+    color: rgb(171,171,171);
+    margin-top: 0;
+}
+
+main article ol {
+    padding-inline-start: 25px;
+}
+main article ul {
+    padding-inline-start: 25px;
+}
+  
+main article h1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+main article h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+  
+main article h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+  
+  article .shloka {
+    font-size: 0.75em;
+    display:flex;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 5px;
+  }
+  
+  article img {
+    width: 100%;
+  }

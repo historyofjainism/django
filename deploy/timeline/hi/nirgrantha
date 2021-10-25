@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="" >
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<!-- ****** faviconit.com favicons ****** -->
+<link rel="shortcut icon" href="/static/images/favicon/favicon.ico"></link>
+<link rel="icon" sizes="16x16 32x32 64x64" href="/static/images/favicon/favicon.ico"></link>
+<link rel="icon" type="image/png" sizes="196x196" href="/static/images/favicon/favicon-192.png"></link>
+<link rel="icon" type="image/png" sizes="160x160" href="/static/images/favicon/favicon-160.png"></link>
+<link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96.png"></link>
+<link rel="icon" type="image/png" sizes="64x64" href="/static/images/favicon/favicon-64.png"></link>
+<link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32.png"></link>
+<link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16.png"></link>
+<link rel="apple-touch-icon" href="/static/images/favicon/favicon-57.png"></link>
+<link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/favicon-114.png"></link>
+<link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/favicon-72.png"></link>
+<link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/favicon-144.png"></link>
+<link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/favicon-60.png"></link>
+<link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/favicon-120.png"></link>
+<link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/favicon-76.png"></link>
+<link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/favicon-152.png"></link>
+<link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/favicon-180.png"></link>
+<meta name="msapplication-TileColor" content="#FFFFFF"></meta>
+<meta name="msapplication-TileImage" content="/static/images/favicon/favicon-144.png"></meta>
+<meta name="msapplication-config" content="/static/images/favicon/browserconfig.xml"></meta>
+<!-- ****** faviconit.com favicons ****** -->
+<!-- og:title Maximum 35 characters -->
+<meta property="og:title" content=""></meta>
+<!-- og:url Full link to the current webpage address -->
+<meta property="og:url" content=""></meta>
+<meta property="og:site_name" content="History of Jainism"></meta>
+<!-- og:description Maximum 65 characters -->
+<meta property="og:description" content=""></meta>
+<!-- og:image Image(JPG or PNG) with a size less than 300KB and minimum dimensions of 300 x 200 *. This image should be served via a HTTPS connection with a valid non-self-signed certificate.** -->
+<meta property="og:image" itemprop="image" content=""></meta> 
+<meta property="og:image:secure_url" itemprop="image" content=""></meta> 
+<meta property="og:updated_time" content="2021-05-16T11:00:00+0530"></meta>
+<!-- og:type In order for your object to be represented within the graph, you need to specify its type. Here's a list of the global types available: http://ogp.me/#types. You can also specify your own types. -->
+<meta property="og:type" content="article"></meta>
+<meta property="og:locale" content="hi_EN"></meta>
+<meta property="og:locale:alternate" content="en_GB"></meta>
+<!-- Twitter For the best Twitter support read https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started.-->
+<meta name="twitter:card" content="summary"></meta>
+<meta name="twitter:site" content="@muni_speaks"></meta>
+
+  <!-- title Maximum of 65 characters -->
+  <title>History of Jainism</title>
+  <!-- description Maximum of 155 characters -->
+  <meta name="description" content="The History is the mirror of the past. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism."></meta>
+  <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"></link>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap');
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-size: 18px;
+      font-family: 'Vesper Libre', serif;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
+    @media (min-width: 450px) {
+      body {
+        font-size: 20px;
+      }
+    }
+    nav .social {
+      color: #fff;
+      border: 0;
+      -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+      box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+      border-radius: 0.25rem;
+      text-decoration: none;
+      margin:5px;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }  
+    nav.share {
+      position: fixed;
+      width:50px;
+      top:50%;
+      right:0;
+      height: 30px;
+    }  
+  </style>
+  
+<style>
+
+main {
+  display : flex;
+  flex-direction: column;
+  padding: 50px 15px 15px 15px;
+  color: rgb(60,60,60);
+  max-width: 800px;
+  margin: auto;
+}
+
+main header h1 {
+  font-size: 3em; 
+  font-weight: 900;
+  align-self:center;
+  color: rgb(0,0,0);
+}  
+main header h2 {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: rgb(117,117,117);
+}
+main header img {
+  margin: 30px 0;
+  width:100%;
+}
+main header p {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 500;
+}
+
+main article {
+  min-height: 500px;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.timeline__bar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 6px;
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: black;
+  z-index: -1;
+}
+
+.timeline__bar:before, .timeline__bar:after {
+  position: absolute;
+  left: 50%;
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: '';
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+}
+.timeline__bar:before {
+  top: -1px;
+  background-color: black;
+}
+.timeline__bar:after {
+  bottom: -1px;
+  background-color: black;
+}
+
+main article section {
+  width: 90%;
+  max-width: 400px;
+  margin: 75px auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #077e99, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #077e99, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+
+}
+
+.timeline__eventtype-default {
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #077e99, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #077e99, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__eventtype-gyan {
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__eventtype-mandir {
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f2b84c, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2b84c, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.timeline__eventtype-raja {
+  background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #033b19, #05635b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #033b19, #05635b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+article section time {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: -15px;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  /*background: linear-gradient(to right, #077e99, #2193b0);*/
+  background-color: black;
+  color: #fff;
+  transform: translateY(-50%)
+}
+
+article section h1 {
+  padding: 5px;
+  font-size: 1.25em;
+  font-weight: 600;
+  justify-self: center;
+  margin: auto;
+}
+
+article section img {
+  width:100%; 
+  margin:auto; 
+  height:180px;
+  object-fit:cover; 
+  background-position: center;
+}
+
+article section p {
+  padding: 15px;
+  font-size: 1em;
+  line-height: 1.5em;
+  background-color: white;
+  color: black;
+  margin: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+article section ol {
+  padding: 10px 15px;
+  border-top: 1px solid rgba(160, 160, 160, 0.5);
+  background-color: white;
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+article section li {
+  display: inline;
+}
+article section li a {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: #2193b0;
+  text-decoration: none;
+}
+
+article section li a:hover {
+  opacity: .4;
+}
+
+main footer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-top: 1px solid rgb(200,200,200);
+  padding: 0px;
+  margin: 0px;
+}
+main footer address {
+  background-color: white;
+  font-style:normal;
+}
+main footer address h1 {
+  color: black;
+}
+main footer address ol {
+  padding-inline-start: 0px;
+}
+main footer address li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+main footer address dl dt {
+  color: rgb(41,41,41);
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  line-height: 16px;
+  font-size: 12px;
+}
+main footer address dl dd {
+  color: black;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-inline-start: 0px;
+}
+
+
+</style>
+
+<script>
+  window.onload = function() {
+    timeline_bar = document.createElement('div')
+    timeline_bar.className = 'timeline__bar'
+    article_dom = document.getElementsByTagName('article')[0]
+    article_dom.insertBefore(timeline_bar, article_dom.firstChild)
+  }
+</script>
+
+
+</head>
+<body style='background-color: white;'>
+
+  <header>
+    <style>
+        nav .logo {
+            width: 40px;
+            height: 40px;
+        }
+        nav.site {
+            /*background-color: #0e365a;*/
+            color: black;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            align-items: center;
+            position: fixed;
+            left:0;
+            top:0;
+            right:0px;
+            height: 50px;
+            z-index: 1000;
+        }
+        .menu-open {
+            color: black;
+            text-decoration: none;
+        }
+        .menu {
+            display: none;
+            position: fixed;
+            margin: 0px;
+            left: 0;
+            top:0;
+            right:0;
+            bottom:0;
+            background-color: white;
+            z-index: 10;
+        }
+        .menu-list {
+            display: flex;
+            flex-direction: column;
+            margin-top:75px;
+            font-size: 1.25em;
+            align-items: center;
+        }
+        .menu-close {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 15px;
+            font-size: 2em;
+        }
+
+        @media (min-width: 900px) {
+            .menu-open, .menu-close {
+                display: none;
+            }    
+            .menu {
+                display: flex;
+                position: relative;
+            }
+            .menu-list {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                margin: 0;
+                font-size: 0.75em;
+            }
+        }
+        .menu-item {
+            padding: 15px;
+        }
+        .menu-follow {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            column-gap: 30px;
+        }
+        nav .menu a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <script>
+        function showMenu() {
+            document.getElementsByClassName('menu')[0].style.display = "block"
+        }
+        function closeMenu() {
+            document.getElementsByClassName('menu')[0].style.display = "none"
+        }
+    </script>
+    <nav class="site">
+        <div style='display:flex;'>
+            <img class="logo" src="/static/images/logo_b_on_w_fill.png" alt="History of Jainism"/>
+            <div style="font-size:24px;padding-left:15px;">History of Jainism</div>
+        </div>
+        <a class='menu-open' onclick='showMenu()'>
+            <i class="fas fa-bars"></i>
+        </a>
+        <div class='menu'>
+            <div class='menu-list'>
+                <a class='menu-item' href='/'>HOME</a>
+                <a class='menu-item' href='https://medium.com/muni-speaks'>MUNI SPEAKS</a>
+                <a class='menu-item' href='https://historyofjainism.com'>MORE</a>
+                <div class='menu-item menu-follow'>
+                <!-- Whatsapp -->
+                    <a href="http://joinwhatsapp.historyofjainism.com/">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <!-- Facebook -->
+                    <a href="https://fb.com/historyofjainism">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/muni_speaks">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/historyofjainism/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- Github-->
+                    <a href="https://github.com/historyofjainism/django">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <a class='menu-close' onclick='closeMenu()'>
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </nav>
+</header>
+
+
+ 
+  
+
+<main>
+    <header>
+        <h1>निर्ग्रन्थ गण</h1>
+        <h2>सुधर्म स्वामी जी द्वारा प्रवर्तित यह गच्छ आठवें पट्टधर आर्य महागिरि एवं आर्य सुहस्ती सूरि जी तक चला।</h2>
+        <img src="/static/images/nirgrantha.png" alt="निर्ग्रन्थ गण"/>
+        <p>
+        </p>
+    </header>
+    <article>
+      <section>
+        <time>0 वीर निर्वाण संवत</time>
+        <h1>श्री सुधर्मास्वामी</h1>
+        <p>श्री इन्द्रभूति गौतम वी.नि.सं. १२ में निर्वाण को प्राप्त हुए । श्री सुधर्मास्वामी को इसी समय कैवल्य की प्राप्ति हुई | ५० वर्ष गृहवास, ४२ वर्ष छप्तस्थपर्याय और ८ वर्ष कैवल्य अवस्था का पालन कर १०० वर्ष की आयु पूर्ण कर वी.नि.सं. २० में निर्वाण को प्राप्त हुए | </p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1xa4PWoYHAu560lRRX5WSJHhWbCv_bT2j/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1nqpfLUWBTF7-xRmGNkqmymb-zNzwEtMU/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1v8iSnOOt92G5UviHEG7ZFFs4Vpxn4dP5/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>12 वीर निर्वाण संवत</time>
+        <h1>श्री जम्बूस्वामी</h1>
+        <p>ये राजगृह नगर के निवासी थे । पिता का नाम श्री ऋषभ और माता का नाम धारिणी था। सोलह वर्ष की उम्र में श्री सुधर्मास्वामी के पास धर्मोपदेश सुनकर इन्होंने सम्यग्दर्शन और ब्रह्मचर्य स्वीकार किया । माता-पिता के अत्यन्त आग्रह से आठ कन्याओं के साथ शादी की, तथापि उनसे मोहित न हुए । रात्रि के समय जब ये इन कन्याओ  को संसार की असारता समझा रहे थे तब चोरी के लिए आये हुए ४९९ चोर और उनके सरदार प्रभव नाम के क्षत्रियपुत्र चकित रह गये । अन्त में ये सब प्रतिबोधित हुए । दूसरे दिन सुबह ५०० चोर, ८ पत्नी, १६ उनके माता पिता, २ अपने माता पिता के साथ स्वयं ५२७ वें जम्बूकुमार निन्यान्ह्वे करोड सुवर्ण मुद्राओं का त्याग कर दीक्षित हुए |यह प्रसंग वी.नि.सं. १ का है । १६ वर्ष गृहवास, २० वर्ष छद्मस्थ पर्याय और ४४ वर्ष केवली पर्याय पालकर ८० वर्ष की उम्र में वी.नि.सं. ६४ में अपने पट्ट पर प्रभवस्वामी की स्थापना कर मोक्ष पधारे । ये जम्बूस्वामी भरत क्षेत्र में इस अवसर्पिणी काल के अन्तिम केवली और सिद्ध हुए | -</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1qPlDgfxng68h7tjjJMMeqZdZ7z7U55YV/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1TX9JGlzFzpAeEHlp8ItJ_aC-qWXnOk5P/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1nwd9vKNUXHj_OI43zGWaDpKyG360k4yM/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>20 वीर निर्वाण संवत</time>
+        <h1>श्री प्रभवस्वामी</h1>
+        <p>जम्बूस्वामी के पट्ट पर वी.नि.सं. ६४ में श्री प्रभवस्वामी आये | ३० वर्ष की अवस्था में दीक्षा लेकर ४४ वर्ष तक ब्रतपर्याय में रहे और ११ वर्ष तक युगप्रधान पद पर रहे । अपने पट्ट पर स्थापना के लिए संघ में योग्य व्यक्ति न मिलने पर अपने ज्ञान से अन्य दर्शनियों में तलाश करने लगे । उस समय राजगृह नगर में यज्ञ करते हुए शय्यंभव नाम के भट्ट को ज्ञान से देखा । उसी समय दो साधु भगवन्तों को यज्ञशाला में भेजकर '“अहो ! कष्ट, अहो ! कष्ट, तत्त्व तो दीखता नहीं है ।'” इस प्रकार का वचन शब्यंभव को सुनाया । यह वचन सुनते ही शय्यंभव ने तलवार को म्यान से निकालकर यज्ञ कराने वाले अपने ब्राह्मण गुरु को डराते हुए पूछा- तत्त्व क्या हे ? तब ब्राह्मण गुरु ने यज्ञ के खंभे के नीचे रही श्री शांतिनाथ भगवान्‌ की प्रतिमा को बताते हुए कहा- “यही तत्त्व है' । प्रतिमा के दर्शन मात्र से शय्यंभव को प्रतिबोध हो गया और वे प्रभवस्वामी के पास जाकर उनके शिष्य बने । प्रभवस्वामी योग्य शिष्य श्री शय्यंभव को अपने पट्ट पर स्थापित कर ८५ वर्ष की आयु पूर्ण होने पर वी.नि.सं. ७५ में स्वर्गवासी हुए ।</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1-3tOQEc3GiZ52ZKIRwwc0BbfRp4B_syV/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1IxD2YMZ2yuisLSHoom2fSlBZcAsjoMQE/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1vHI1FZDKxXHTp0KPcY9DnOkdiU1_WH84/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>75 वीर निर्वाण संवत</time>
+        <h1>श्री शय्यंभव</h1>
+        <p>श्री शय्यंभव ने जब दीक्षा ली तब उनकी पत्नी गर्भवती थी । दीक्षा के बाद पुत्र जन्मा जो मनक के नाम से प्रसिद्ध हुआ । आठ वर्ष की उम्र के मनक को भी श्री शय्यंभव ने दीक्षा दी । इसी दीक्षित पुत्र के हितार्थ चंपा नगरी में श्री शय्यंभव ने 'दशवैकालिक सूत्र' की रचना की । श्री शय्यंभव ने २८ वर्ष की उम्र में दीक्षा ली, ११ वर्ष तक सामान्य ब्रत पर्याय का पालन किया और २३ वर्ष तक युगप्रधान पद पर रहकर ६२ वर्ष की आयु पूर्ण कर वी.नि.सं. ९८ में वे स्वर्गवासी हुए | इनके पट्ट पर श्री यशोभद्रसूरि आये ।</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1mP3DEpLIZgazRXVQVxeXBGRy5T6cDXXW/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1OHrr0SKio3MsNSnQQav8EcHWzmqG2h7K/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1U0TJpiORd5CGsq7CcymqpyudsFrSIKfJ/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>98 वीर निर्वाण संवत</time>
+        <h1>श्री यशोभद्रसूरि</h1>
+        <p>श्री यशोभद्र सूरि ने २२ वर्ष की वय में दीक्षा ली । १४ वर्ष तक ब्रत-पर्याय में रहे और ५० वर्ष तक युगप्रधान रहे । इस प्रकार ८६ वर्ष का आयुष्य पूर्ण कर वी.नि.सं. १४८ में स्वर्गवासी हुए ।</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/15QsmHs0BbwiqWzskOKAB-A7lgjwSajKW/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1l2RiL21RBiaaepGLNPl5gJPwewKcOxjz/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1Ek5GSNtsNueomUp1U0vEphfRAZbKitSo/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>148 वीर निर्वाण संवत</time>
+        <h1>श्री संभूतविजय</h1>
+        <p>आचार्य श्री यशोभद्रसूरि के पट्टधर दो समर्थ आचार्य हुए | पहले आचार्य श्री संभूतविजय जो २२ वर्ष की वय में दीक्षित हुए | ८ वर्ष तक सामान्य व्रतपर्याय में और ६० वर्ष तक युगप्रधान पद पर रहकर ९० वर्ष की उम्र में वी.नि.सं. २०८ में स्वर्गवासी हुए | </p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1V5mAgfUPechPnXG-ybSAFbNaPeAYgMGo/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1Bityx6qGbEMNxBAtm3ruyXsg0QNGTSi5/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1PfJKsxA2OttYQj0VOq-Gdc35qmez-Mq5/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>208 वीर निर्वाण संवत</time>
+        <h1>श्री भद्रबाहुस्वामी</h1>
+        <p>आचार्य श्री यशोभद्रसूरि के पट्टधर दो समर्थ आचार्य हुए | दूसरे आचार्य श्री भद्रबाहुस्वामी हुए, जिन्होंने ४५ वर्ष की वय में दीक्षा ली, १७ वर्ष सामान्य ब्रतपर्याय पाला और १४ वर्षो तक युगप्रधान पद पर रहे । जिन-शासन का महान्‌ उपकारकर वी.नि.सं. २२२ में कुमारगिरि पर १५ दिन का अनशन कर स्वर्गवासी हुए । इन्होंने 'महाप्राण' नाम के ध्यान को सिद्ध किया था| चतुर्विध संघ की रक्षा के लिए 'उवसग्गहरं' सूत्र को रचा । अनेक आगमों पर संक्षिप्त व्याख्या रूप निर्युक्ति शास्त्रों की रचना की । श्री स्थूलभद्रस्वामी इन्हीं के पास चौदह पूर्व पढे । इन्हीं की प्रमुखता में पहली आगमवाचना पाटलीपुत्र में हुई थी ।</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1V5mAgfUPechPnXG-ybSAFbNaPeAYgMGo/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1Bityx6qGbEMNxBAtm3ruyXsg0QNGTSi5/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1PfJKsxA2OttYQj0VOq-Gdc35qmez-Mq5/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>222 वीर निर्वाण संवत</time>
+        <h1>श्री स्थूलभद्रस्वामी</h1>
+        <p>पाटलिपुत्र में शकटाल मन्त्री के पुत्र श्रीस्थूलभद्र बारह वर्ष तक राजवेश्या 'कोशा' के घर रहे । इनकी ३० वर्ष की उम्र थी तब वररुचि ब्राह्मण के प्रपंच से शकटाल मन्त्री की मृत्यु होने पर राजा नन्द ने इन्हें बुलाकर मन्त्री पद स्वीकार करने को कहा । किन्तु इन्होंने इस तरह अपने पिता की अकाल मृत्यु से विरक्त  होकर दीक्षा ले ली । पश्चात्‌ श्रीसंभूतविजय के पास विधिपूर्वक व्रतों  को स्वीकारा । कुछ समय के बाद गुरु के आदेश से कोशा के घर वर्षा-चातुर्मास रहे । वहाँ धर्मोपदेश देकर कोशा को श्राविका बनाया । इसीसे ये कामविजेता कहलाये । ब्रह्मचर्य पालन के आदर्श रूप में इनका नाम ८४ चौबीसी तक अमर रहेगा । इनके छोटे भाई श्रीयक मंत्री ने और यक्षा वगैरह सात बहिनों ने भी दीक्षा ली थी। श्री स्थूलभद्गस्वामी २४ वर्ष तक ब्रत-पर्याय में और ४५ वर्ष तक युगप्रधान पद पर रहकर ९९ वर्ष की वय में वी. नि. सं. २६७ में स्वर्गवासी हुए ।</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1UzH4ESi86NqZbXzCvn8JOMNbNcnMfiUj/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1etgGm3qwTaDJpF0Zv7K2g15GnuRg_eQ6/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1PfJKsxA2OttYQj0VOq-Gdc35qmez-Mq5/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>267 वीर निर्वाण संवत</time>
+        <h1>आर्य महागिरि</h1>
+        <p>श्री स्थूलभद्रस्वामीजी के पट्ट पर आर्य महागिरिजी और आर्य सुहस्ती हुए । ये दोनों गुरु भाई थे । आर्य महागिरि ३० वर्ष की उप्र में दीक्षा लेकर ४० वर्ष तक ब्रतपर्याय में रहे । निरपवाद चारित्र रूप जिनकल्प श्री जम्बूस्वामी के निर्वाण के साथ विच्छिन्न होगया था फिर भी आप उसका अभ्यास करते थे। सारांश- आप उत्तम चारित्री थे। ३० वर्ष तक युगप्रधान पद पर रहकर पूरे १०० वर्ष की आयु पालकर वीर निर्वाण संवत्‌ २९७ में स्वर्गवासी हुए।</p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1-ho6o0UuErvsozjfDlTa8JCpjkcNwptd/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1LJP7DfTEg6oeLGs65DLY8SF8IjUWmBlc/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1e4kHNAXj_ZWy4D-WkqdbVt1nqyrr86s1/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+      <section>
+        <time>297 वीर निर्वाण संवत</time>
+        <h1>आर्य सुहस्ती</h1>
+        <p>श्री स्थूलभद्रस्वामीजी के पट्ट पर आर्य महागिरिजी और आर्य सुहस्ती हुए । ये दोनों गुरु भाई थे । आर्य सुहस्ती ने ३9 वर्ष की उम्र में दीक्षा ली। २४ वर्ष तक ब्रतपर्याय पाली और ४६ वर्ष तक युगप्रधान पद पर रहे १०० वर्ष की आयु पूर्ण कर वी.नि.सं. ३४३ में स्वर्गवासी हुए  </p>
+        <ol>
+          <li><a href='https://drive.google.com/file/d/1-ho6o0UuErvsozjfDlTa8JCpjkcNwptd/view?usp=sharing'>English</a></li>
+          <li><a href='https://drive.google.com/file/d/1LJP7DfTEg6oeLGs65DLY8SF8IjUWmBlc/view?usp=sharing'>हिंदी</a></li>
+          <li><a href='https://drive.google.com/file/d/1e4kHNAXj_ZWy4D-WkqdbVt1nqyrr86s1/view?usp=sharing'>ગુજરાતી</a></li>
+        </ol>
+      </section>
+    </article>
+    <footer>
+      <address>
+        <h1>Credits</h1>
+        <dl>
+          <dt>COMPILED BY</dt>
+          <dd>Jinashrit Shramanopasak</dd>
+          <dt>WRITTEN BY</dt>
+          <dd>Acharya Kulchandrasuriji</dd>
+          <dt>SOURCE</dt>
+          <dd>Jain Itihas</dd>
+        </dl>
+      </address>
+    </footer>
+</main>
+
+
+
+
+
+  <nav class="share">
+    <!-- Whatsapp -->
+    <a class="social" style="background-color: #25d366;" 
+      href="whatsapp://send?text= %0D%0A  %0D%0A " data-action="share/whatsapp/share">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Facebook -->
+    <a class="social" style="background-color: #3b5998;" 
+      href="https://www.facebook.com/sharer.php?u=">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <!-- Twitter -->
+    <a class="social" style="background-color: #55acee;" 
+      href="https://twitter.com/intent/tweet?url=&text=Read this interesting article in history of jainism">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </nav>   
+  <style> 
+  footer {
+    background-color: #282d32;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+  footer h1 {
+    color: rgb(240, 249, 255);
+    font-size: 1em;
+  }
+  footer p, footer ol, footer li {
+    color: #9F9F9F;/* #6c757d;*/
+    font-size: 0.75em;
+  }
+  footer .links {
+    grid-column-start:1; 
+    grid-column-end:2;
+    display: flex;
+    justify-content: space-around;
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+  }
+  footer .logo {
+      width: 35px;
+      height: 35px;
+  }
+  @media (min-width: 450px) {
+    footer {
+      grid-template-columns: 50% 50%;
+    }
+    footer .links {
+      grid-column-start:1; 
+      grid-column-end:3;
+    }
+  }
+  @media (min-width: 900px) {
+    footer {
+      grid-template-columns: 33% 33% 33%;
+    }
+    footer .links {
+      grid-column-start:1; 
+      grid-column-end:4;
+    }
+  }
+</style>
+<footer>
+  <section class='links'>
+    <a href='/'>
+      <img class="logo" src="/static/images/logo.png" alt="History of Jainism"/>
+    </a>
+    <a href='https://medium.com/muni-speaks'>
+      <img class="logo" src="/static/images/munispeaks.png">
+    </a>
+    <!-- Whatsapp -->
+      <a href="http://joinwhatsapp.historyofjainism.com/">
+          <i class="fab fa-whatsapp"></i>
+      </a>
+      <!-- Facebook -->
+      <a href="https://fb.com/historyofjainism">
+          <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/muni_speaks">
+          <i class="fab fa-twitter"></i>
+      </a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/historyofjainism/">
+          <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Github-->
+      <a href="https://github.com/historyofjainism/django">
+          <i class="fab fa-github"></i>
+      </a>
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+          <i class="fab fa-youtube"></i>
+      </a>
+</section>
+  <section>
+    <h1>About</h1>
+    <p>The History is the mirror of the past. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism. </p>
+  </section>
+  <section>
+    <h1>Volunteer</h1>
+    <p>This portal is run by volunteers. We need volunteers with one or more of the following skillsets: </p>
+    <ul>
+      <li>web-design</li>
+      <li>creating posters for social media</li>
+      <li>whatsapp, facebook, instagram admin</li>
+      <li>translation from gujarati to English</li>
+      <li>translation from gujarati to hindi</li>
+      <li>translation from hindi to english</li>
+      <li>digitisation of scanned pdfs</li>
+      <li>proof reading & editing</li>
+    </ul>
+    <p>Contact us on whatsapp</p>
+  </section>
+  <section>
+    <h1>Sponsor</h1>
+    <p>Would you like to sponsor prize money for quizzes? Contact us on whatsapp. </p>
+  </section>
+</footer>
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCu1azH_PqRsw9cc8hgliqZ2rgu2aMInSM",
+        authDomain: "history-of-jainism.firebaseapp.com",
+        projectId: "history-of-jainism",
+        storageBucket: "history-of-jainism.appspot.com",
+        messagingSenderId: "1020329931456",
+        appId: "1:1020329931456:web:023d8b13ded314cca0f325",
+        measurementId: "G-HWR4YKMSDK"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+</body>
+</html>

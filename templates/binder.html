@@ -1,0 +1,336 @@
+{% extends "base.html" %}
+
+{% block JS %}
+<script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
+{% endblock %}
+
+{% block css %}
+<style>
+
+  #binder {
+    padding-top: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+#binder figure {
+  width: 100%;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#binder figure figcaption {
+  padding-left: 15px;
+}
+
+#binder li {
+  counter-increment: clip-counter;
+  position: relative;
+  display:flex;
+  align-items:center;
+}
+#binder figure {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(0,0,0,0.1);
+  align-items: center;
+}
+
+#binder ol {
+  padding-inline: 0em;
+  margin-block: 0em;
+}
+
+#binder li::before {
+  content: counter(clip-counter);
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+  color: #8e8e93;
+  font-size: 1em;
+  --size: 1.5em;
+  left: calc(-1 * var(--size) - 12px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  text-align: center;
+  padding: 10px;
+}
+
+#binder li::marker {
+  color: #8e8e93;
+}
+
+.binder-clip {
+  display: flex;
+  flex-direction: column;
+}
+
+.binder-clip-hide {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .binder-clip {
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background: white;
+    padding: 20px;
+    z-index: 2000;
+  }
+}
+
+.binder-clip button.clip-close {
+  background-color: white;
+  color: #039be5;
+  border:none;
+  font-size: 36px;
+  align-self: start;
+  margin-bottom:20px;
+  padding: 0px;
+}
+
+.binder-clip button.clip-read {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 14px;
+  background-color: #e72c30;
+  color: white;
+  border: none;
+}
+.binder-clip h1 {
+  margin-block: 0px; 
+  margin: 0px !important;
+  font-size: 36px;
+  line-height: 1;
+  color: black;
+}
+
+.binder-clip h2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e93;
+  line-height: 1;
+}
+
+.binder-clip p {
+  color: #8e8e93;
+  font-size: 14px;
+}
+
+.binder-clip dt {
+    color: #8e8e93;
+}
+
+.binder-clip dd {
+    font-size: xxx-large;
+    color: #8e8e93;
+    margin-inline: 0px;
+    line-height: 1;
+}
+
+#binder figure figcaption h1 {
+  margin-block: 0px; 
+  margin: 0px;
+  font-size: 16px;
+  color: black;
+}
+#binder figure figcaption h2 {
+  margin-block: 0px; 
+  font-size: 12px;
+  font-weight: 400;
+  color: #8e8e93;
+}
+
+#binder figure {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#binder figure img {
+  height: 55px;
+  width: 35px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 80%);
+}
+.binder-header img {
+  width: 100%;
+}
+.binder-header {
+  color: #8e8e93;
+  font-size: 14px;
+}
+
+.binder-lang {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 40px;
+  width: 35px;
+  height: 35px;
+  background: #f1f3f4;
+  opacity: 0.8;
+  font-size: 12px;
+  margin: 0px 2px;
+  align-self: center;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+@media (min-width: 750px) {
+    #binder h1 {
+      margin: 8px;
+    }
+    .binder-header img {
+      width: 100%;
+      float: left;
+    } 
+    .binder-header div {
+      display: contents;
+      float: right
+    } 
+    .binder-header {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #dfe1e5;
+      border-radius: 8px;
+      padding: 8px;
+      color: #8e8e93;
+      font-size: 14px;
+    }    
+    .binder-cont {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      justify-content: space-between;
+    }    
+
+    .binder-clip button.clip-close {
+      display: none;
+    }
+  }
+
+
+</style>
+{% endblock %}
+
+
+{% block main %}
+
+
+  <section id="binder">
+    <div>
+      <div style="align-self: center;">
+        <a class='binder-lang' href="/binder/hi/{{ name }}">हिंदी</a>
+        <a class='binder-lang' href="/binder/gu/{{ name }}">ગુજરાતી</a> 
+      </div>
+      <h1>{{ binder.title }}</h1>
+    </div>
+    <div class="binder-cont">
+      <div class="binder-header">
+        <img src='{{ binder.cover.0.url }}'/>
+        <div>{{ binder.description }}</div>
+      </div>
+      <div>
+        <ol>
+          {% for clip in binder.clipsCollection.items %}
+          <li>
+            <button onclick="previewClip('clip-{{clip.sys.id}}')" style="width:100%; background:white;border:none;text-align: left;  cursor: pointer;">
+              <figure>
+                <img src="{{ clip.source.cover.url }}" alt="{{ clip.title }}" />
+                <figcaption>
+                    <h1>{{ clip.title}}</h1>
+                    <h2>{{ clip.author}}</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% for clip in binder.clipsCollection.items %}
+      <div id="clip-{{clip.sys.id}}" class="binder-clip binder-clip-hide">
+        <button class='clip-close' onclick="this.parentElement.classList.add('binder-clip-hide')">
+          <i class="fas fa-arrow-circle-left"></i>
+        </button>
+        <h1>
+          {{ clip.title }}
+        </h1>
+        <h2>{{ clip.author }}</h2>
+        <dl>
+          <dt>Pages</dt>
+          <dd>{{ clip.pages }}</dd>
+        </dl>
+        <button class='clip-read' onclick="previewFile('{{clip.document.url}}', '{{clip.title}}')">Read</button>
+        {% if clip.abstract %} 
+          <p>{{ clip.abstract }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  
+  <script>
+    const viewerConfig = {
+      embedMode: "LIGHT_BOX"
+    };
+
+    previewClip = function( clip_id ) {
+      clips = document.getElementsByClassName('binder-clip')
+      for(const clip of clips) {
+        clip.classList.add('binder-clip-hide')
+      }
+      document.getElementById(clip_id).classList.remove('binder-clip-hide')  
+    }
+    previewFile = function(file_url, file_title ) {
+      /* Initialize the AdobeDC View object */
+      var adobeDCView = new AdobeDC.View({
+          /* Pass your registered client id */
+          clientId: "5f8d647bc3304af5ae8ad2841f30aeca"
+      });
+
+      /* Invoke the file preview API on Adobe DC View object */
+      adobeDCView.previewFile({
+          /* Pass information on how to access the file */
+          content: {
+              /* Location of file where it is hosted */
+              location: {
+                  url: file_url,
+                  /*
+                  If the file URL requires some additional headers, then it can be passed as follows:-
+                  header: [
+                      {
+                          key: "<HEADER_KEY>",
+                          value: "<HEADER_VALUE>",
+                      }
+                  ]
+                  */
+              },
+          },
+          /* Pass meta data of file */
+          metaData: {
+              /* file name */
+              fileName: file_title
+          }
+      }, viewerConfig);
+    }
+    
+
+
+  /* Wait for Adobe Document Services PDF Embed API to be ready and enable the View PDF button 
+  document.addEventListener("adobe_dc_view_sdk.ready", function () {
+      document.getElementById("view-pdf-btn").disabled = false;
+  });*/
+
+/* Function to render the file using PDF Embed API. */
+
+  </script>
+{% endblock %}

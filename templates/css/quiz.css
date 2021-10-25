@@ -1,0 +1,16 @@
+nav.quiz {
+    background-color: #f2f2f2;
+    border-top: 5px solid #0e365a;
+    border-radius: 5px;
+    padding: 5px;
+  }
+nav.quiz a {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #14599d;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+  

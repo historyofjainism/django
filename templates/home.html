@@ -9,7 +9,7 @@
   <!-- title Maximum of 65 characters -->
   <title>History of Jainism</title>
   <!-- description Maximum of 155 characters -->
-  <meta name="description" content="The History is the mirror of the past. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism."></meta>
+  <meta name="description" content="It’s time the 'real history of Jainism' is told."></meta>
   {% load static %}
   <link rel="preconnect" href="https://fonts.gstatic.com"></link>
   <link rel="stylesheet" href="{% static 'css/article.css' %}"></link>
@@ -18,7 +18,6 @@
 </head>
 <body style='background-color: white;'>
   {% include "header.html" %}
-  <div style='margin-top:50px; max-width:1000px; margin: 50px auto;'>
     <!--background-color: #E9F1F7-->
     <style>
       .featured {
@@ -33,6 +32,7 @@
       .list {
         display: grid;
         grid-template-columns: 100%;
+        margin-top: 50px;
       }
 
       .list img {
@@ -86,39 +86,28 @@
         padding: 15px;
       }
     </style>
-    <a class='featured' href='/article/hi/kangra'>
-      <img style='width:100%;' src='/static/images/kangra/cover.jpeg'/>
-      <summary>
-        <h1>काँगड़ा</h1>
-        <h2>उत्तर का शत्रुंजय तीर्थ</h2>
-      </summary>
-    </a>
     <div class='list'>
-    <a href='/article/hi/taksasila' >
-      <img src='/static/images/taxila/Taxila.jpeg'/>
-      <summary>
-        <h1>तक्षशिला</h1>
-        <h2>एक समृद्ध ऐतिहासिक जैन धर्म की नगरी</h2>
-      </summary>
-    </a>
-
-    <a href='/webstory/hi/gaccha' >
-      <img src='/static/images/gaccha.jpg'/>
-      <summary>
-        <h1>गच्छ</h1>
-        <h2>ग्रंथो में गच्छ, कुल, गण और शाखाएं का वर्णन आया करता है, परन्तु इन नामों का पारिभाषिक अर्थ और प्रचलित होने के कारण क्या है</h2>
-      </summary>
-    </a>
-
-    <a href='/timeline/hi/ahojinshashan'>
-      <img src='/static/images/timeline/ahojinshashan.jpeg'/>
-      <summary>
-        <h1>अहो! जिन शासनम्</h1>
-        <h2>आज से 2577 वर्ष पूर्व श्रमण भगवान महावीर ने पावापुरी में वैशाख शुक्ल 11 के दिन चतुर्विध संघ की स्थापना की। यद्यपि भस्म ग्रह के दुष्प्रभाव से प्रभु वीर के निर्वाण के दो हजार वर्षो तक जिनशासन की प्रगति में अन्तरायों की बात थी किंतु इतिहास साक्षी है कि जिन शाशन का गौरवपूर्ण इतिहास रहा है। जैन शास्त्रों में हजारो प्रसंगो सुवर्ण अक्षर से लिखे गये है। हमको प्रेरणा मिले इस हेतु से कुछ प्रसंग प्रस्तुत है</h2>
-      </summary>
-    </a>
-  </div>
-</div>
+    {% for card in cards %}
+      {% if card.typename == "Binder" %}
+        <a href='/binder/{{ card.language }}/{{ card.name }}' >
+      {% endif %}
+      {% if card.typename == "Blog" %}
+        <a href='/blog/{{ card.language }}/{{ card.name }}' >
+      {% endif %}
+      {% if card.typename == "External" and card.type == "static" %}
+        <a href='{{ card.url }}' >
+      {% endif %}
+      {% if card.typename == "External" and card.type == "medium" %}
+        <a href='https://medium.com/muni-speaks{{ card.url }}' >
+      {% endif %}
+        <img src='{{ card.cover.0.url }}'/>
+        <summary>
+          <h1>{{ card.title }}</h1>
+          <h2>{{ card.subtitle }}</h2>
+        </summary>
+      </a>
+    {% endfor %}  
+    </div>
 {% include "footer.html" %}
 
 {% include "analytics.html" %}

@@ -5,6 +5,12 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+  // Dynamic Links will start with https://www.historyofjainism.com/test
+  "appAssociation": "AUTO",
+  "rewrites": [ 
+	{ "source": "/test/**", "dynamicLinks": true }, 
+	{ "source": "/test1/**", "destination" : "/index.html" } 
     ]
   }
 }

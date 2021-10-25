@@ -1,120 +1,21 @@
-<!DOCTYPE html>
-<html lang="{{ lang }}" >
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{% include "favicon.html" %}
-{% include "linkpreview.html" %}
-  <!-- title Maximum of 65 characters -->
-  <title>History of Jainism - {{ title }}</title>
-  <!-- description Maximum of 155 characters -->
-  <meta name="description" content="{{ description }}">
-  {% load static %}
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}" type="text/css" charset="utf-8" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-  <link rel="stylesheet" href="{% static 'css/timeline.css' %}">
-</head>
-<body>
-  {% load static %}
-  {% include "header.html" %}
-  <style>
-      article header {
-        max-width: 700px;
-        margin: auto;
-      }
-      article .title {
-        font-size: 3em; 
-        font-weight: 900;
-        align-self:center;
-        color: rgb(0,0,0);
-        margin-top: 36px;
-      }
-      article .subtitle {
-        font-size: 1.25em;
-        font-weight: 500;
-        color: rgb(117,117,117);
-      }
-      article .coverimg {
-        margin: 30px 0;
-        width:100%;
-      }
-      article .description {
-        font-size: 1em;
-        font-style: italic;
-        font-weight: 500;
-      }
-      article header {
-        background-color: white;
-        padding:10px ;
-      }
-  </style>
-  <article>
-    <header>
-      <div class="title">{{ title }}</div>
-      <!--div class="subtitle">उत्तर का शत्रुंजय तीर्थ</div-->
-      <img class="coverimg" src="{{ coverimg }}" alt="{{ title }}"/>
-      <div class="description">
-        {{ description }}
-      </div>
-      <div class="p-2">
-        <a href='{{ lang_en_url }}'>Eng</a> | <a href='{{ lang_hi_url }}'>हिंदी</a>
-      </div>
-    </header>
-  
-      <div class= "flex-lg-fill col">
-      <div class="timeline">
-        <div class="timeline__bar"></div>
-        <div class="d-flex justify-content-center p-2" style="position: relative;
-        ">
-          <div class="note note-primary" style="max-width:300px;">
-            {% if lang == 'hi' %}
-            <strong>आज वर्ष </strong>
-            <ul>
-              <li>ईस्वी 2021</li>
-              <li><a href="https://hi.wikipedia.org/wiki/वीर_निर्वाण_संवत">वीर निर्वाण संवत</a> 2547 </li>
-              <li><a href="https://hi.wikipedia.org/s/a63">विक्रम संवत</a> 2077   </li>
-            </ul>
-            {% else %}
-            <strong>This Year </strong>
-            <ul>
-              <li>2021 AD</li>
-              <li><a href="https://en.wikipedia.org/wiki/Vira_Nirvana_Samvat">VNS( Vir Nirvan Samvat)</a> 2547 </li>
-              <li><a href="https://en.wikipedia.org/wiki/Vikram_Samvat">Vikram Samvat</a> 2077   </li>
-            </ul>
-            {% endif %}
-          </div>
-        </div>
-        {% for o in timeline %}
-        <div class="timeline__event timeline__eventtype-{{ o.type }}">
-          <div class="timeline__event-date">
-              {{ o.year }} {{ samvat }}
-          </div>
-          <div class="timeline__event-title text-center">{{o.title}}</div>
-          {% if o.image %}
-          <!-- ASPECT RATIO 16:9, DIMENSION OF IMAGES SHOULD BE 320X180 -->
-          <img class="timeline__event-image" src="{{ o.image }}" alt="{{ o.title }}"/>
-          {% endif %}
-          <!-- DESCRIPTION SHOULD BE LESS THAN 270 CHARACTERS -->
-          <div class="timeline__event-descr">{{ o.description }}</div>
-          {% if o.link %}
-          <div class="timeline__event-actions">
-            <a 
-              class="timeline__event-action" 
-              href="{{ o.link }}" 
-              title="Learn More">
-                {{ event_link_text }}
-            </a>
-          </div>
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>       
-    </div> 
-  </article>
+{% extends "base.html" %}
+{% block css %}
+<style>
+{% include "css/article.css" %}
+{% include "css/timeline.css" %}
+</style>
+{% endblock %}
 
-    {# include "analytics.html" #}
-    {% include "footer.html" %}
-  </body>
-</html>
+{% block JS %}
+<script>
+{% include "js/timeline.js" %}
+</script>
+{% endblock %}
+
+{% block main %}
+
+{% include content %}
+
+
+{% endblock %}
+

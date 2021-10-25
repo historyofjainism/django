@@ -23,7 +23,7 @@ window.addEventListener("scroll", function() {
     hide_nav_by_name('site')
     hide_nav_by_name('reading')
     hide_nav_by_name('share')
-    hide_nav_by_name('article')
+    //hide_nav_by_name('article')
     hide_nav_by_name('toc')
     hide_override=false
     return
@@ -32,18 +32,18 @@ window.addEventListener("scroll", function() {
   s = window.scrollY
   currentScroll = s
   site_nav = document.querySelector('nav.site')
-  article_nav = document.querySelector('nav.article')
+  //article_nav = document.querySelector('nav.article')
   reading_nav = document.querySelector('nav.reading')
   share_nav = document.querySelector('nav.share')
   if ( s > h && currentScroll > previousScroll ) {
     hide_nav(site_nav)
-    hide_nav(article_nav)
+    //hide_nav(article_nav)
     show_nav(reading_nav)
     show_nav(share_nav)
   }
   else {
     show_nav(site_nav)
-    show_nav(article_nav)
+    //show_nav(article_nav)
     hide_nav(reading_nav)
     hide_nav(share_nav)
   }

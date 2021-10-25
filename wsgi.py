@@ -12,5 +12,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+os.environ.setdefault('APP_ENVIRONMENT', 'production')
+os.environ.setdefault('CLOUDINARY_URL','cloudinary://111376825554284:CWgsyTXwZj_yGZWHwUbSRB82lTU@history-of-jainism')
 
 application = get_wsgi_application()

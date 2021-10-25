@@ -71,7 +71,7 @@
         }
         .menu-follow {
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto auto auto auto;
             column-gap: 30px;
         }
         nav .menu a {
@@ -89,7 +89,8 @@
     </script>
     <nav class="site">
         <div style='display:flex;'>
-            <img class="logo" src="/static/images/logo_b_on_w_fill.png" alt="History of Jainism"/>
+        {% load cloudinary %}
+            {% cloudinary 'brand/logo/logo_b_on_w_fill.png' class='logo' alt='History of Jainism' %}
             <div style="font-size:24px;padding-left:15px;">History of Jainism</div>
         </div>
         <a class='menu-open' onclick='showMenu()'>
@@ -99,7 +100,6 @@
             <div class='menu-list'>
                 <a class='menu-item' href='/'>HOME</a>
                 <a class='menu-item' href='https://medium.com/muni-speaks'>MUNI SPEAKS</a>
-                <a class='menu-item' href='https://historyofjainism.com'>MORE</a>
                 <div class='menu-item menu-follow'>
                 <!-- Whatsapp -->
                     <a href="http://joinwhatsapp.historyofjainism.com/">
@@ -116,6 +116,14 @@
                     <!-- Instagram -->
                     <a href="https://www.instagram.com/historyofjainism/">
                         <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- Github-->
+                    <a href="https://github.com/historyofjainism/django">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+                        <i class="fab fa-youtube"></i>
                     </a>
                 </div>
             </div>

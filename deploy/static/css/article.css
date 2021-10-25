@@ -43,7 +43,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 nav a {
-  color: #14599d;
+  /*color: #14599d;*/
+  color: black;
   text-decoration:none;
 }
 nav.site-old {
@@ -81,7 +82,7 @@ nav.reading {
   top:0px;
   right:0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 nav.toc {
   background-color:#f2f2f2; 
@@ -99,6 +100,7 @@ nav.toc li {
 }
 nav.reading .title {
   font-weight: 700;
+  padding-left: 15px;
 }
 nav.share {
   position: fixed;
@@ -135,7 +137,6 @@ nav.quiz {
   background-color: #f2f2f2;
   border-top: 5px solid #0e365a;
   border-radius: 5px;
-  margin: 10px;
   padding: 5px;
 }
 nav.quiz a {
@@ -168,13 +169,12 @@ nav.hide {
 main {
   display : flex;
   flex-direction: column;
-  padding-top: 140px;
+  padding: 50px 15px 15px 15px;
 }
 article {
   color: rgb(60,60,60);
   font-size: 1em;
   font-weight: 400;
-  background-color: #f2f2f2;
 }
 
 article figure {
@@ -194,8 +194,7 @@ article .title {
   font-weight: 900;
   align-self:center;
   color: rgb(0,0,0);
-  margin-top: 36px;
-}
+}  
 article .subtitle {
   font-size: 1.25em;
   font-weight: 500;
@@ -212,13 +211,11 @@ article .description {
 }
 article header {
   background-color: white;
-  padding:10px ;
 }
 
 article section {
   margin-top: 30px;
   background-color: white;
-  padding:10px ;
 }
 
 article ol {
@@ -257,23 +254,47 @@ article img {
 @media (min-width: 450px) {
   body {
     font-size: 20px;
-    background-color: #f2f2f2;
   }
   main {
     max-width: 800px;
     margin: auto;
   }
-  nav.quiz {
-    background-color: white;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  article header {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-  article section {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+}
+
+article footer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-top: 1px solid rgb(200,200,200);
+  padding: 0px;
+  margin: 0px;
+}
+address {
+  background-color: white;
+  font-style:normal;
+}
+footer address h1 {
+  color: black;
+}
+address ol {
+  padding-inline-start: 0px;
+}
+address li {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+address .credit-label {
+  color: rgb(41,41,41);
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  line-height: 16px;
+  font-size: 12px;
+}
+address .credit-value {
+  color: black;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
 }

@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block css %}
+<style>
+{% include "css/article.css" %}
+{% include "css/article-1.css" %}
+</style>
+{% endblock %}
+
+{% block main %}
+
+<main>
+    <header>
+        <h1> {{ blog.title }} </h1>
+        <h2> {{ blog.subtitle }} </h2>
+        <img src='{{ blog.cover.0.url }}' alt="{{ blog.title }}"/>
+        <p>{{ blog.description }}</p>
+    </header>
+    <article>
+        {{ blog.article | safe }}
+        {{ blog.articleMore | safe }}
+    </article>
+    <footer>
+      <address>
+          <h1>Credits</h1>
+          <dl>
+            {% for source in blog.sourcesCollection.items %}
+            <dt>SOURCE</dt>
+            <dd>{{ source.title }}</dd>
+            <dt>AUTHOR</dt>
+            <dd>{{ source.author }}</dd>
+            {% endfor %}
+            {% if blog.translator %}
+            <dt>TRANSLATED BY</dt>
+            <dd>{{ blog.translator }}</dd>
+            {% endif %}
+            {% if blog.compiler %}
+            <dt>COMPILED BY</dt>
+            <dd>{{ blog.compiler }}</dd>
+            {% endif %}
+          </dl>
+      </address>
+    </footer>
+</main>
+
+{% endblock %}

@@ -129,7 +129,7 @@
         }
         .menu-follow {
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto auto auto auto;
             column-gap: 30px;
         }
         nav .menu a {
@@ -175,6 +175,14 @@
                     <a href="https://www.instagram.com/historyofjainism/">
                         <i class="fab fa-instagram"></i>
                     </a>
+                    <!-- Github-->
+                    <a href="https://github.com/historyofjainism/django">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- YouTube -->
+                    <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </div>
             </div>
             <a class='menu-close' onclick='closeMenu()'>
@@ -184,7 +192,7 @@
     </nav>
 </header>
 
-  <nav class="article">
+  <!--nav class="article">
     <div style='display: flex;justify-content: space-between;font-size:0.75em; margin-bottom: 10px; color:#14599d;'>
       <div>
         <a href='https://historyofjainism.com' title="home">Home</a>
@@ -196,7 +204,7 @@
     <div style='font-weight: bold;'>
       काँगड़ा
     </div>
-  </nav>
+  </nav-->
   <nav class="share">
       <!-- Whatsapp -->
       <a class="social" style="background-color: #25d366;" 
@@ -217,8 +225,8 @@
       </a>
   </nav>
   <nav class="reading hide">
+    <a onclick="show_nav_by_name('toc')"><i class="fas fa-list"></i></a>
     <div class="title"></div>
-    <a onclick="show_nav_by_name('toc')"><i class="fas fa-caret-square-down"></i></a>
   </nav>
   <nav class="toc hide">
     <div class="sections_list">
@@ -623,6 +631,7 @@
       grid-column-start:1; 
       grid-column-end:3;
     }
+  }
   @media (min-width: 900px) {
     footer {
       grid-template-columns: 33% 33% 33%;
@@ -657,7 +666,15 @@
       <a href="https://www.instagram.com/historyofjainism/">
           <i class="fab fa-instagram"></i>
       </a>
-  </section>
+      <!-- Github-->
+      <a href="https://github.com/historyofjainism/django">
+          <i class="fab fa-github"></i>
+      </a>
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+          <i class="fab fa-youtube"></i>
+      </a>
+</section>
   <section>
     <h1>About</h1>
     <p>The History is the mirror of the past. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism. </p>

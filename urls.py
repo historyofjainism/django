@@ -25,5 +25,7 @@ urlpatterns = [
     path('', views.home),
     path('timeline/<slug:lang>/<slug:timeline_name>', views.timeline ),
     path('webstory/<slug:lang>/<slug:webstory_name>', views.webstory ),
-    path('article/<slug:lang>/<slug:article_name>', views.article )
+    path('ampstory', views.ampstory ),
+    path('binder/<slug:lang>/<slug:name>', views.binder ),
+    path('blog/<slug:lang>/<slug:name>', views.blog )
 ] 

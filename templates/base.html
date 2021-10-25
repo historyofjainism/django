@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" >
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+{% include "favicon.html" %}
+{% include "linkpreview.html" with description=subtitle %}
+  <!-- title Maximum of 65 characters -->
+  <title>History of Jainism - {{title}}</title>
+  <!-- description Maximum of 155 characters -->
+  <meta name="description" content="{{subtitle}}"></meta>
+  <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"></link>
+  <style>
+    {% include "css/base.css" %}
+    {% include "css/share.css" %}
+  </style>
+  {% block css %}
+    /% override css here %/
+  {% endblock %}
+  {% block JS %}
+    /% override JS here %/
+  {% endblock %}
+</head>
+<body>
+
+  {% include "header.html" %}
+
+ 
+  {% block main %}
+    <main>
+      THIS SHOULD BE OVERRIDDEN BY SPECIFIC PAGE TYPES
+    </main>
+  {% endblock %}
+
+  {% include "share.html" %}
+
+  {% include "footer.html" %}
+
+  {% include "analytics.html" %}
+</body>
+</html>

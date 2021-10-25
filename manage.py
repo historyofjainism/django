@@ -7,6 +7,8 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+    os.environ.setdefault('APP_ENVIRONMENT', 'localhost')
+    os.environ.setdefault('CLOUDINARY_URL','cloudinary://111376825554284:CWgsyTXwZj_yGZWHwUbSRB82lTU@history-of-jainism')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

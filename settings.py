@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2gl4)9=6h9cg(ykfl*sf!uq6z9@5*6&d4+it99mwlx0c(7egr@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cloudinary'
 ]
 
 MIDDLEWARE = [
@@ -56,6 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [   os.path.join(BASE_DIR, 'templates'),
+                    os.path.join(BASE_DIR, 'content'),
                     os.path.join(BASE_DIR, 'content/article')],
         'APP_DIRS': True,
         'OPTIONS': {
