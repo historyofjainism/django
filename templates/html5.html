@@ -1,0 +1,344 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="preconnect" href="https://fonts.gstatic.com"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"></link>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap');
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'Vesper Libre', serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (min-width: 450px) {
+    body {
+      font-size: 20px;
+    }
+  }    
+  nav .social {
+      color: #fff;
+      border: 0;
+      -webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+      box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%), 0 2px 10px 0 rgb(0 0 0 / 10%);
+      border-radius: 0.25rem;
+      text-decoration: none;
+      margin:5px;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }  
+  nav.share {
+      position: fixed;
+      width:50px;
+      top:50%;
+      right:0;
+      height: 30px;
+  }  
+  nav .logo {
+      width: 40px;
+      height: 40px;
+  }
+  nav.site {
+      /*background-color: #0e365a;*/
+      color: black;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+      align-items: center;
+      position: fixed;
+      left:0;
+      top:0;
+      right:0px;
+      height: 50px;
+      z-index: 1000;
+  }
+  .menu-open {
+      color: black;
+      text-decoration: none;
+  }
+  .menu {
+      display: none;
+      position: fixed;
+      margin: 0px;
+      left: 0;
+      top:0;
+      right:0;
+      bottom:0;
+      background-color: white;
+      z-index: 10;
+  }
+  .menu-list {
+      display: flex;
+      flex-direction: column;
+      margin-top:75px;
+      font-size: 1.25em;
+      align-items: center;
+  }
+  .menu-close {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin: 15px;
+      font-size: 2em;
+  }
+
+  @media (min-width: 900px) {
+      .menu-open, .menu-close {
+          display: none;
+      }    
+      .menu {
+          display: flex;
+          position: relative;
+      }
+      .menu-list {
+          display: flex;
+          flex-direction: row;
+          position: relative;
+          margin: 0;
+          font-size: 0.75em;
+      }
+  }
+  .menu-item {
+      padding: 15px;
+  }
+  .menu-follow {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+      column-gap: 30px;
+  }
+  nav .menu a {
+      text-decoration: none;
+      color: black;
+  }
+  footer {
+    background-color: #282d32;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 25px;
+    margin-bottom: 50px;
+  }
+  footer h1 {
+    color: rgb(240, 249, 255);
+    font-size: 1em;
+  }
+  footer p, footer ol, footer li {
+    color: #9F9F9F;/* #6c757d;*/
+    font-size: 0.75em;
+  }
+  footer .links {
+    grid-column-start:1; 
+    grid-column-end:2;
+    display: flex;
+    justify-content: space-around;
+  }
+  .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+  }
+  footer .logo {
+      width: 35px;
+      height: 35px;
+  }
+  @media (min-width: 450px) {
+    footer {
+      grid-template-columns: 50% 50%;
+    }
+    footer .links {
+      grid-column-start:1; 
+      grid-column-end:3;
+    }
+  }
+  @media (min-width: 900px) {
+    footer {
+      grid-template-columns: 33% 33% 33%;
+    }
+    footer .links {
+      grid-column-start:1; 
+      grid-column-end:4;
+    }
+  }
+</style>
+<script>
+  function showMenu() {
+      document.getElementsByClassName('menu')[0].style.display = "block"
+  }
+  function closeMenu() {
+      document.getElementsByClassName('menu')[0].style.display = "none"
+  }
+</script>
+  {% block css %}
+    /% override css here %/
+  {% endblock %}
+  {% block JS %}
+    /% override JS here %/
+  {% endblock %}
+{% endblock %}
+
+{% block body %}
+
+<header>
+  <nav class="site">
+      <div style='display:flex;'>
+      {% load cloudinary %}
+          {% cloudinary 'brand/logo/logo_b_on_w_fill.png' class='logo' alt='History of Jainism' %}
+          <div style="font-size:24px;padding-left:15px;">History of Jainism</div>
+      </div>
+      <a class='menu-open' onclick='showMenu()'>
+          <i class="fas fa-bars"></i>
+      </a>
+      <div class='menu'>
+          <div class='menu-list'>
+              <a class='menu-item' href='/'>HOME</a>
+              <a class='menu-item' href='https://medium.com/muni-speaks'>MUNI SPEAKS</a>
+              <div class='menu-item menu-follow'>
+              <!-- Whatsapp -->
+                  <a href="http://joinwhatsapp.historyofjainism.com/">
+                      <i class="fab fa-whatsapp"></i>
+                  </a>
+                  <!-- Facebook -->
+                  <a href="https://fb.com/historyofjainism">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <!-- Twitter -->
+                  <a href="https://twitter.com/muni_speaks">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <!-- Instagram -->
+                  <a href="https://www.instagram.com/historyofjainism/">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <!-- Github-->
+                  <a href="https://github.com/historyofjainism/django">
+                      <i class="fab fa-github"></i>
+                  </a>
+                  <!-- YouTube -->
+                  <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+                      <i class="fab fa-youtube"></i>
+                  </a>
+              </div>
+          </div>
+          <a class='menu-close' onclick='closeMenu()'>
+              <i class="fas fa-times"></i>
+          </a>
+      </div>
+  </nav>
+</header>
+
+ 
+{% block main %}
+  <main>
+
+  </main>
+{% endblock %}
+
+  <nav class="share">
+    <!-- Whatsapp -->
+    <a class="social" style="background-color: #25d366;" 
+      href="whatsapp://send?text={{prod_url}} %0D%0A {{title}} %0D%0A {{description}}" data-action="share/whatsapp/share">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Facebook -->
+    <a class="social" style="background-color: #3b5998;" 
+      href="https://www.facebook.com/sharer.php?u={{prod_url}}">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <!-- Twitter -->
+    <a class="social" style="background-color: #55acee;" 
+      href="https://twitter.com/intent/tweet?url={{prod_url}}&text=Read this interesting article in history of jainism">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </nav>   
+
+<footer>
+  <section class='links'>
+    <a href='/'>
+      <img class="logo" src="/static/images/logo.png" alt="History of Jainism"/>
+    </a>
+    <a href='https://medium.com/muni-speaks'>
+      <img class="logo" src="/static/images/munispeaks.png">
+    </a>
+    <!-- Whatsapp -->
+      <a href="http://joinwhatsapp.historyofjainism.com/">
+          <i class="fab fa-whatsapp"></i>
+      </a>
+      <!-- Facebook -->
+      <a href="https://fb.com/historyofjainism">
+          <i class="fab fa-facebook-f"></i>
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/muni_speaks">
+          <i class="fab fa-twitter"></i>
+      </a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/historyofjainism/">
+          <i class="fab fa-instagram"></i>
+      </a>
+      <!-- Github-->
+      <a href="https://github.com/historyofjainism/django">
+          <i class="fab fa-github"></i>
+      </a>
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/channel/UCCuthgCCDHRhJZxkbYbZ1GA">
+          <i class="fab fa-youtube"></i>
+      </a>
+  </section>
+  <section>
+    <h1>About</h1>
+    <p>It’s time the ‘real Jainism history’ is told.</p>
+    <p>Jain Dharm is eternal. It is important to reclaim our history and write it from our ‘perspective’. Kings like Kumarpal, Shrenik, great ministers like Vastupal, Tejpal and great Jain Acharyas like Vajraswami,  Hemachandracharya do not find prominent place in the history books taught in school. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism.The History is the mirror of the past. "History of Jainism" portal has undertaken objective of presenting ancient and glorious history of Jainism. </p>
+  </section>
+  <section>
+    <h1>Volunteer</h1>
+    <p>This portal is run by volunteers. We need volunteers with one or more of the following skillsets: </p>
+    <ul>
+      <li>web-design</li>
+      <li>creating posters for social media</li>
+      <li>whatsapp, facebook, instagram admin</li>
+      <li>translation from gujarati to English</li>
+      <li>translation from gujarati to hindi</li>
+      <li>translation from hindi to english</li>
+      <li>digitisation of scanned pdfs</li>
+      <li>proof reading & editing</li>
+    </ul>
+    <p>Contact us on whatsapp</p>
+  </section>
+  <section>
+    <h1>Sponsor</h1>
+    <p>Would you like to sponsor prize money for quizzes? Contact us on whatsapp. </p>
+  </section>
+</footer>
+
+{% if APP_ENVIRONMENT == "production" %}
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCu1azH_PqRsw9cc8hgliqZ2rgu2aMInSM",
+        authDomain: "history-of-jainism.firebaseapp.com",
+        projectId: "history-of-jainism",
+        storageBucket: "history-of-jainism.appspot.com",
+        messagingSenderId: "1020329931456",
+        appId: "1:1020329931456:web:023d8b13ded314cca0f325",
+        measurementId: "G-HWR4YKMSDK"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+{% endif %}
+{% endblock %}

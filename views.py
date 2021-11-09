@@ -1,141 +1,165 @@
-#
-# Views
-#  - home
-#  - timeline[hindi/english]
-#  - blog[hindi/english]
-#  - binder[hindi/gujarati]
-#  - ampstory[english/hindi]
-#  - quiz[hindi]
-#  - videos[english/hindi]
-#  - course[hindi]
-
-from django.http import HttpResponse
 from django.shortcuts import render
 
-import content
-
-import xml.etree.ElementTree as ET
-from pathlib import Path
 import os 
-
-from django.template.loader import render_to_string
 
 import requests
 import json
 
 CMS_URL= "https://graphql.contentful.com/content/v1/spaces/skavkfrlakjq/environments/master"
-CDN_URL="https://res.cloudinary.com/history-of-jainism/image/upload/v1634199762/"
 
-BASE_DIR = Path(__file__).resolve().parent
-EVENT_IMG_BASE_URL = "/static/images/timeline/"
-COVER_IMG_BASE_URL = "/static/images/timeline/"
 PROD_WEBSITE = "https://historyofjainism.com"
 
-EVENT_LINK_TEXT = { 'en' : "Read More", 'hi' : "और पढ़ें"}
+AMP = '⚡'
 
-def timeline_old(request, lang, timeline_name):
-    xmlfile = os.path.join(BASE_DIR, "content/timeline/" + timeline_name + ".xml")
-    root = ET.parse(xmlfile).getroot()
+def context_processor( request ):
+    data = { }
+    data['APP_ENVIRONMENT'] = os.environ['APP_ENVIRONMENT']
+    data['prod_url'] = PROD_WEBSITE + request.path
+    return data
 
-    timeline = root.find('timeline')
-    timeline_obj = [ ]
+def ampstory( request, name ):
+    query = """
+query($name : String! ) {
+    ampStoryCollection(limit: 1, where: {name: $name}) {
+                items {
+                    sys {
+                        id
+                    }
+                    title,
+                    subtitle
+                    description,
+                    story {
+                        json
+                        links {
+                            assets {
+                                block {
+                                    url
+                                    sys {
+                                        id
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    cover,
+                    intro,
+                    pagesCollection {
+                        items {
+                            sys {
+                                id
+                            }
+                            heading
+                            paragraph
+                            image
+                            ol
+                        }
+                    }
+                }
+            }
+        }
+    """
+    if name == 'maps2550': name = 'map2500'
+    res_json = get_content_as_json(query, { "name" : name })
+    context = res_json['data']['ampStoryCollection']['items'][0]
+    context['AMP'] = AMP
+    context['theme'] = "theme/yellow.css"
 
-    for t_event in timeline.findall('event'):
-        e_title = t_event.find('title')
-        e_desc = t_event.find('description')
-        e_year = t_event.find('year')
-        e_image = t_event.find('image')
-        e_link = t_event.find('link')
-        e_type = t_event.find('type')
-        timeline_obj.append(
-            {
-                'title' : ( e_title.find(lang).text if (e_title.find(lang) is not None) else e_title.text ), 
-                'description' : ( e_desc.find(lang).text[:300] if ( e_desc.find(lang) is not None) else e_desc.text), 
-                'year' : e_year.text,
-                'image' : ( EVENT_IMG_BASE_URL + e_image.text if (e_image is not None) else None ),
-                'link' : ( e_link.text if (e_link is not None) else None ),
-                'type' : ( e_type.text if (e_type is not None) else 'default')
+    image_blocks = context['story']['links']['assets']['block']
+    image_urls = { }
+    for image_block in image_blocks:
+        image_urls[image_block['sys']['id']] = image_block['url']
+
+    pages = [ ]
+    page = [ ]
+    for element in context['story']['json']['content']:
+        if element['nodeType'] == 'hr':
+            pages.append(page)
+            page = [ ]
+        elif element['nodeType'] == 'paragraph':
+            page.append({
+                "type" : "paragraph",
+                "value" : element['content'][0]['value']
             })
+        elif element['nodeType'] == 'embedded-asset-block':
+            page.append({
+                "type" : "image",
+                "src" : image_urls[element['data']['target']['sys']['id']]
+            })
+        elif element['nodeType'] == 'heading-2':
+            page.append({
+                "type" : "heading-2",
+                "value" : element['content'][0]['value']
+            })
+        elif element['nodeType'] == 'heading-1':
+            page.append({
+                "type" : "heading-1",
+                "value" : element['content'][0]['value']
+            })
+        elif element['nodeType'] == 'ordered-list':
+            page.append({
+                "type" : "ordered-list",
+                "list-items" : [ listitem['content'][0]['content'][0]['value'] for listitem in element['content'] ]
+            })
+    print(pages)
+    context['pages'] = pages
+    return render( request, 'maps2550.html', context )
 
-    return render(
-        request,
-        'timeline.html', 
-        {
-            'timeline' : timeline_obj, 
-            'title' : root.find('title').find(lang).text,
-            'description' : root.find('description').find(lang).text,
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : PROD_WEBSITE + COVER_IMG_BASE_URL + root.find('cover_img').text,
-            'coverimg' : COVER_IMG_BASE_URL + root.find('cover_img').text,
-            'samvat' : root.find('samvat').find(lang).text,
-            'event_link_text' : EVENT_LINK_TEXT[lang],
-            'lang' : lang,
-            'lang_en_url' : '/timeline/en/' + timeline_name,
-            'lang_hi_url' : '/timeline/hi/' + timeline_name
-        } )
-
-def webstory(request, lang, webstory_name):
-    return render(
-        request,
-        'webstory.html',
-        {
-            'title' : "गच्छ",
-            'description' : "गच्छ, कुल, गण और शाखाएं का पारिभाषिक अर्थ",
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : PROD_WEBSITE + '/static/images/gaccha.jpg',
-            'coverimg' : '/static/images/gaccha.jpg',
-        } ) 
-
-def article(request, lang, article_name):
-    title, subtitle, description, coverimg = content.link_metadata( request.path )
-    #title, subtitle, description, coverimg = content.get_summary( lang, article_name )
-    return render(
-        request,
-        'article.html',
-        {
-            'title' : title,
-            'subtitle' : subtitle,
-            'description' : description,
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : PROD_WEBSITE + coverimg,
-            'article_content' : lang + '/' + article_name + ".html",
-        } ) 
-
-def ampstory( request ):
-    return render( request, 'gaccha.html')
-
-def index( request ):
-    return render(
-        request,
-        'index.html')
-
-def timeline( request, lang, timeline_name ):
-    title, subtitle, description, coverimg = content.link_metadata( request.path )
-    print(request.path)
-    return render(
-        request,
-        'timeline.html',
-        {
-            'lang' : lang,
-            'title' : title,
-            'subtitle' : subtitle,
-            'description' : description,
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : PROD_WEBSITE + coverimg,
-            'content' : "timeline/" + lang + "/" + timeline_name + ".html",
-        } ) 
-
-def library( request, lang, shelf_name ):
-    return render( request, 'library.html', {
-            'lang' : lang,
-            'title' : 'Vikramaditya',
-            'subtitle' : 'विक्रमादित्य के नाम पर विक्रम संवत २०७८(2021) चल रहा है।',
-            'description' : 'विक्रमादित्य के नाम पर विक्रम संवत २०७८(2021) चल रहा है।',
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : PROD_WEBSITE + '/static/images/timeline/vikramaditya.jpg'
-        } )
+def list( request, name ):
+    query = """
+query($name : String! ) {
+   listCollection(limit:1, where: { name : $name} ) {
+    items {
+      sys {
+          id
+      }
+      name
+      title
+      subtitle
+      updated
+      cover
+      story {
+        json
+        links {
+          assets {
+            __typename
+            block {
+              sys {
+                id
+              }
+              url
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  }
+} 
+    """
+    res_json = get_content_as_json(query, { "name" : name } )
+    content = res_json['data']['listCollection']['items'][0]
+    content['AMP'] = AMP
+    content['theme'] = "theme/black.css"
+    image_blocks = content['story']['links']['assets']['block']
+    image_urls = { }
+    for image_block in image_blocks:
+        image_urls[image_block['sys']['id']] = image_block['url']
+    pages = [ ]
+    elements = iter(content['story']['json']['content'])
+    for heading, image, paragraph  in zip(elements, elements, elements):
+        pages.append( {
+            'pageid' : image['data']['target']['sys']['id'],
+            'image' : image_urls[image['data']['target']['sys']['id']],
+            'heading' : heading['content'][0]['value'],
+            'paragraph' : paragraph['content'][0]['value'] })
+    
+    content['pages'] = pages
+        
+    return render( request, 'list.html', content )
 
 def binder( request, lang, name ):
+
     query = """
        query {
             binderCollection(limit:1, where: {name:\"""" + name + """\", language:\"""" + lang + """\"}) {
@@ -220,15 +244,15 @@ def blog( request, lang, name ):
             'linkpreview_img' : blog['cover'][0]['url']
         } )
 
-def get_content_as_json( query ):
-    print(query)
+def get_content_as_json( query, variables=None ):
+    print(query, variables)
     r = requests.post( CMS_URL, headers={
             "Authorization": "Bearer px87wXacTSetoV42SIP1YlO5Ace7MZMGAx9bMjDAJ3I",
             "Content-Type": "application/json"
         },
-        json={"query": query}
+        json={"query": query, "variables" : variables }
     )
-
+    print(r.text)
     return json.loads(r.text)
 
 
@@ -267,6 +291,16 @@ def home( request ):
                     cover
                     updated
                 }
+            }
+            ampStoryCollection {
+                items {
+                    typename : __typename
+                    name
+                    title
+                    subtitle
+                    cover
+                    updated
+                }
             }            
         }
     """
@@ -274,14 +308,16 @@ def home( request ):
     print(res_json)
     all_items = res_json['data']['externalCollection']['items'] \
                 + res_json['data']['binderCollection']['items'] \
-                + res_json['data']['blogCollection']['items'] 
+                + res_json['data']['blogCollection']['items'] \
+                + res_json['data']['ampStoryCollection']['items']
     print("sorted")
-    return render( request, 'home.html', {
-            'title' : "History of Jainism",
-            'subtitle' : "It's time Real Jain History be told!!",
-            'description' : "It's time Real Jain History be told!!",
-            'prod_url' : PROD_WEBSITE + request.path,
-            'cards' : sorted(all_items, key=lambda x:x['updated'], reverse=True)
-            #'linkpreview_img' : binder['cover'][0]['url']
-        } )
+    content = {
+        'title' : "History of Jainism",
+        'subtitle' : "It's time Real Jain History be told!!",
+        'description' : "It's time Real Jain History be told!!",
+        'prod_url' : PROD_WEBSITE + request.path,
+        'cards' : sorted(all_items, key=lambda x:x['updated'], reverse=True)
+        #'linkpreview_img' : binder['cover'][0]['url']
+        }
+    return render( request, 'home.html', content )
 

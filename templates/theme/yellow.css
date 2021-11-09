@@ -1,0 +1,97 @@
+.info h1 { 
+    font-size: 24px; 
+    text-align: center;
+}
+
+.info h2 { 
+    color: #111; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 30px; 
+    font-weight: 300; 
+    line-height: 32px; 
+    margin: 0 0 72px; 
+    text-align: center; 
+}
+
+amp-story-page p { 
+    color: #685206; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 24px; 
+    line-height: 24px; 
+    text-align: justify; 
+}
+
+amp-story-page, .info {
+    background-color: #E7B91B;
+    padding: 15px;
+}
+
+/* List */
+ol {
+    counter-reset: index;  
+    padding: 0;
+    max-width: 300px;
+}
+
+/* List element */
+li {
+    counter-increment: index; 
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    box-sizing: border-box;
+
+    color: #685206; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 18px; 
+    line-height: 24px; 
+    text-align: justify; 
+    text-justify: inter-word; 
+
+}
+
+
+/* Element counter */
+li::before {
+    content: counters(index, ".", decimal-leading-zero);
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: bold;
+    min-width: 50px;
+    padding-right: 12px;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+    align-self: flex-start;
+    background-image: linear-gradient(to bottom, red, green);
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Element separation */
+li + li {
+    border-top: 1px solid rgba(22,22,22, 0.3);
+}
+
+amp-story-cta-layer div {
+    display: flex;
+    justify-content: center;
+    align-content: middle;
+}
+amp-story-cta-layer a {
+    background: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    padding: 0.8rem 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 2px;
+    text-decoration: none;
+    justify-self: center;
+}

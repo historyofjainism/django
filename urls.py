@@ -23,9 +23,8 @@ import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('timeline/<slug:lang>/<slug:timeline_name>', views.timeline ),
-    path('webstory/<slug:lang>/<slug:webstory_name>', views.webstory ),
-    path('ampstory', views.ampstory ),
+    path('ampstory/<slug:name>', views.ampstory ),
+    path('list/<slug:name>', views.list ),
     path('binder/<slug:lang>/<slug:name>', views.binder ),
     path('blog/<slug:lang>/<slug:name>', views.blog )
 ] 

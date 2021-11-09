@@ -1,93 +1,64 @@
-<!DOCTYPE html>
-<html lang="{{ lang }}" >
-<head>
-  <meta charset="UTF-8"></meta>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-{% include "favicon.html" %}
-{% include "linkpreview.html" with description=subtitle %}
-  <!-- title Maximum of 65 characters -->
-  <title>History of Jainism</title>
-  <!-- description Maximum of 155 characters -->
-  <meta name="description" content="It’s time the 'real history of Jainism' is told."></meta>
-  {% load static %}
-  <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-  <link rel="stylesheet" href="{% static 'css/article.css' %}"></link>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"></link>
-  <!--script src='/static/js/article.js'></script-->
-</head>
-<body style='background-color: white;'>
-  {% include "header.html" %}
-    <!--background-color: #E9F1F7-->
-    <style>
-      .featured {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-column-gap: 25px;
-        color:black;
-        text-decoration: none;
-        padding: 15px;
-      }
-
-      .list {
-        display: grid;
-        grid-template-columns: 100%;
-        margin-top: 50px;
-      }
-
-      .list img {
-          width: 100%;
-          display: block;
-        }   
-      @media screen and ( min-width:450px ) {
-        .featured { grid-template-columns: 100%; }
-        .list { grid-template-columns: 50% 50%; }     
-        .list img {
-          height: 200px;
-          width: 100%;
-          display: block;
-        }   
-      }
-      @media screen and ( min-width:900px ) {
-        .featured { grid-template-columns: 50% 50%; }
-        .list { grid-template-columns: 33% 33% 33%; }     
-        .list img {
-          height: 200px;
-          width: 100%;
-          display: block;
-        }   
-      }
-      .list h1, .featured h1 {
-          font-size: 1.25em;
-          line-height: 1em;
-          margin: 15px 0px;
-          font-weight: 900;
-      }
-      .featured h1 {
-        font-size: 2em;
-      }
-      .list h2, .featured h2 {
-          color: rgba(0,0,0,.54);
-          font-size: 1em;
-          line-height: 1em;
-          margin: 0px;
-          font-weight: 300;
-      }
-      .featured summary, .list summary {
-          justify-content: top;
-          padding: 15px 0;
-          display: flex;
-          flex-direction: column;
-          align-items: left;
-      }
-      .featured a, .list a {
-        color:black;
-        text-decoration: none;
-        padding: 15px;
-      }
-    </style>
-    <div class='list'>
+{% extends "html5.html" %}
+{% block css %}
+  <style>
+    main {
+      padding: 15px;
+      display: grid;
+      grid-template-columns: 100%;
+    }
+    main img {
+      width: 100%;
+      display: block;
+    }   
+    @media screen and ( min-width:450px ) {
+      main { grid-template-columns: 50% 50%; }     
+      main img {
+        height: 200px;
+        width: 382px;
+        display: block;
+      }   
+    } 
+    @media screen and ( min-width:900px ) {
+      main { grid-template-columns: 33% 33% 33%; }     
+      main img {
+        height: 225px;
+        width: 402px;
+        display: block;
+      }   
+    }
+    main h1 {
+        font-size: 1.25em;
+        line-height: 1em;
+        margin: 15px 0px;
+        font-weight: 900;
+    }
+    main h2 {
+        color: rgba(0,0,0,.54);
+        font-size: 1em;
+        line-height: 1em;
+        margin: 0px;
+        font-weight: 300;
+    }
+    main summary {
+        justify-content: top;
+        padding: 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    main a {
+      color:black;
+      text-decoration: none;
+      padding: 15px;
+    }
+  </style>
+{% endblock %}
+{% block main %}
+  <main>
     {% for card in cards %}
+      {% if card.typename == "AmpStory" %}
+        <a href='/ampstory/maps2550' >
+      {% endif %}
       {% if card.typename == "Binder" %}
         <a href='/binder/{{ card.language }}/{{ card.name }}' >
       {% endif %}
@@ -105,11 +76,7 @@
           <h1>{{ card.title }}</h1>
           <h2>{{ card.subtitle }}</h2>
         </summary>
-      </a>
+        </a>
     {% endfor %}  
-    </div>
-{% include "footer.html" %}
-
-{% include "analytics.html" %}
-</body>
-</html>
+  </main>
+{% endblock %}

@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}" >
+<html {{AMP}}>
 <head>
   <meta charset="UTF-8"></meta>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+  <link rel="canonical" href="{{ prod_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-{% include "favicon.html" %}
-{% include "linkpreview.html" with description=subtitle %}
+  <!-- og:title Maximum 35 characters -->
+  <meta property="og:title" content="{{ title }}"></meta>
+  <!-- og:url Full link to the current webpage address -->
+  <meta property="og:url" content="{{ prod_url }}"></meta>
+  <meta property="og:site_name" content="History of Jainism"></meta>
+  <!-- og:description Maximum 65 characters -->
+  <meta property="og:description" content="{{ subtitle }}"></meta>
+  <!-- og:image Image(JPG or PNG) with a size less than 300KB and minimum dimensions of 300 x 200 *. This image should be served via a HTTPS connection with a valid non-self-signed certificate.** -->
+  <meta property="og:image" itemprop="image" content="{{ cover.0.secure_url }}"></meta> 
+  <meta property="og:image:secure_url" itemprop="image" content="{{ cover.0.secure_url }}"></meta> 
+  <meta property="og:updated_time" content="2021-05-16T11:00:00+0530"></meta>
+  <!-- og:type In order for your object to be represented within the graph, you need to specify its type. Here's a list of the global types available: http://ogp.me/#types. You can also specify your own types. -->
+  <meta property="og:type" content="article"></meta>
+  <meta property="og:locale" content="hi_EN"></meta>
+  <meta property="og:locale:alternate" content="en_GB"></meta>
+  <!-- Twitter For the best Twitter support read https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started.-->
+  <meta name="twitter:card" content="summary"></meta>
+  <meta name="twitter:site" content="@muni_speaks"></meta>
+  <!-- ****** faviconit.com favicons ****** -->
+  <link rel="shortcut icon" href="/static/images/favicon/favicon.ico"></link>
+  <link rel="icon" sizes="16x16 32x32 64x64" href="/static/images/favicon/favicon.ico"></link>
+  <link rel="icon" type="image/png" sizes="196x196" href="/static/images/favicon/favicon-192.png"></link>
+  <link rel="icon" type="image/png" sizes="160x160" href="/static/images/favicon/favicon-160.png"></link>
+  <link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96.png"></link>
+  <link rel="icon" type="image/png" sizes="64x64" href="/static/images/favicon/favicon-64.png"></link>
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32.png"></link>
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16.png"></link>
+  <link rel="apple-touch-icon" href="/static/images/favicon/favicon-57.png"></link>
+  <link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/favicon-114.png"></link>
+  <link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/favicon-72.png"></link>
+  <link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/favicon-144.png"></link>
+  <link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/favicon-60.png"></link>
+  <link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/favicon-120.png"></link>
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/favicon-76.png"></link>
+  <link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/favicon-152.png"></link>
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/favicon-180.png"></link>
+  <meta name="msapplication-TileColor" content="#FFFFFF"></meta>
+  <meta name="msapplication-TileImage" content="/static/images/favicon/favicon-144.png"></meta>
+  <meta name="msapplication-config" content="/static/images/favicon/browserconfig.xml"></meta>
+  <!-- ****** faviconit.com favicons ****** -->  
   <!-- title Maximum of 65 characters -->
+  {% if title %}
   <title>History of Jainism - {{title}}</title>
+  {% else %}
+  <title>History of Jainism</title>
+  {% endif %}
   <!-- description Maximum of 155 characters -->
+  {% if subtitle %}
   <meta name="description" content="{{subtitle}}"></meta>
-  <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"></link>
-  <style>
-    {% include "css/base.css" %}
-    {% include "css/share.css" %}
-  </style>
-  {% block css %}
-    /% override css here %/
+  {% else %}
+  <meta name="description" content="It’s time the 'real history of Jainism' is told."></meta>
+  {% endif %}
+  {% block head %}
+
   {% endblock %}
-  {% block JS %}
-    /% override JS here %/
-  {% endblock %}
+
 </head>
 <body>
+{% block body %}
 
-  {% include "header.html" %}
-
- 
-  {% block main %}
-    <main>
-      THIS SHOULD BE OVERRIDDEN BY SPECIFIC PAGE TYPES
-    </main>
-  {% endblock %}
-
-  {% include "share.html" %}
-
-  {% include "footer.html" %}
-
-  {% include "analytics.html" %}
+{% endblock %}
 </body>
 </html>

@@ -1,0 +1,89 @@
+{% extends "ampstory.html" %}
+
+{% block amp-story-pages %}
+  <amp-story-page id="{{sys.id}}">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{title}}"
+        src='{{cover.0.secure_url}}'
+        layout="responsive"
+        width=518
+        height=456
+        animate-in="fade-in"
+        animate-in-duration="2s"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="thirds">
+      <div grid-area="upper-third" animate-in="fly-in-top">
+      </div>
+      <div class="info" grid-area="lower-third" animate-in="fly-in-bottom">
+        <h1 >{{title}}</h1>
+      </div>
+    </amp-story-grid-layer>
+  </amp-story-page>
+  <amp-story-page id="{{sys.id}}-subtitle">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{title}}"
+        src='{{cover.0.secure_url}}'
+        layout="responsive"
+        width=518
+        height=456
+        animate-in="fade-in"
+        animate-in-duration="2s"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="thirds">
+      <div grid-area="upper-third" animate-in="fly-in-top">
+      </div>
+      <div class="info" grid-area="lower-third" animate-in="fly-in-bottom">
+        <p >{{subtitle}}</p>
+      </div>
+    </amp-story-grid-layer>
+  </amp-story-page>
+  {% for page in pages %}
+  <amp-story-page id="{{page.pageid}}">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{page.heading}}"
+        src='{{page.image}}'
+        layout="responsive"
+        width=518
+        height=456
+        animate-in="fade-in"
+        animate-in-duration="2s"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="thirds">
+      <div grid-area="upper-third" animate-in="fly-in-top">
+      </div>
+      <div class="info"grid-area="lower-third" animate-in="fly-in-bottom">
+        <h2 >{{page.heading}}</h2>
+        <p >{{page.paragraph}}</p>
+      </div>   
+    </amp-story-grid-layer>
+  </amp-story-page>
+  {% endfor %}
+  <amp-story-page id='brandscreen'>
+    <amp-story-grid-layer template="fill">
+      <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;">
+        <amp-img 
+          alt="History of Jainism"
+          src='https://res.cloudinary.com/history-of-jainism/image/upload/v1634199759/brand/logo/Logo-Transparent-White_rglsde.png'
+          layout="fixed"
+          width="120"
+          height="105"
+          animate-in="fade-in"
+          animate-in-duration="2s"
+        ></amp-img>
+        <p style="color:white">https://historyofjainism.com</p>
+      </div>
+    </amp-story-grid-layer>
+    <amp-story-cta-layer>
+      <div>
+        <a href="https://historyofjainism.com">Visit website</a>
+      </div>
+    </amp-story-cta-layer>
+  </amp-story-page>
+{% endblock %}
+

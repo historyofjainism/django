@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "html5.html" %}
 
 {% block JS %}
 <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -248,7 +248,11 @@
                 <img src="{{ clip.source.cover.url }}" alt="{{ clip.title }}" />
                 <figcaption>
                     <h1>{{ clip.title}}</h1>
-                    <h2>{{ clip.author}}</h2>
+                    {% if clip.source.type == 'Journal' %}
+                      <h2>{{ clip.author}}</h2>
+                    {% else %}
+                      <h2>{{ clip.source.author}}</h2>
+                    {% endif %}
                 </figcaption>
               </figure>
             </button>
@@ -264,7 +268,11 @@
         <h1>
           {{ clip.title }}
         </h1>
-        <h2>{{ clip.author }}</h2>
+        {% if clip.source.type == 'Journal' %}
+          <h2>{{ clip.author}}</h2>
+        {% else %}
+          <h2>{{ clip.source.author}}</h2>
+        {% endif %}
         <dl>
           <dt>Pages</dt>
           <dd>{{ clip.pages }}</dd>
