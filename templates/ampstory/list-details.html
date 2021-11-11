@@ -1,0 +1,182 @@
+{% extends "ampstory.html" %}
+
+{% block style %}
+<style amp-custom>
+
+  amp-story-page h1 { 
+    font-size: 34px;
+    font-weight: 900; 
+    text-align: center;
+    color: black;
+    background: white;
+    padding: 15px;
+    border-radius: 25px;
+    font-variant: all-petite-caps;
+  }
+
+  amp-story-page h2 { 
+    font-size: 18px; 
+    font-weight: 700; 
+    line-height: 28px; 
+    text-align: center; 
+    background: white;
+    color: black;
+    border-radius: 25px;
+    padding: 15px;
+  }
+
+  amp-story-page ul { 
+    line-height: 24px; 
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border-radius: 25px;
+    padding-inline-start: 30px;
+  }
+
+  amp-story-page {
+    background-color: rgb(0,0,0,0.5);
+    padding: 15px;
+    color: white;
+  }
+
+  amp-story-cta-layer div {
+      display: flex;
+      justify-content: center;
+      align-content: middle;
+  }
+
+  amp-story-cta-layer a {
+      background: transparent;
+      color: #fff;
+      border: 3px solid #fff;
+      border-radius: 50px;
+      padding: 0.8rem 2rem;
+      font-size: 24px;
+      font-weight: 700;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      transition: 0.2s ease-in-out;
+      letter-spacing: 2px;
+      text-decoration: none;
+      justify-self: center;
+  }
+
+</style>
+{% endblock %}
+{% block amp-story-pages %}
+  <amp-story-page id="{{sys.id}}">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{title}}"
+        src='{{cover.0.secure_url}}'
+        layout="responsive"
+        width=540
+        height=960
+        animate-in="fade-in"
+        animate-in-duration="2s"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="thirds">
+      <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;" grid-area="middle-third" animate-in="fade-in">
+        <amp-img 
+          alt="History of Jainism"
+          src='https://res.cloudinary.com/history-of-jainism/image/upload/v1634199759/brand/logo/Logo-Transparent-White_rglsde.png'
+          layout="fixed"
+          width="60px"
+          height="60px"
+          animate-in-delay="1s"
+          animate-in="fade-in"
+          animate-in-duration="1s"
+        ></amp-img>
+      </div>
+      <div grid-area="lower-third" animate-in-delay="1s" animate-in="fade-in" animate-in-duration="2s">
+        <h1>{{title}}</h1>
+      </div>
+    </amp-story-grid-layer>
+  </amp-story-page>
+  <amp-story-page id="{{sys.id}}-subtitle">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{title}}"
+        src='{{cover.0.secure_url}}'
+        layout="responsive"
+        width=518
+        height=456
+        animate-in="fade-in"
+        animate-in-duration="2s"
+        style="filter:blur(10px);"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="fill">
+      <div style="margin:30px;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+        <h2 animate-in="fade-in">{{description}}</h2>
+      </div>
+    </amp-story-grid-layer>
+  </amp-story-page>
+  {% for page in pages %}
+  <amp-story-page id="{{sys.id}}-{{forloop.counter}}">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{page.0.value}}"
+        src='{{page.1.src}}'
+        layout="responsive"
+        width=540
+        height=960
+        animate-in="fade-in"
+        animate-in-duration="2s"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="thirds">
+      <div grid-area="lower-third">
+        <h2 animate-in="fly-in-bottom" >{{page.0.value}}</h2>
+      </div>
+    </amp-story-grid-layer>
+  </amp-story-page>
+  <amp-story-page id="{{sys.id}}-{{forloop.counter}}-a">
+    <amp-story-grid-layer template="fill">
+      <amp-img 
+        alt="{{page.0.value}}"
+        src='{{page.1.src}}'
+        layout="responsive"
+        width=518
+        height=456
+        animate-in="fade-in"
+        animate-in-duration="2s"
+        style="filter:blur(10px);"
+      />
+    </amp-story-grid-layer>
+    <amp-story-grid-layer template="vertical">
+      <h2 animate-in="fly-in-bottom" >{{page.0.value}}</h2>
+      <ul animate-in-delay="1s" animate-in="fade-in">
+      {% for li in page.2.list_items %} 
+        <li>{{li}}</li>
+      {% endfor %}
+      </ul>
+    </amp-story-grid-layer>
+  </amp-story-page>
+  {% endfor %}
+  <amp-story-page id='brandscreen'>
+    <amp-story-grid-layer template="fill">
+      <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;">
+        <amp-img 
+          alt="History of Jainism"
+          src='https://res.cloudinary.com/history-of-jainism/image/upload/v1634199759/brand/logo/Logo-Transparent-White_rglsde.png'
+          layout="fixed"
+          width="120px"
+          height="120px"
+          animate-in="fade-in"
+          animate-in-duration="2s"
+        ></amp-img>
+        <p style="color:white">https://historyofjainism.com</p>
+      </div>
+    </amp-story-grid-layer>
+    <amp-story-cta-layer>
+      <div>
+        <a href="https://historyofjainism.com">Visit website</a>
+      </div>
+    </amp-story-cta-layer>
+  </amp-story-page>
+{% endblock %}
+

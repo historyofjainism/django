@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('ampstory/<slug:name>', views.ampstory ),
-    path('list/<slug:name>', views.list ),
+    path('list/<slug:name>', views.ampstory ),
     path('binder/<slug:lang>/<slug:name>', views.binder ),
     path('blog/<slug:lang>/<slug:name>', views.blog )
 ] 

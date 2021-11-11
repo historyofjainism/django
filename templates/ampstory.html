@@ -9,9 +9,11 @@
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+  {% block style %}
   <style amp-custom>
-    {% include theme %}
+
   </style>
+  {% endblock %}
 {% endblock %}
 
 {% block body %}
@@ -34,6 +36,27 @@
             "config": {
               "UA-191902352-1": {
                 "groups": "default"
+              }
+            }
+          },
+          "triggers": {
+            "storyProgress": {
+              "on": "story-page-visible",
+              "vars": {
+                "event_name": "custom",
+                "event_action": "story_progress",
+                "event_category": "${title}",
+                "event_label": "${storyPageId}",
+                "send_to": ["UA-191902352-1"]
+              }
+            },
+            "storyEnd": {
+              "on": "story-last-page-visible",
+              "vars": {
+                "event_name": "custom",
+                "event_action": "story_complete",
+                "event_category": "${title}",
+                "send_to": ["UA-191902352-1"]
               }
             }
           }

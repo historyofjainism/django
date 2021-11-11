@@ -42,27 +42,15 @@ query($name : String! ) {
                         }
                     },
                     cover,
-                    intro,
-                    pagesCollection {
-                        items {
-                            sys {
-                                id
-                            }
-                            heading
-                            paragraph
-                            image
-                            ol
-                        }
-                    }
+                    template
                 }
             }
         }
     """
-    if name == 'maps2550': name = 'map2500'
     res_json = get_content_as_json(query, { "name" : name })
     context = res_json['data']['ampStoryCollection']['items'][0]
     context['AMP'] = AMP
-    context['theme'] = "theme/yellow.css"
+    context['theme'] = "theme/black.css"
 
     image_blocks = context['story']['links']['assets']['block']
     image_urls = { }
@@ -85,6 +73,11 @@ query($name : String! ) {
                 "type" : "image",
                 "src" : image_urls[element['data']['target']['sys']['id']]
             })
+        elif element['nodeType'] == 'heading-3':
+            page.append({
+                "type" : "heading-3",
+                "value" : element['content'][0]['value']
+            })
         elif element['nodeType'] == 'heading-2':
             page.append({
                 "type" : "heading-2",
@@ -95,68 +88,20 @@ query($name : String! ) {
                 "type" : "heading-1",
                 "value" : element['content'][0]['value']
             })
+        elif element['nodeType'] == 'unordered-list':
+            page.append({
+                "type" : "unordered-list",
+                "list_items" : [ listitem['content'][0]['content'][0]['value'] for listitem in element['content'] ]
+            })
         elif element['nodeType'] == 'ordered-list':
             page.append({
                 "type" : "ordered-list",
-                "list-items" : [ listitem['content'][0]['content'][0]['value'] for listitem in element['content'] ]
+                "list_items" : [ listitem['content'][0]['content'][0]['value'] for listitem in element['content'] ]
             })
-    print(pages)
+    #print("Pages: ")
+    #print(pages)
     context['pages'] = pages
-    return render( request, 'maps2550.html', context )
-
-def list( request, name ):
-    query = """
-query($name : String! ) {
-   listCollection(limit:1, where: { name : $name} ) {
-    items {
-      sys {
-          id
-      }
-      name
-      title
-      subtitle
-      updated
-      cover
-      story {
-        json
-        links {
-          assets {
-            __typename
-            block {
-              sys {
-                id
-              }
-              url
-              width
-              height
-            }
-          }
-        }
-      }
-    }
-  }
-} 
-    """
-    res_json = get_content_as_json(query, { "name" : name } )
-    content = res_json['data']['listCollection']['items'][0]
-    content['AMP'] = AMP
-    content['theme'] = "theme/black.css"
-    image_blocks = content['story']['links']['assets']['block']
-    image_urls = { }
-    for image_block in image_blocks:
-        image_urls[image_block['sys']['id']] = image_block['url']
-    pages = [ ]
-    elements = iter(content['story']['json']['content'])
-    for heading, image, paragraph  in zip(elements, elements, elements):
-        pages.append( {
-            'pageid' : image['data']['target']['sys']['id'],
-            'image' : image_urls[image['data']['target']['sys']['id']],
-            'heading' : heading['content'][0]['value'],
-            'paragraph' : paragraph['content'][0]['value'] })
-    
-    content['pages'] = pages
-        
-    return render( request, 'list.html', content )
+    return render( request, context['template'], context )
 
 def binder( request, lang, name ):
 
@@ -245,14 +190,14 @@ def blog( request, lang, name ):
         } )
 
 def get_content_as_json( query, variables=None ):
-    print(query, variables)
+    #print(query, variables)
     r = requests.post( CMS_URL, headers={
             "Authorization": "Bearer px87wXacTSetoV42SIP1YlO5Ace7MZMGAx9bMjDAJ3I",
             "Content-Type": "application/json"
         },
         json={"query": query, "variables" : variables }
     )
-    print(r.text)
+    #print(r.text)
     return json.loads(r.text)
 
 
@@ -305,12 +250,12 @@ def home( request ):
         }
     """
     res_json = get_content_as_json( query )
-    print(res_json)
+    #print(res_json)
     all_items = res_json['data']['externalCollection']['items'] \
                 + res_json['data']['binderCollection']['items'] \
                 + res_json['data']['blogCollection']['items'] \
                 + res_json['data']['ampStoryCollection']['items']
-    print("sorted")
+    #print("sorted")
     content = {
         'title' : "History of Jainism",
         'subtitle' : "It's time Real Jain History be told!!",
