@@ -2,9 +2,10 @@
 
 {% block JS %}
 <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-
+<script>
+  {% include "js/previewFile.js" %}
+</script>
 {% endblock %}
-
 {% block css %}
 <style>
 
@@ -287,10 +288,6 @@
   </section>
   
   <script>
-    const viewerConfig = {
-      embedMode: "LIGHT_BOX"
-    };
-
     previewClip = function( clip_id ) {
       clips = document.getElementsByClassName('binder-clip')
       for(const clip of clips) {
@@ -298,47 +295,6 @@
       }
       document.getElementById(clip_id).classList.remove('binder-clip-hide')  
     }
-    previewFile = function(file_url, file_title ) {
-      /* Initialize the AdobeDC View object */
-      var adobeDCView = new AdobeDC.View({
-          /* Pass your registered client id */
-          clientId: "5f8d647bc3304af5ae8ad2841f30aeca"
-      });
-
-      /* Invoke the file preview API on Adobe DC View object */
-      adobeDCView.previewFile({
-          /* Pass information on how to access the file */
-          content: {
-              /* Location of file where it is hosted */
-              location: {
-                  url: file_url,
-                  /*
-                  If the file URL requires some additional headers, then it can be passed as follows:-
-                  header: [
-                      {
-                          key: "<HEADER_KEY>",
-                          value: "<HEADER_VALUE>",
-                      }
-                  ]
-                  */
-              },
-          },
-          /* Pass meta data of file */
-          metaData: {
-              /* file name */
-              fileName: file_title
-          }
-      }, viewerConfig);
-    }
-    
-
-
-  /* Wait for Adobe Document Services PDF Embed API to be ready and enable the View PDF button 
-  document.addEventListener("adobe_dc_view_sdk.ready", function () {
-      document.getElementById("view-pdf-btn").disabled = false;
-  });*/
-
-/* Function to render the file using PDF Embed API. */
 
   </script>
 {% endblock %}

@@ -23,8 +23,11 @@ import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('book/<slug:name>', views.book ),
     path('ampstory/<slug:name>', views.ampstory ),
     path('list/<slug:name>', views.ampstory ),
     path('binder/<slug:lang>/<slug:name>', views.binder ),
-    path('blog/<slug:lang>/<slug:name>', views.blog )
+    path('blog/<slug:lang>/<slug:name>', views.blog ),
+    path('menu-share.html', views.appdynamic),
+    path('appkit', views.appkit )
 ] 

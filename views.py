@@ -5,7 +5,9 @@ import os
 import requests
 import json
 
-CMS_URL= "https://graphql.contentful.com/content/v1/spaces/skavkfrlakjq/environments/master"
+CMS_CONTENTFUL=1
+CMS_STORYBLOK=2
+
 
 PROD_WEBSITE = "https://historyofjainism.com"
 
@@ -189,19 +191,63 @@ def blog( request, lang, name ):
             'linkpreview_img' : blog['cover'][0]['url']
         } )
 
-def get_content_as_json( query, variables=None ):
+def get_content_as_json( query, variables=None, CMS=CMS_CONTENTFUL ):
+    CONTENTFUL_URL= "https://graphql.contentful.com/content/v1/spaces/skavkfrlakjq/environments/master"
+    STORYBLOK_URL = "https://gapi.storyblok.com/v1/api"
     #print(query, variables)
-    r = requests.post( CMS_URL, headers={
+    if CMS==CMS_CONTENTFUL:
+        headers = {
             "Authorization": "Bearer px87wXacTSetoV42SIP1YlO5Ace7MZMGAx9bMjDAJ3I",
             "Content-Type": "application/json"
-        },
+        }
+        url=CONTENTFUL_URL
+    else: #CMS==CMS_STORYBLOK
+        headers = {
+            "Token" : "VSsin0zNORBSREiD6IQ6ewtt",
+            "Version" : "published" if os.environ['APP_ENVIRONMENT'] == "production" else "draft"
+        }
+        url=STORYBLOK_URL
+    r = requests.post( 
+        url, 
+        headers=headers,
         json={"query": query, "variables" : variables }
     )
-    #print(r.text)
     return json.loads(r.text)
 
+def appdynamic( request ):
+    return render( request, 'menu-share.html')
 
-def home( request ):
+
+def appkit( request ):
+    name="tirthankarmahaveer1"
+    query = """
+query($name : ID! ) {
+  BookItem( id : $name ) {
+      id,
+      name,
+      slug,
+      full_slug,
+      content {
+        title,
+        author,
+        subtitle,
+        description,
+        language,
+        cover {
+          filename
+        },
+        body
+      }
+  }
+}
+    """
+    res_json = get_content_as_json(query, { "name" : "book/" + name }, CMS_STORYBLOK )
+    print(res_json)
+    #compatibility with contentful
+    res_json['data']['BookItem']['content']['cover']['0'] = { 'secure_url' : res_json['data']['BookItem']['content']['cover']['filename']}
+    return render( request, 'appkitdemo.html', res_json['data']['BookItem']['content'] )
+
+def home( request, generate_site=False ):
     query = """
         query {
             externalCollection {
@@ -251,11 +297,13 @@ def home( request ):
     """
     res_json = get_content_as_json( query )
     #print(res_json)
+    if generate_site:
+        return res_json
     all_items = res_json['data']['externalCollection']['items'] \
                 + res_json['data']['binderCollection']['items'] \
                 + res_json['data']['blogCollection']['items'] \
                 + res_json['data']['ampStoryCollection']['items']
-    #print("sorted")
+    print("sorted: ", all_items)
     content = {
         'title' : "History of Jainism",
         'subtitle' : "It's time Real Jain History be told!!",
@@ -265,4 +313,36 @@ def home( request ):
         #'linkpreview_img' : binder['cover'][0]['url']
         }
     return render( request, 'home.html', content )
+
+
+
+
+def book( request, name ):
+    query = """
+query($name : ID! ) {
+  BookItem( id : $name ) {
+      id,
+      name,
+      slug,
+      full_slug,
+      content {
+        title,
+        author,
+        subtitle,
+        description,
+        language,
+        cover {
+          filename
+        },
+        body
+      }
+  }
+}
+    """
+    res_json = get_content_as_json(query, { "name" : "book/" + name }, CMS_STORYBLOK )
+    print(res_json)
+    #compatibility with contentful
+    res_json['data']['BookItem']['content']['cover']['0'] = { 'secure_url' : res_json['data']['BookItem']['content']['cover']['filename']}
+    return render( request, 'book.html', res_json['data']['BookItem']['content'] )
+
 

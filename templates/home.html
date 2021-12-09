@@ -57,7 +57,7 @@
   <main>
     {% for card in cards %}
       {% if card.typename == "AmpStory" %}
-        <a href='/ampstory/maps2550' >
+        <a href='/ampstory/{{ card.name }}' >
       {% endif %}
       {% if card.typename == "Binder" %}
         <a href='/binder/{{ card.language }}/{{ card.name }}' >

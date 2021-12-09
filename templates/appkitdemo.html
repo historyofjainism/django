@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/appkit/styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/static/appkit/styles/style.css">
+<link rel="stylesheet" type="text/css" href="/static/appkit/styles/highlights/highlight_red.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;500;700;900&display=swap"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap"/>
+<link rel="stylesheet" type="text/css" href="/static/appkit/fonts/css/fontawesome-all.min.css">    
+<style>
+    body {
+        -webkit-font-smoothing: antialiased;        
+        font-size: 18px;
+    }
+    .card-under {
+        padding-bottom: 50px;
+    }
+    .card-over {
+        margin-top: -50px;
+    }
+</style>
+<script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script>
+  {% include "js/previewFile.js" %}
+</script>
+{% endblock %}
+
+
+{% block body %}
+
+<div id="page">
+ 
+    <!-- Header Bar will be added here -->
+    <div class="header header-auto-show header-fixed header-logo-app">
+        <a href="#" class="header-title font-13">{{title}}</a>
+        <a href="/" class="header-icon header-icon-1"><img src="/static/images/logo_b_on_w_fill.png" style="width:30px;height:30px;" class='icon'/></a>
+        <a href="#" data-menu="menu-main" class="header-icon header-icon-2"><i class="fas fa-bars"></i></a>
+        <a href="#" data-menu="menu-share" class="header-icon header-icon-3"><i class="fas fa-share-alt"></i></a>
+    </div>
+
+    <div id="menu-share" class="menu menu-box-bottom rounded-m">
+        <div class="menu-title">
+            <p class="color-highlight">Tap a link to</p>
+            <h1>Share</h1>
+            <a href="#" class="close-menu"><i class="fa fa-times-circle"></i></a>
+        </div>
+        <div class="divider divider-margins mt-3 mb-0"></div>
+        <div class="content mt-0">
+            <div class="list-group list-custom-small list-icon-0">
+                <a href="auto_generated" class="external-link shareToFacebook">
+                    <i class="fab fa-facebook-f font-12 bg-facebook color-white shadow-l rounded-s"></i>
+                    <span>Facebook</span>
+                    <i class="fa fa-angle-right pr-1"></i>
+                </a>
+                <a href="auto_generated" class="external-link shareToTwitter">
+                    <i class="fab fa-twitter font-12 bg-twitter color-white shadow-l rounded-s"></i>
+                    <span>Twitter</span>
+                    <i class="fa fa-angle-right pr-1"></i>
+                </a>
+                <a href="auto_generated" class="external-link shareToLinkedIn">
+                    <i class="fab fa-linkedin-in font-12 bg-linkedin color-white shadow-l rounded-s"></i>
+                    <span>LinkedIn</span>
+                    <i class="fa fa-angle-right pr-1"></i>
+                </a>
+                <a href="auto_generated" class="external-link shareToWhatsApp">
+                    <i class="fab fa-whatsapp font-12 bg-whatsapp color-white shadow-l rounded-s"></i>
+                    <span>WhatsApp</span>
+                    <i class="fa fa-angle-right pr-1"></i>
+                </a>
+                <a href="auto_generated" class="external-link shareToMail border-0">
+                    <i class="fa fa-envelope font-12 bg-mail color-white shadow-l rounded-s"></i>
+                    <span>Email</span>
+                    <i class="fa fa-angle-right pr-1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bar will be added here -->
+ 
+    <div class="page-content">
+        <div class="card card-under notch-clear rounded-0 bg-highlight gradient-highlight mb-0">
+            <div class="content">
+				<div class="d-flex">
+					<div class="align-self-center">
+                        <img src="/static/images/Logo-Transparent-White.png" style="width:50px;height:50px;" class='icon'/>
+					</div>
+					<div class="m-auto align-self-center">
+                        <div class="color-white font-18">HISTORY OF JAINISM</div>
+					</div>
+					<div class="align-self-center">
+						<a href="#" data-menu="menu-main" class="icon icon-xxl color-white"><i class="fa fa-bars"></i></a>
+					</div>
+				</div>
+                <div class="d-flex mt-2">
+                    <div class="pe-2">
+                        <div class="card mb-0" style="height:230px; width:144px; background-image:url('{{cover.filename}}')" data-card-height="230"></div>
+                    </div>
+                    <div class="p-1">
+                        <h1 class="color-white">{{title}}</h1>
+                        <p class="mt-n1 color-white">
+                            {{author}} 
+                        </p>
+                        <p class="color-white"> {{subtitle}}</p>
+                        <!--p class="mb-0 font-11 mb-3 mt-n3 line-height-s color-white"><i class="fa fa-clock icon-20 color-blue-dark"></i>Ready in 10 min</p>
+                        <p class="mb-0 font-11 mb-3 mt-n3 line-height-s color-white"><i class="fa fa-heart icon-20 color-red-dark"></i>Extras Available</p>
+                        <p class="mb-n1 color-highlight font-10 color-white">Per Serving</p>
+                        <h2 class="font-19 mb-0 color-white">$24.30</h2-->
+                    </div>
+                </div>
+
+            </div>
+
+		</div>
+        <div class="card card-style card-over">
+            <div class="content">
+                <h1 class="mb-0 color-highlight">About</h1>
+                {{description}}
+            </div>
+        </div>
+        <div class="card card-style">
+            <div class="card-body">
+                <div class="content">
+                    <p class="font-600 mb-n1 color-highlight">Table of</p>
+                    <h1 class="mb-0">Contents</h1>
+                    <p>
+                        Here is what you can expect from our course. Be sure to view all of them, from start to finish to get your certificate.
+                    </p>
+
+                {% for section in body %}
+                    <h2 class="color-highlight opacity-70 mb-4">{{forloop.counter}} - {{section.Title}}</h2>
+                    {% for chapter in section.Chapters %}
+                    <div class="d-flex mb-4">
+                        <div class="align-self-center">
+                            <h2 class="opacity-50 mb-n1 icon-60">{{forloop.parentloop.counter}}.{{forloop.counter}}</h2>
+                        </div>
+                        <div class="align-self-center">
+                            <h3 class="mb-0 opacity-70">{{chapter.Title}}</h3>
+                        </div>
+                        <div class="align-self-center ms-auto">
+                            <h3 class="font-30"><a onclick="previewFile('{{chapter.File.filename}}','{{chapter.Title}}')"><i class="far fa-file-pdf color-highlight opacity-50"></i></a></h3>
+                        </div>
+                        <div class="align-self-center">
+                            <h3 class="font-14 ms-1 line-height-xs opacity-30">{{chapter.Pages}}</h3>
+                            <h3 class="font-14 ms-1 line-height-xs opacity-30">Pages</h3>
+                        </div>
+                    </div>
+                    {% endfor %}
+                   <div class="divider opacity-10 bg-highlight divider-margins"></div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>    
+ 
+    <!-- Off Canvas Elements Here -->
+ 
+</div>    
+<script type="text/javascript" src="/static/appkit/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="/static/appkit/scripts/appkit.js"></script>
+{% if APP_ENVIRONMENT == "production" %}
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCu1azH_PqRsw9cc8hgliqZ2rgu2aMInSM",
+        authDomain: "history-of-jainism.firebaseapp.com",
+        projectId: "history-of-jainism",
+        storageBucket: "history-of-jainism.appspot.com",
+        messagingSenderId: "1020329931456",
+        appId: "1:1020329931456:web:023d8b13ded314cca0f325",
+        measurementId: "G-HWR4YKMSDK"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+{% endif %}
+{% endblock %}

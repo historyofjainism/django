@@ -1,0 +1,97 @@
+{% extends "html5.html" %}
+{% block css %}
+<style>
+  nav.site {
+    position: sticky;
+  }
+
+  main article {
+    padding: 15px;
+    max-width: 600px;
+  }
+  main article img {
+    width: 200px;
+    height: 300px;
+  }
+
+  main article table {
+    width: 100%;
+  }
+
+  main article table .index {
+    color: #8e8e93;
+    width: 50px;
+  }
+
+  main article table .icon {
+    color: #8e8e93;
+    width: 30px;
+  }
+
+  main article table .title {
+    font-weight: 500;
+  }
+  main article table .pages {
+    color: #8e8e93;
+  }
+
+  main, main article, main header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main header {
+    position: sticky;
+    top:0;
+    width: 100%;
+    background: white;
+  }
+
+  main header h1 {
+    margin-block-end: 0;
+    line-height: 34px;
+  }
+  main header cite {
+    margin-bottom: 30px;
+  }
+
+  main article table a {
+    text-decoration: none;
+  }
+</style>
+{% endblock %}
+{% block JS %}
+<script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script>
+  {% include "js/previewFile.js" %}
+</script>
+{% endblock %}
+{% block main %}
+  <main>
+    <header>
+      <h1>{{title}}</h1>
+      <cite>{{author}}</cite>
+    </header>
+    <article>
+      <img src="{{cover.filename}}"/>
+      <p>{{subtitle}}
+      <p>{{description}}
+      <p>
+      {% for section in body %}
+          <h2>{{forloop.counter}} - {{section.Title}}</h2>
+          <table>
+          {% for chapter in section.Chapters %}
+              <tr>
+                  <td class="index">{{forloop.parentloop.counter}}.{{forloop.counter}}</td>
+                  <td class="icon"><i class="far fa-file-pdf"></i></td>
+                  <td class="title"><a onclick="previewFile('{{chapter.File.filename}}','{{chapter.Title}}')">{{chapter.Title}}</a></td>
+                  <td class="pages">{{chapter.Pages}}</td>
+              </tr>
+          {% endfor %}
+          </table>
+      {% endfor %}
+    </article>
+  </main>
+{% endblock %}
+
