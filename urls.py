@@ -1,5 +1,5 @@
-"""live URL Configuration
-
+"""
+Live URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
 Examples:
@@ -13,21 +13,20 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls.static import static
 
-import settings
 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('book/<slug:name>', views.book ),
-    path('ampstory/<slug:name>', views.ampstory ),
-    path('list/<slug:name>', views.ampstory ),
-    path('binder/<slug:lang>/<slug:name>', views.binder ),
-    path('blog/<slug:lang>/<slug:name>', views.blog ),
+    path('book/<slug:name>', views.book),
+    path('ampstory/<slug:name>', views.ampstory),
+    path('list/<slug:name>', views.ampstory),
+    path('binder/<slug:lang>/<slug:name>', views.binder),
+    path('blog/<slug:lang>/<slug:name>', views.blog),
     path('menu-share.html', views.appdynamic),
-    path('appkit', views.appkit )
-] 
+    path('appkit', views.appkit)
+]

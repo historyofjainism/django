@@ -1,7 +1,13 @@
-import requests
-import views
-import shutil
+"""
+Scrapes the current django project
+from the localhost site and generates
+static content.
+"""
 import os
+import shutil
+import requests
+
+from . import views
 
 HOST='http://127.0.0.1:8000'
 DEPLOY_BASE='/Volumes/GoogleDrive-101816541391522989781/My Drive/firebase/build'
@@ -21,26 +27,31 @@ URLS = [
 ]
 
 def main():
+    """
+    Scrapes the current django project
+    from the localhost site and generates
+    static content.
+    """
     print("Cleaning up old directory: ", DEPLOY_BASE)
     shutil.rmtree(DEPLOY_BASE)
     print("Creating folders: ")
-    for dir in DIR_STRUCT:
-        print(dir)
-        os.makedirs(dir)
+    for directory in DIR_STRUCT:
+        print(directory)
+        os.makedirs(directory)
     print("Copying folder: ", FOLDERS[0] )
     shutil.copytree(FOLDERS[0], DEPLOY_BASE + "/static")
     print("Begin Site Generation")
-    content_list = views.home( None, generate_site=True )
+    content_list = views.home(None, generate_site=True)
     for binder in content_list['data']['binderCollection']['items']:
-        URLS.append( 
+        URLS.append(
             ( "/binder/" + binder['language'] + "/" + binder['name'] ,
               "/binder/" + binder['language'] + "/" + binder['name'] ) )
     for blog in content_list['data']['blogCollection']['items']:
-        URLS.append( 
+        URLS.append(
             ( "/blog/" + blog['language'] + "/" + blog['name'] ,
               "/blog/" + blog['language'] + "/" + blog['name'] ) )
     for ampstory in content_list['data']['ampStoryCollection']['items']:
-        URLS.append( 
+        URLS.append(
             ( "/ampstory/" + ampstory['name'] ,
               "/ampstory/" + ampstory['name'] ) )
 
@@ -49,11 +60,9 @@ def main():
         url = HOST + src_path
         file_name = DEPLOY_BASE + dest_path
         print(url, file_name)
-        r = requests.get(url, allow_redirects=True)
-        file_d = open(file_name, 'wb')
-        file_d.write(r.content)
-        file_d.close()
-
+        response = requests.get(url, allow_redirects=True)
+        with open(file_name, 'wb') as file_d:
+            file_d.write(response.content)
 
 if __name__ == '__main__':
     main()
