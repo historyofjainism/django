@@ -32,3 +32,16 @@
     find . -type f -name "*.py" | xargs pylint
     TODO: Find equivalent command on Windows.
     ```
+
+## Deploying to GAE.
+1. A file name `env_variables.yaml` needs to be created with the following content.
+    ```yaml
+    env_variables:
+      DJANGO_SETTINGS_MODULE: settings
+      APP_ENVIRONMENT: localhost
+      CLOUDINARY_URL: <Cloudinary URL>
+      CONTENTFUL_URL: <Contentful URL>
+      CONTENTFUL_AUTHORIZATION_TOKEN: <CONTENTFUL_AUTHORIZATION_TOKEN>
+      STORYBLOK_URL: <STORYBLOK_URL>
+      STORYBLOCK_AUTHORIZATION_TOKEN: <STORYBLOCK_AUTHORIZATION_TOKEN>
+    ```

@@ -20,6 +20,18 @@ PROD_WEBSITE = "https://historyofjainism.com"
 
 AMP = '⚡'
 
+def context_processor( request ):
+    """
+    Defines a Context Processor
+    which adds APP_ENVRIONMENT and prod_url
+    to the data context.
+    """
+    data = { }
+    data['APP_ENVIRONMENT'] = os.environ['APP_ENVIRONMENT']
+    data['prod_url'] = PROD_WEBSITE + request.path
+    return data
+
+
 def ampstory(request, name):
     """
     Queries content from Contentful
