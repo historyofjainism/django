@@ -131,3 +131,14 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, "deploy/static"),)
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+APP_ENVIRONMENT=os.getenv('APP_ENVIRONMENT')
+
+CLOUDINARY_URL=os.getenv('CLOUDINARY_URL')
+
+CONTENTFUL_URL=os.getenv('CONTENTFUL_URL')
+CONTENTFUL_AUTHORIZATION_TOKEN=os.getenv('CONTENTFUL_AUTHORIZATION_TOKEN')
+
+STORYBLOK_URL=os.getenv('STORYBLOK_URL')
+STORYBLOCK_AUTHORIZATION_TOKEN=os.getenv('STORYBLOCK_AUTHORIZATION_TOKEN')

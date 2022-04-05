@@ -1,28 +1,48 @@
-from django.shortcuts import render
+"""
+Performs Server Side Rendering for different
+view types. The supported view types are as follows
+ampstory, binder, storyblok, book.
 
-import os 
-
-import requests
+There are also other helper methods which facilitates
+in generating the view.
+"""
+import os
 import json
+import requests
 
-CMS_CONTENTFUL=1
-CMS_STORYBLOK=2
+from django.shortcuts import render
+from django.conf import settings
 
+CMS_CONTENTFUL = 1
+CMS_STORYBLOK = 2
 
 PROD_WEBSITE = "https://historyofjainism.com"
 
 AMP = '⚡'
 
 def context_processor( request ):
+    """
+    Defines a Context Processor
+    which adds APP_ENVRIONMENT and prod_url
+    to the data context.
+    """
     data = { }
     data['APP_ENVIRONMENT'] = os.environ['APP_ENVIRONMENT']
     data['prod_url'] = PROD_WEBSITE + request.path
     return data
 
-def ampstory( request, name ):
+
+def ampstory(request, name):
+    """
+    Queries content from Contentful
+    and renders it in AMPStory format.
+
+    @param request - HTTP Request
+    @param name - Slug name of the content
+    """
     query = """
-query($name : String! ) {
-    ampStoryCollection(limit: 1, where: {name: $name}) {
+        query($name : String) {
+            ampStoryCollection(limit: 1, where: {name: $name}) {
                 items {
                     sys {
                         id
@@ -49,69 +69,81 @@ query($name : String! ) {
             }
         }
     """
-    res_json = get_content_as_json(query, { "name" : name })
+    res_json = get_content_as_json(query, {"name": name})
     context = res_json['data']['ampStoryCollection']['items'][0]
     context['AMP'] = AMP
     context['theme'] = "theme/black.css"
 
     image_blocks = context['story']['links']['assets']['block']
-    image_urls = { }
+    image_urls = {}
     for image_block in image_blocks:
         image_urls[image_block['sys']['id']] = image_block['url']
 
-    pages = [ ]
-    page = [ ]
+    pages = []
+    page = []
     for element in context['story']['json']['content']:
         if element['nodeType'] == 'hr':
             pages.append(page)
-            page = [ ]
+            page = []
         elif element['nodeType'] == 'paragraph':
             page.append({
-                "type" : "paragraph",
-                "value" : element['content'][0]['value']
+                "type": "paragraph",
+                "value": element['content'][0]['value']
             })
         elif element['nodeType'] == 'embedded-asset-block':
             page.append({
-                "type" : "image",
-                "src" : image_urls[element['data']['target']['sys']['id']]
+                "type": "image",
+                "src": image_urls[element['data']['target']['sys']['id']]
             })
         elif element['nodeType'] == 'heading-3':
             page.append({
-                "type" : "heading-3",
-                "value" : element['content'][0]['value']
+                "type": "heading-3",
+                "value": element['content'][0]['value']
             })
         elif element['nodeType'] == 'heading-2':
             page.append({
-                "type" : "heading-2",
-                "value" : element['content'][0]['value']
+                "type": "heading-2",
+                "value": element['content'][0]['value']
             })
         elif element['nodeType'] == 'heading-1':
             page.append({
-                "type" : "heading-1",
-                "value" : element['content'][0]['value']
+                "type": "heading-1",
+                "value": element['content'][0]['value']
             })
         elif element['nodeType'] == 'unordered-list':
             page.append({
-                "type" : "unordered-list",
-                "list_items" : [ listitem['content'][0]['content'][0]['value'] for listitem in element['content'] ]
+                "type": "unordered-list",
+                "list_items": [
+                    listitem['content'][0]['content'][0]['value']
+                    for listitem in element['content']
+                ]
             })
         elif element['nodeType'] == 'ordered-list':
             page.append({
-                "type" : "ordered-list",
-                "list_items" : [ listitem['content'][0]['content'][0]['value'] for listitem in element['content'] ]
+                "type": "ordered-list",
+                "list_items": [
+                    listitem['content'][0]['content'][0]['value']
+                    for listitem in element['content']
+                ]
             })
-    #print("Pages: ")
-    #print(pages)
     context['pages'] = pages
-    return render( request, context['template'], context )
+    return render(request, context['template'], context)
 
-def binder( request, lang, name ):
 
+def binder(request, lang, name):
+    """
+    Queries content from Contentful in the language
+    requested and renders it in Binder format.
+
+    @param request - HTTP Request
+    @param lang - Language of the Content
+    @param name - Slug name of the content
+    """
     query = """
-       query {
-            binderCollection(limit:1, where: {name:\"""" + name + """\", language:\"""" + lang + """\"}) {
+       query($name: String, $lang: String) {
+            binderCollection(limit:1, where: {name: $name, language: $lang}) {
                 items {
-                    title     
+                    title
                     subtitle
                     cover
                     description
@@ -123,9 +155,9 @@ def binder( request, lang, name ):
                             title
                             abstract
                             source {
-                                    type
-                                    title
-                                    author
+                                type
+                                title
+                                author
                                 cover {
                                   url
                                 }
@@ -140,25 +172,34 @@ def binder( request, lang, name ):
                     }
                 }
             }
-        }   
+        }
     """
-    res_json = get_content_as_json(query)
-    binder = res_json['data']['binderCollection']['items'][0]
-    return render( request, 'binder.html', {
-            'lang' : lang,
-            'name' : name,
-            'binder' : binder,
-            'title' : binder['title'],
-            'subtitle' : binder['subtitle'],
-            'description' : binder['subtitle'],
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : binder['cover'][0]['url']
-        } )
+    res_json = get_content_as_json(query, {"name": name, "lang": lang})
+    binder_item_data = res_json['data']['binderCollection']['items'][0]
+    return render(request, 'binder.html', {
+        'lang': lang,
+        'name': name,
+        'binder': binder_item_data,
+        'title': binder_item_data['title'],
+        'subtitle': binder_item_data['subtitle'],
+        'description': binder_item_data['subtitle'],
+        'prod_url': PROD_WEBSITE + request.path,
+        'linkpreview_img': binder_item_data['cover'][0]['url']
+    })
 
-def blog( request, lang, name ):
+
+def blog(request, lang, name):
+    """
+    Queries content from Contentful in the language
+    requested and renders it in Blog format.
+
+    @param request - HTTP Request
+    @param lang - Language of the Content
+    @param name - Slug name of the content
+    """
     query = """
-        query {
-            blogCollection(limit:1, where: {name:\"""" + name + """\", language:\"""" + lang + """\"}) {
+        query($name: String, $lang: String) {
+            blogCollection(limit:1, where: {name: $name, language: $lang}) {
                 items {
                     title
                     subtitle
@@ -178,76 +219,99 @@ def blog( request, lang, name ):
             }
         }
     """
-    res_json = get_content_as_json(query)
-    blog = res_json['data']['blogCollection']['items'][0]
-    return render( request, 'blog.html', {
-            'lang' : lang,
-            'name' : name,
-            'blog' : blog,
-            'title' : blog['title'],
-            'subtitle' : blog['subtitle'],
-            'description' : blog['subtitle'],
-            'prod_url' : PROD_WEBSITE + request.path,
-            'linkpreview_img' : blog['cover'][0]['url']
-        } )
+    res_json = get_content_as_json(query, {"name": name, "lang": lang})
+    blog_item_data = res_json['data']['blogCollection']['items'][0]
+    return render(request, 'blog.html', {
+        'lang': lang,
+        'name': name,
+        'blog': blog_item_data,
+        'title': blog_item_data['title'],
+        'subtitle': blog_item_data['subtitle'],
+        'description': blog_item_data['subtitle'],
+        'prod_url': PROD_WEBSITE + request.path,
+        'linkpreview_img': blog_item_data['cover'][0]['url']
+    })
 
-def get_content_as_json( query, variables=None, CMS=CMS_CONTENTFUL ):
-    CONTENTFUL_URL= "https://graphql.contentful.com/content/v1/spaces/skavkfrlakjq/environments/master"
-    STORYBLOK_URL = "https://gapi.storyblok.com/v1/api"
-    #print(query, variables)
-    if CMS==CMS_CONTENTFUL:
+
+def get_content_as_json(query, variables=None, cms=CMS_CONTENTFUL):
+    """
+    Makes an HTTP call to the CMS to fetch content as JSON
+
+    @param query - A GraphQL Query
+    @param variables - Variables required to render GraphQL Query
+    @param cms - Content Management System from which content needs to be fetched
+    """
+    if cms == CMS_CONTENTFUL:
         headers = {
-            "Authorization": "Bearer px87wXacTSetoV42SIP1YlO5Ace7MZMGAx9bMjDAJ3I",
+            "Authorization": f"Bearer {settings.CONTENTFUL_AUTHORIZATION_TOKEN}",
             "Content-Type": "application/json"
         }
-        url=CONTENTFUL_URL
-    else: #CMS==CMS_STORYBLOK
+        url = settings.CONTENTFUL_URL
+    else:  # CMS==CMS_STORYBLOK
         headers = {
-            "Token" : "VSsin0zNORBSREiD6IQ6ewtt",
-            "Version" : "published" if os.environ['APP_ENVIRONMENT'] == "production" else "draft"
+            "Token": settings.STORYBLOCK_AUTHORIZATION_TOKEN,
+            "Version": "published" if os.environ['APP_ENVIRONMENT'] == "production" else "draft"
         }
-        url=STORYBLOK_URL
-    r = requests.post( 
-        url, 
+        url = settings.STORYBLOK_URL
+    response = requests.post(
+        url,
         headers=headers,
-        json={"query": query, "variables" : variables }
+        json={"query": query, "variables": variables}
     )
-    return json.loads(r.text)
-
-def appdynamic( request ):
-    return render( request, 'menu-share.html')
+    return json.loads(response.text)
 
 
-def appkit( request ):
-    name="tirthankarmahaveer1"
-    query = """
-query($name : ID! ) {
-  BookItem( id : $name ) {
-      id,
-      name,
-      slug,
-      full_slug,
-      content {
-        title,
-        author,
-        subtitle,
-        description,
-        language,
-        cover {
-          filename
-        },
-        body
-      }
-  }
-}
+def appdynamic(request):
     """
-    res_json = get_content_as_json(query, { "name" : "book/" + name }, CMS_STORYBLOK )
-    print(res_json)
-    #compatibility with contentful
-    res_json['data']['BookItem']['content']['cover']['0'] = { 'secure_url' : res_json['data']['BookItem']['content']['cover']['filename']}
-    return render( request, 'appkitdemo.html', res_json['data']['BookItem']['content'] )
+    TODO: Needs better documentation
+    """
+    return render(request, 'menu-share.html')
 
-def home( request, generate_site=False ):
+
+def appkit(request):
+    """
+    Renders the content using AppKit
+
+    @param request - HTTP Request
+    """
+    name = "tirthankarmahaveer1"
+    query = """
+        query($name : ID! ) {
+            BookItem( id : $name ) {
+                id,
+                name,
+                slug,
+                full_slug,
+                content {
+                    title,
+                    author,
+                    subtitle,
+                    description,
+                    language,
+                    cover {
+                        filename
+                    },
+                    body
+                }
+            }
+        }
+    """
+    res_json = get_content_as_json(
+        query, {"name": "book/" + name}, CMS_STORYBLOK)
+    print(res_json)
+    # compatibility with contentful
+    res_json['data']['BookItem']['content']['cover']['0'] = {
+        'secure_url': res_json['data']['BookItem']['content']['cover']['filename']}
+    return render(request, 'appkitdemo.html', res_json['data']['BookItem']['content'])
+
+
+def home(request, generate_site=False):
+    """
+    Renders home page of History of Jainism
+
+    @param request - HTTP Request
+    @param generate_site
+    """
     query = """
         query {
             externalCollection {
@@ -259,7 +323,7 @@ def home( request, generate_site=False ):
                     cover
                     type
                     updated
-                }    
+                }
             }
             binderCollection {
                 items {
@@ -292,57 +356,63 @@ def home( request, generate_site=False ):
                     cover
                     updated
                 }
-            }            
+            }
         }
     """
-    res_json = get_content_as_json( query )
-    #print(res_json)
+    res_json = get_content_as_json(query)
+    print(res_json)
     if generate_site:
         return res_json
+    print(res_json)
     all_items = res_json['data']['externalCollection']['items'] \
-                + res_json['data']['binderCollection']['items'] \
-                + res_json['data']['blogCollection']['items'] \
-                + res_json['data']['ampStoryCollection']['items']
+        + res_json['data']['binderCollection']['items'] \
+        + res_json['data']['blogCollection']['items'] \
+        + res_json['data']['ampStoryCollection']['items']
     print("sorted: ", all_items)
     content = {
-        'title' : "History of Jainism",
-        'subtitle' : "It's time Real Jain History be told!!",
-        'description' : "It's time Real Jain History be told!!",
-        'prod_url' : PROD_WEBSITE + request.path,
-        'cards' : sorted(all_items, key=lambda x:x['updated'], reverse=True)
-        #'linkpreview_img' : binder['cover'][0]['url']
-        }
-    return render( request, 'home.html', content )
+        'title': "History of Jainism",
+        'subtitle': "It's time Real Jain History be told!!",
+        'description': "It's time Real Jain History be told!!",
+        'prod_url': PROD_WEBSITE + request.path,
+        'cards': sorted(all_items, key=lambda x: x['updated'], reverse=True)
+        # 'linkpreview_img' : binder['cover'][0]['url']
+    }
+    return render(request, 'home.html', content)
 
 
-
-
-def book( request, name ):
-    query = """
-query($name : ID! ) {
-  BookItem( id : $name ) {
-      id,
-      name,
-      slug,
-      full_slug,
-      content {
-        title,
-        author,
-        subtitle,
-        description,
-        language,
-        cover {
-          filename
-        },
-        body
-      }
-  }
-}
+def book(request, name):
     """
-    res_json = get_content_as_json(query, { "name" : "book/" + name }, CMS_STORYBLOK )
+    Queries content from Storyblock and
+    renders it in Blog format.
+
+    @param request - HTTP Request
+    @param name - Slug name for content
+    """
+    query = """
+        query($name : ID! ) {
+            BookItem( id : $name ) {
+                id,
+                name,
+                slug,
+                full_slug,
+                content {
+                    title,
+                    author,
+                    subtitle,
+                    description,
+                    language,
+                    cover {
+                        filename
+                    },
+                    body
+                }
+            }
+        }
+    """
+    res_json = get_content_as_json(
+        query, {"name": "book/" + name}, CMS_STORYBLOK)
     print(res_json)
-    #compatibility with contentful
-    res_json['data']['BookItem']['content']['cover']['0'] = { 'secure_url' : res_json['data']['BookItem']['content']['cover']['filename']}
-    return render( request, 'book.html', res_json['data']['BookItem']['content'] )
-
-
+    # compatibility with contentful
+    res_json['data']['BookItem']['content']['cover']['0'] = {
+        'secure_url': res_json['data']['BookItem']['content']['cover']['filename']}
+    return render(request, 'book.html', res_json['data']['BookItem']['content'])
