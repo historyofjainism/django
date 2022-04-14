@@ -28,5 +28,6 @@ urlpatterns = [
     path('binder/<slug:lang>/<slug:name>', views.binder),
     path('blog/<slug:lang>/<slug:name>', views.blog),
     path('menu-share.html', views.appdynamic),
-    path('appkit', views.appkit)
+    path('appkit', views.appkit),
+    path('preview/blog/<slug:lang>/<slug:name>', views.previewBlog)
 ]

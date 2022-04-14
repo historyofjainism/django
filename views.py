@@ -31,7 +31,6 @@ def context_processor( request ):
     data['prod_url'] = PROD_WEBSITE + request.path
     return data
 
-
 def ampstory(request, name):
     """
     Queries content from Contentful
@@ -129,7 +128,6 @@ def ampstory(request, name):
     context['pages'] = pages
     return render(request, context['template'], context)
 
-
 def binder(request, lang, name):
     """
     Queries content from Contentful in the language
@@ -187,8 +185,7 @@ def binder(request, lang, name):
         'linkpreview_img': binder_item_data['cover'][0]['url']
     })
 
-
-def blog(request, lang, name):
+def blog(request, lang, name, preview=False):
     """
     Queries content from Contentful in the language
     requested and renders it in Blog format.
@@ -198,8 +195,8 @@ def blog(request, lang, name):
     @param name - Slug name of the content
     """
     query = """
-        query($name: String, $lang: String) {
-            blogCollection(limit:1, where: {name: $name, language: $lang}) {
+        query($name: String, $lang: String, $preview: Boolean) {
+            blogCollection(limit:1, preview: $preview, where: {name: $name, language: $lang}) {
                 items {
                     title
                     subtitle
@@ -219,7 +216,10 @@ def blog(request, lang, name):
             }
         }
     """
-    res_json = get_content_as_json(query, {"name": name, "lang": lang})
+    if not preview:
+        res_json = get_content_as_json(query, {"name": name, "lang": lang})
+    else:
+        res_json = get_preview_content_as_json(query, {"name": name, "lang": lang, "preview": preview})
     blog_item_data = res_json['data']['blogCollection']['items'][0]
     return render(request, 'blog.html', {
         'lang': lang,
@@ -232,6 +232,8 @@ def blog(request, lang, name):
         'linkpreview_img': blog_item_data['cover'][0]['url']
     })
 
+def previewBlog(request, lang, name):
+    return blog(request, lang, name, True)
 
 def get_content_as_json(query, variables=None, cms=CMS_CONTENTFUL):
     """
@@ -260,13 +262,27 @@ def get_content_as_json(query, variables=None, cms=CMS_CONTENTFUL):
     )
     return json.loads(response.text)
 
+def get_preview_content_as_json(query, variables=None, cms=CMS_CONTENTFUL):
+    """
+    Makes an HTTP call to the CMS to fetch the Draft content as JSON
+    """
+    headers = {
+        "Authorization": f"Bearer {settings.CONTENTFUL_AUTHORIZATION_TOKEN}",
+        "Content-Type": "application/json"
+    }
+    url = settings.CONTENTFUL_URL
+    response = requests.post(
+        url,
+        headers=headers,
+        json={"query": query, "variables": variables}
+    )
+    return json.loads(response.text)
 
 def appdynamic(request):
     """
     TODO: Needs better documentation
     """
     return render(request, 'menu-share.html')
-
 
 def appkit(request):
     """
@@ -303,7 +319,6 @@ def appkit(request):
     res_json['data']['BookItem']['content']['cover']['0'] = {
         'secure_url': res_json['data']['BookItem']['content']['cover']['filename']}
     return render(request, 'appkitdemo.html', res_json['data']['BookItem']['content'])
-
 
 def home(request, generate_site=False):
     """
@@ -378,7 +393,6 @@ def home(request, generate_site=False):
         # 'linkpreview_img' : binder['cover'][0]['url']
     }
     return render(request, 'home.html', content)
-
 
 def book(request, name):
     """
